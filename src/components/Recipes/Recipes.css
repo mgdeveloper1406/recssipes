@@ -1,0 +1,42 @@
+.recipes__container {
+  margin: 70px 0;
+}
+
+.carousel {
+  position: relative;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.recipes {
+  display: flex;
+  margin-left: 3rem;
+  gap: 2.5rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+
+  /* hide scrollbar but keep its behavior */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.recipes::-webkit-scrollbar { 
+  display: none;
+}
+
+.carousel__arrow {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 25%;
+}
+
+.carousel__left-arrow {
+  left: 6px;
+  transform: rotate(180deg);
+}
+
+.carousel__right-arrow {
+  right: 6px;
+}
