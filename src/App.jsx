@@ -11,36 +11,28 @@ import Contact from './pages/Contact'
 import './components/comp-footer/footer.css'
 import './globalVariables.css'
 import Footer from './components/comp-footer/Footer.jsx'
-
-function App() {
-  
-  return (
-
-    <div className='App'>
-      <Footer/>
-
-    </div>
-
-
-
-  )
-        
+import Recipes from './components/Recipes/Recipes'
+import ContactUsRecipes from './components/ContactUsRecipes'
+import './App.css'
 
 const App = () => {
 	return (
-		<div>
-			<Navbar />
-			<Routes>
-				<Route path='/' element={<Home />} exact />
-				<Route path='/recipes' element={<Recipes />} exact />
-				<Route path='/blog' element={<Blog />} exact />
-				<Route path='/about' element={<About />} exact />
-				<Route path='/contact' element={<Contact />} exact />
-			</Routes>
+		<>
+			<div>
+				<Navbar />
+				<Routes>
+					<Route path='/' element={<Home />} exact />
+					<Route path='/recipes' element={<Recipes />} exact />
+					<Route path='/blog' element={<Blog />} exact />
+					<Route path='/about' element={<About />} exact />
+					<Route path='/contact' element={<Contact />} exact />
+				</Routes>
+			</div>
 			<div>
 				<Recipes items={ContactUsRecipes} />
 			</div>
-		</div>
+			<Footer />
+		</>
 	)
 }
 export default App
