@@ -22,7 +22,7 @@ const App = () => {
 				<Route path='/about' element={<About />} exact />
 				<Route path='/contact' element={<Contact />} exact />
 			</Routes>
-			<div className='App'>
+			<div>
 				<Recipes items={ContactUsRecipes} />
 			</div>
 		</div>
