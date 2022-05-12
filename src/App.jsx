@@ -8,8 +8,23 @@ import Blog from './pages/Blog'
 import About from './pages/About'
 import Contact from './pages/Contact'
 
-import './App.css'
-import React from 'react'
+import './components/comp-footer/footer.css'
+import './globalVariables.css'
+import Footer from './components/comp-footer/Footer.jsx'
+
+function App() {
+  
+  return (
+
+    <div className='App'>
+      <Footer/>
+
+    </div>
+
+
+
+  )
+        
 
 const App = () => {
 	return (
