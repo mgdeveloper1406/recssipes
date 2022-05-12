@@ -55,6 +55,8 @@ body{
 img.icone{
     display:flex;
     margin:20px;
+    width: var(--logo-width);
+    height: var(--logo-height);
 
 }
 

@@ -1,7 +1,7 @@
 
-import './assets/footer/footer.css'
-import '/src/globalVariables.css'
-import Footer from './assets/footer/footer.jsx'
+import './components/comp-footer/footer.css'
+import './globalVariables.css'
+import Footer from './components/comp-footer/Footer.jsx'
 
 function App() {
   

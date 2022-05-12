@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import logo from '../icons/logo.svg'
-import face from '../icons/face.svg'
-import Shape from '../icons/Shape.svg'
-import twitter from '../icons/twitter.svg'
-import shape2 from  '../icons/shape2.svg'
-import Oval from  '../icons/Oval.svg'
-import './footer.css'
+import logo from '../../../public/icons/logo.svg'
+import face from '../../../public/icons/face.svg'
+import Shape from '../../../public/icons/Shape.svg'
+import twitter from '../../../public/icons/twitter.svg'
+import shape2 from  '../../../public/icons/shape2.svg'
+import Oval from  '../../../public/icons/Oval.svg'
+import './Footer.css'
 
 
 function Footer() {
@@ -29,5 +29,5 @@ function Footer() {
   )
 }
 
-export default Footer
 
+export default Footer
