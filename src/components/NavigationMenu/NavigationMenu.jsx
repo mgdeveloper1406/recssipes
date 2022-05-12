@@ -7,6 +7,9 @@ const NavigationMenu = (props) => {
     navigationList
   } = props
 
+  const handleMouseEnter = (e) => {
+  }
+
   return (
     <ul className={navigationMenuStatus}>
       <Link to='/' className={navigationLink}>

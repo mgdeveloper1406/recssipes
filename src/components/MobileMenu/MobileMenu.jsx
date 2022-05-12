@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import NavigationMenu from './NavigationMenu'
+import NavigationMenu from '../NavigationMenu/NavigationMenu'
 
 import './mobileMenu.css'
 
@@ -19,7 +19,11 @@ const MobileMenu = () => {
       </button>
 
       <NavigationMenu
-        navigationMenuStatus={isMenuOpen ? `navigation-menu-mobile--open` : `navigation-menu-mobile--closed`}
+        navigationMenuStatus={
+          isMenuOpen
+            ? `navigation-menu-mobile--open`
+            : `navigation-menu-mobile--closed`
+        }
         navigationLink={`navigation-link`}
         navigationList={`navigation-list`}
       />

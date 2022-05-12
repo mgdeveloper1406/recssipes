@@ -1,10 +1,9 @@
 import { useState } from 'react'
-import MobileMenu from './MobileMenu';
+import MobileMenu from '../MobileMenu/MobileMenu';
 
-import logo from "../../../src/assets/imgs/foodieland-logo-large.png"
+import logo from "/imgs/foodieland-logo-large.png"
 
 import './navbar.css'
-
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(true)
@@ -19,6 +18,5 @@ const Navbar = () => {
     </nav>
   );
 };
-
 
 export default Navbar;
