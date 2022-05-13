@@ -1,7 +1,7 @@
-import img1 from '../../public/images/recipe1.png'
-import img2 from '../../public/images/recipe2.png'
-import img3 from '../../public/images/recipe3.png'
-import img4 from '../../public/images/recipe4.png'
+import img1 from '../../public/imgs/mixed-tropical-fruit-salad.png'
+import img2 from '../../public/imgs/big-juicy-waygu.png'
+import img3 from '../../public/imgs/healthy-japanese-fries-rice.png'
+import img4 from '../../public/imgs/cauliflower-walnut-vegeterian-taco.png'
 
 const ContactUsRecipes = [
   {
