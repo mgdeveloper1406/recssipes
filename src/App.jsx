@@ -11,7 +11,6 @@ import Contact from './pages/Contact'
 import './components/comp-footer/footer.css'
 import './globalVariables.css'
 import Footer from './components/comp-footer/Footer.jsx'
-import ContactUsRecipes from './components/ContactUsRecipes'
 import './App.css'
 
 const App = () => {
