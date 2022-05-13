@@ -5,6 +5,9 @@ import Recipes from './pages/Recipes'
 import Blog from './pages/Blog'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import Recipes from './components/Recipes/Recipes'
+import ContactUsRecipes from './components/ContactUsRecipes'
+import Footer from './components/comp-footer/Footer'
 
 import './App.css'
 import React from 'react'
@@ -20,10 +23,10 @@ const App = () => {
         <Route path='/about' element={<About />} exact />
         <Route path='/contact' element={<Contact />} exact />
       </Routes>
-
+      <Recipes items={ContactUsRecipes} />
+      <Footer />
     </div>
   )
 }
-
 
 export default App;
