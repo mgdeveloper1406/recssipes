@@ -31,7 +31,8 @@
     
 }
 
-p{
+.texto{
+text-align:left;
 padding:25px;
 font-family: 'Inter';
 font-style: normal;
@@ -56,6 +57,7 @@ hr{
     
 }
 .copy{
+padding:30px;
 font-family: 'Eudoxus Sans';
 font-style: normal;
 font-weight: 400;
@@ -67,4 +69,9 @@ color: rgba(0, 0, 0, 0.6);
 
 .webflow{
     color:#FF7967;
+}
+
+img.icone{
+display:flex;
+padding:20px;
 }

@@ -15,7 +15,7 @@ function Footer() {
         <footer className='footer'>
           <div className='teste1'>
           <img className='icone'src={logo}/>
-          <p>Testinho br testando o teste do teste da testa testado</p>
+          <p className='texto'>Testinho br testando o teste do teste da testa testado</p>
           </div>
           <div className='teste2'>
           <a>Recipes</a> <a>Blog</a> <a>Contact</a>  <a>About us</a>
