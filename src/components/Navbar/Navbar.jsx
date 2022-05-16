@@ -10,9 +10,18 @@ const Navbar = () => {
 
   return (
     <nav className='navbar'>
-      <a className={isMobile ? 'navbar__home-logo mobile' : 'navbar__home-logo'} href="/">
-        <img src={logo} alt="foodieland logo" />
-      </a>
+      <div className='navbar__home-logo-container'>
+        <a
+          className={
+            isMobile
+              ? 'navbar__home-logo mobile'
+              : 'navbar__home-logo'
+          }
+          href="/"
+        >
+          <img src={logo} alt="foodieland logo" />
+        </a>
+      </div>
 
       <MobileMenu />
     </nav>
