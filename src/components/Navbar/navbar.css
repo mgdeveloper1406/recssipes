@@ -1,4 +1,5 @@
 .navbar {
+  background-color: var(--white);
   position: sticky;
   top: 0;
   left: 0;
@@ -23,9 +24,4 @@
   width: 100%;
   height: 100%;
   padding: 20px;
-}
-
-.navbar__home-logo.mobile img {
-  height: var(--logo-height);
-  width: var(--logo-width);
 }
