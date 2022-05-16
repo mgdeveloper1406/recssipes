@@ -5,6 +5,7 @@ import Blog from './pages/Blog'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Recipes from './components/Recipes/Recipes'
+import Newsletter from './components/Newsletter/Newsletter'
 import ContactUsRecipes from './components/ContactUsRecipes'
 import Footer from './components/Footer/Footer'
 
@@ -22,9 +23,10 @@ const App = () => {
         <Route path='/about' element={<About />} exact />
         <Route path='/contact' element={<Contact />} exact />
       </Routes>
+      <Newsletter />
       <Recipes items={ContactUsRecipes} />
       <Footer />
-    
+
     </div>
   )
 }
