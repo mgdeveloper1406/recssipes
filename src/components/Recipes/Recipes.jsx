@@ -7,6 +7,18 @@ import '../LikeButton/LikeButton'
 const Carousel = ({ items }) => {
   const carousel = useRef()
 
+  const recipes = items.map((item) => {
+    return (
+      <RecipeCard
+        key={item.id}
+        image={item.image}
+        title={item.title}
+        tag1={item.tag1}
+        tag2={item.tag2}
+      />
+    )
+  })
+
   const scrollLeft = (e) => {
     e.preventDefault()
     carousel.current.scrollLeft -= carousel.current.offsetWidth
@@ -24,17 +36,7 @@ const Carousel = ({ items }) => {
           <img src={ArrowIcon} alt='Scroll left' />
         </button> 
         <ul className='recipes' ref={carousel}>
-          {items.map((item) => {
-            return (
-              <RecipeCard
-                key={item.id}
-                image={item.image}
-                title={item.title}
-                tag1={item.tag1}
-                tag2={item.tag2}
-              />
-            )
-          })}
+          {recipes}
         </ul>
         <button className='carousel__arrow carousel__right-arrow' onClick={scrollRight}>
           <img src={ArrowIcon} alt='Scroll right' />

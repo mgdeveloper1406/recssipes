@@ -1,11 +1,25 @@
-.recipe-card {
-  position: relative;
+.recipe-card__container {
   list-style-type: none;
-  text-align: left;
   flex: none;
-  width: 76%;
   max-width: 290px;
   scroll-snap-align: center;
+}
+
+.recipe-card__link {
+  margin: 0;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+}
+
+.recipe-card__link:visited {
+  color: var(--black)
+}
+
+.recipe-card {
+  position: relative;
+  text-align: left;
+  width: 100%;
 }
 
 .recipe-card__img {

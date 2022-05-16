@@ -13,7 +13,7 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div >
+    <div className='App'>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} exact />
