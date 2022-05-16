@@ -7,7 +7,7 @@ const MobileMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const handleClick = () => {
-    setIsMenuOpen(!isMenuOpen)
+    setIsMenuOpen((prevState) => !prevState)
   }
 
   return (
@@ -24,8 +24,9 @@ const MobileMenu = () => {
             ? `navigation-menu-mobile--open`
             : `navigation-menu-mobile--closed`
         }
-        navigationLink={`navigation-link`}
         navigationList={`navigation-list`}
+        navigationListItem={`navigation-list-item`}
+        navigationLink={`navigation-link`}
       />
     </div>
   )
