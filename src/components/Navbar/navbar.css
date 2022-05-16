@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .navbar {
   position: sticky;
   top: 0;
@@ -13,14 +7,25 @@
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.navbar__home-logo-container {
+  height: 100%;
+  width: 50%;
+}
+
+.navbar__home-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
 }
 
 .navbar__home-logo.mobile img {
-  height: 25px;
-  width: 125px;
-  margin-left: 80px;
-}
-
-.nav-button {
-  display: none;
+  height: var(--logo-height);
+  width: var(--logo-width);
 }

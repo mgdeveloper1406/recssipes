@@ -3,31 +3,31 @@ import { Link } from 'react-router-dom';
 const NavigationMenu = (props) => {
   const {
     navigationMenuStatus,
-    navigationLink,
-    navigationList
+    navigationList,
+    navigationListItem,
+    navigationLink
   } = props
 
-  const handleMouseEnter = (e) => {
-  }
-
   return (
-    <ul className={navigationMenuStatus}>
-      <Link to='/' className={navigationLink}>
-        <li className={navigationList} >Home</li>
-      </Link>
-      <Link to='/recipes' className={navigationLink}>
-        <li className={navigationList} >Recipes</li>
-      </Link>
-      <Link to='/blog' className={navigationLink}>
-        <li className={navigationList} >Blog</li>
-      </Link>
-      <Link to='/about' className={navigationLink}>
-        <li className={navigationList} >About us</li>
-      </Link>
-      <Link to='/contact' className={navigationLink}>
-        <li className={navigationList} >Contact</li>
-      </Link>
-    </ul>
+    <div className={navigationMenuStatus}>
+      <ul className={navigationList}>
+        <li className={navigationListItem} >
+          <Link to='/' className={navigationLink}>Home</Link>
+        </li>
+        <li className={navigationListItem} >
+          <Link to='/recipes' className={navigationLink}>Recipes</Link>
+        </li>
+        <li className={navigationListItem} >
+          <Link to='/blog' className={navigationLink}>Blog</Link>
+        </li>
+        <li className={navigationListItem} >
+          <Link to='/about' className={navigationLink}>About us</Link>
+        </li>
+        <li className={navigationListItem} >
+          <Link to='/contact' className={navigationLink}>Contact</Link>
+        </li>
+      </ul>
+    </div>
   )
 };
 
