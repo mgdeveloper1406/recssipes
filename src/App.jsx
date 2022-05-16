@@ -6,7 +6,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Recipes from './components/Recipes/Recipes'
 import ContactUsRecipes from './components/ContactUsRecipes'
-import Footer from './components/comp-footer/Footer'
+import Footer from './components/Footer/Footer'
 
 import './App.css'
 import React from 'react'
@@ -24,6 +24,7 @@ const App = () => {
       </Routes>
       <Recipes items={ContactUsRecipes} />
       <Footer />
+    
     </div>
   )
 }
