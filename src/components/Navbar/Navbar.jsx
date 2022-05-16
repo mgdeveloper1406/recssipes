@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import MobileMenu from '../MobileMenu/MobileMenu';
 
-import logo from "/imgs/foodieland-logo-large.png"
+import logo from "/imgs/foodieland-logo-small.png"
 
 import './navbar.css'
 

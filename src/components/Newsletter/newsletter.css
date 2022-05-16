@@ -1,13 +1,14 @@
 .newsletter-container {
   background-color: #E7F9FD;
-  background-image: url(/public/imgs/newsletter-left-salad.png), url(/public/imgs/newsletter-right-dish.png);
+  background-image: url(/imgs/newsletter-left-salad.png), url(/imgs/newsletter-right-dish.png);
   background-repeat: no-repeat;
-  background-position: left bottom, right bottom;
-  background-size: 150px 150px, 150px 150px;
+  background-position: left 220px, right bottom;
+  background-size: 200px 200px, 200px 200px;
   border-radius: 60px;
   padding: 30px;
   position: relative;
   overflow: hidden;
+  min-width: 420px;
 }
 
 .newsletter__form {
