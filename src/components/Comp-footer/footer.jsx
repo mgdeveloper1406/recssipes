@@ -1,10 +1,10 @@
-import { useState } from 'react'
-import logo from '../../../public/icons/logo.svg'
-import face from '../../../public/icons/face.svg'
-import Shape from '../../../public/icons/Shape.svg'
-import twitter from '../../../public/icons/twitter.svg'
-import shape2 from  '../../../public/icons/shape2.svg'
-import Oval from  '../../../public/icons/Oval.svg'
+
+import logo from '/public/icons/logo.svg'
+import face from '/public/icons/face.svg'
+import Shape from '/public/icons/instagram.svg'
+import twitter from '/public/icons/twitter.svg'
+
+
 import './Footer.css'
 
 
