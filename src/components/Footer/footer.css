@@ -1,0 +1,70 @@
+.footer-container{
+    display: flex;
+    width: 100%;
+    
+}
+.footer{
+    width: 100%;
+
+}
+.face-icon{
+   height:25px;
+   
+   
+}
+.twitter-icon{
+    height: 22px;
+    
+    
+    
+}
+.insta-icon{
+    height:26px;
+    
+}
+.icons{
+    display:flex;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:5px;
+    
+}
+
+p{
+padding:25px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color:#00000099;
+}
+a{
+    margin:20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+}
+hr{
+    margin:0 auto;
+    width:90%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    
+}
+.copy{
+font-family: 'Eudoxus Sans';
+font-style: normal;
+font-weight: 400;
+font-size: var(--text-small);
+line-height: 23px;
+letter-spacing: -0.02em;
+color: rgba(0, 0, 0, 0.6);
+}
+
+.webflow{
+    color:#FF7967;
+}
