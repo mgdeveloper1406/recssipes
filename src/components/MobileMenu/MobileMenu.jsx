@@ -1,20 +1,24 @@
-import React, { useState } from 'react'
-import NavigationMenu from '../NavigationMenu/NavigationMenu'
+import { useState } from 'react';
+import NavigationMenu from '../NavigationMenu/NavigationMenu';
 
-import './mobileMenu.css'
+import './mobileMenu.css';
 
 const MobileMenu = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const handleClick = () => {
+  const handleMenuClick = () => {
     setIsMenuOpen((prevState) => !prevState)
-  }
+  };
+
+  const handleNavigationClick = () => {
+    setIsMenuOpen(false)
+  };
 
   return (
     <div className='mobile-menu__container'>
       <button
         className={isMenuOpen ? 'button mobile-menu__button' : 'button mobile-menu__button--open'}
-        onClick={handleClick}
+        onClick={handleMenuClick}
       >
       </button>
 
@@ -27,9 +31,10 @@ const MobileMenu = () => {
         navigationList={`navigation-list`}
         navigationListItem={`navigation-list-item`}
         navigationLink={`navigation-link`}
+        handleNavigationClick={handleNavigationClick}
       />
     </div>
-  )
-}
+  );
+};
 
-export default MobileMenu
+export default MobileMenu;
