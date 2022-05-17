@@ -4,7 +4,8 @@ import './LikeButton.css';
 const LikeButton = () => {
   const [liked, setLiked] = useState(false);
 
-  const handleLikeButton = () => {
+  const handleLikeButton = (e) => {
+    e.preventDefault()
     setLiked(prev => !prev)
   };
 
