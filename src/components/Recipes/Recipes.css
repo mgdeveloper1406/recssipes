@@ -4,7 +4,7 @@
 
 .carousel {
   position: relative;
-  width: 100vw;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -39,4 +39,14 @@
 
 .carousel__right-arrow {
   right: 6px;
+}
+
+@media (min-width: 1328px) {
+  .recipes {
+    margin-left: 0;
+    justify-content: center;
+  }
+  .carousel__arrow {
+    display: none;
+  }
 }
