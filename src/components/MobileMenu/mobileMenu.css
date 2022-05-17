@@ -42,14 +42,10 @@
 
 .navigation-list {
   list-style: none;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   padding-top: 10px;
 }
 
 .navigation-list-item {
-  display: flex;
   text-decoration: none;
   cursor: pointer;
   width: 100%;
@@ -67,4 +63,10 @@
   font-family: var(--main-font-family);
   font-size: var(--text-medium);
   font-weight: var(--font-medium);
+}
+
+@media (min-width: 420px) {
+  .mobile-menu__container {
+    display: none;
+  }
 }
