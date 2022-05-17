@@ -3,8 +3,6 @@ import Newsletter from '../components/Newsletter/Newsletter';
 import ContactUsRecipes from '../components/ContactUsRecipes';
 import Footer from '../components/Footer/Footer';
 
-import './contact.css'
-
 const Contact = () => {
   return (
     <div className={`contact-page-container`}>
