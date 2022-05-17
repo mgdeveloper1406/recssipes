@@ -31,6 +31,7 @@ const RecipesCarousel = ({ items }) => {
 
   return (
     <section className='recipes__container'>
+      <h2 className='recipes__title'>Check out these delicious recipes</h2>
       <div className='carousel'>
         <button className='carousel__arrow carousel__left-arrow' onClick={scrollLeft}>
           <img src={ArrowIcon} alt='Scroll left' />
