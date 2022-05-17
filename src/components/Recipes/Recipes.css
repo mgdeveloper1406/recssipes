@@ -1,5 +1,9 @@
 .recipes__container {
-  margin: 70px 0;
+  margin: 100px 0 80px 0;
+}
+
+.recipes__title {
+  display: none;
 }
 
 .carousel {
@@ -39,6 +43,17 @@
 
 .carousel__right-arrow {
   right: 6px;
+}
+
+@media (min-width: 1024px) {
+  .recipes__title {
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 80px;
+    font-size: var(--text-2xlarge);
+    font-weight: var(--font-semibold);
+  }
 }
 
 @media (min-width: 1328px) {
