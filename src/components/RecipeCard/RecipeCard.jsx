@@ -21,7 +21,7 @@ const RecipeCard = ({ id, image, title, tag1, tag2 }) => {
               <img
                 src={TimerIcon}
                 alt='Timer'
-                className='recipe-card__tag1--icon'
+                className='recipe-card__tag1__icon'
               />
               {tag1}
             </span>
@@ -29,7 +29,7 @@ const RecipeCard = ({ id, image, title, tag1, tag2 }) => {
               <img
                 src={ForkKnifeIcon}
                 alt='Fork and knife'
-                className='recipe-card__tag2--icon'
+                className='recipe-card__tag2__icon'
               />
               {tag2}
             </span>
