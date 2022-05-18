@@ -12,7 +12,7 @@ const Input = ({
 }) => {
 
   return (
-    <div className='input-container'>
+    <div className='input_container'>
       <label htmlFor={id} className='label-input'>{labelText}</label>
       <input className='input_form'
         id={id} 

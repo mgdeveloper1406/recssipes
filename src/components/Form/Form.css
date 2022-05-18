@@ -1,7 +1,8 @@
 .button_form{
     background: #000000;
     border-radius: 16px;
-    width: 372.59px;
+    width: 100%;
+    max-width: 600px;
     height: 64px;
     font-family: 'Inter';
     font-style: normal;
@@ -12,4 +13,34 @@
     letter-spacing: -0.02em;
     color: #FFFFFF;
     margin:10px;
+}
+
+.form{
+   
+}
+
+.container_button{
+display: flex;
+flex-direction: column;
+text-align: left;
+padding:5px;
+margin:1px;
+
+}
+
+.title_form{
+display: flex;
+flex-direction: column;
+text-align: left;
+align-items: left;
+margin-left:12px;
+margin-top: 20px;
+padding:5px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 73px;
+letter-spacing: -0.04em;
+
 }
