@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Input from '../Input/Input'
 import Select from '../Select/Select'
 import Textarea from '../Textarea/Textarea'
+import './Form.css'
 
 const Form = () => {
   const [username, setUsername] = useState('')
