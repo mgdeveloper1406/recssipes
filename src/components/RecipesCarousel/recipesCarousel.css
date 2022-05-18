@@ -34,6 +34,7 @@
   border: none;
   position: absolute;
   top: 25%;
+  cursor: pointer;
 }
 
 .carousel__left-arrow {
