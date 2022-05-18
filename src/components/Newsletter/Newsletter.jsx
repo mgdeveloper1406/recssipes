@@ -13,7 +13,7 @@ const Newsletter = () => {
           </header>
           <div className={`input-container`}>
             <input className={`newsletter__input`} type="email" placeholder='Your email adress...' />
-            <button className={`newsletter__button`} >Submit</button>
+            <button className={`newsletter__button`} >Subscribet</button>
           </div>
         </form>
       </div>
