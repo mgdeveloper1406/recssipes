@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import Input from '../Input/Input'
+import Select from '../Select/Select'
+import Textarea from '../Textarea/Textarea'
 
 const Form = () => {
   const [username, setUsername] = useState('')
@@ -32,6 +34,7 @@ const Form = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     setSubmitted(true)
+
     //do something with the form states
 
     setUsername('')
@@ -42,8 +45,8 @@ const Form = () => {
   }
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
+    <div className='form__container'>
+      <form className='form' onSubmit={handleSubmit}>
         <Input 
           labelText='name' 
           id='username' type='text' 
@@ -63,17 +66,13 @@ const Form = () => {
           handleOnChange={handleEmailChange} 
           required 
         />
-        <label htmlFor='enquiry'>Enquiry Type</label>
-        <select 
-          id='enquiry'
-          value={enquiryType}
-          onChange={handleEnquiryTypeChange}
-        >
-          <option value='Advertising'>Advertising</option>
-          <option value='New Recipes'>New Recipes</option>
-          <option value='New Article'>New Article</option>
-          <option value='Partnership'>Partnership</option>
-        </select>
+        <Select 
+          labelText='Enquiry Type' 
+          id='enquiry' 
+          value={enquiryType} 
+          handleOnChange={handleEnquiryTypeChange} 
+          selectOptions={['Advertising', 'New Recipes', 'New Article', 'Partnership']}
+        />
         <Input 
           labelText='subject' 
           id='subject' 
@@ -84,15 +83,15 @@ const Form = () => {
           handleOnChange={handleSubjectChange} 
           required 
         />
-        <label htmlFor='messages'>Messages</label>
-        <textarea 
-          id='messages'
-          name='messages'
-          value={message}
-          onChange={handleMessageChange}
+        <Textarea 
+          labelText='Messages' 
+          id='messages' 
+          name='messages' 
+          value={message} 
+          handleOnChange={handleMessageChange} 
           required
         >
-        </textarea>
+        </Textarea>
         <button type='submit'>Submit</button>
       </form>
     </div>
