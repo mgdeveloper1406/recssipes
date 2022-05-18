@@ -3,13 +3,19 @@ import Newsletter from '../../components/Newsletter/Newsletter';
 import ContactUsRecipes from '../../components/ContactUsRecipes';
 import Footer from '../../components/Footer/Footer';
 import './contact.css'
+import { useContext } from 'react';
+import { ToastContext } from '../../contexts/ToastContext';
+import Toast from '../../components/Toast/Toast';
 
 const Contact = () => {
+  const { isOpen, closeToast, toastProps } = useContext(ToastContext)
+
   return (
     <div className={`contact-page__container`}>
       <Newsletter />
       <Recipes items={ContactUsRecipes} />
       <Footer />
+      {isOpen && <Toast handleClose={closeToast} {...toastProps} />}
     </div>
   );
 };
