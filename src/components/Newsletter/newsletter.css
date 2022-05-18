@@ -1,12 +1,18 @@
 .newsletter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsletter {
   background-color: #E7F9FD;
   background-image: url(/imgs/newsletter-left-salad.png), url(/imgs/newsletter-right-dish.png);
   background-repeat: no-repeat;
-  background-position: left 220px, right bottom;
-  background-size: 200px 200px, 200px 200px;
+  background-position: left bottom, right bottom;
+  background-size: 150px 150px, 150px 150px;
   border-radius: 60px;
-  padding: 30px;
   margin: 10px;
+  padding: 30px;
   position: relative;
   overflow: hidden;
 }
@@ -15,14 +21,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   height: 100%;
+  min-height: 250px;
 }
 
 .newsletter__title {
   font-family: var(--main-font-family);
   font-weight: var(--font-semibold);
-  font-size: var(--text-xlarge);
   line-height: 36px;
   padding: 10px;
   margin: 0;
@@ -46,6 +52,7 @@
   outline: none;
   height: 60px;
   width: 100%;
+  max-width: 460px;
   margin-bottom: 30px;
 }
 
@@ -57,5 +64,28 @@
   color: var(--white);
   padding: 20px;
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
+}
+
+@media (min-width:1024px) {
+  .input-container {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    border-radius: 24px;
+    background-color: var(--white);
+    padding: 10px;
+  }
+
+  .newsletter__input {
+    margin: 0;
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+
+  .newsletter__button {
+    max-width: 160px;
+    margin-left: 10px;
+  }
 }

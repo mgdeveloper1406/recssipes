@@ -13,7 +13,6 @@
 
 .navbar__home-logo-container {
   height: 100%;
-  width: 50%;
 }
 
 .navbar__home-logo {
@@ -24,4 +23,58 @@
   width: 100%;
   height: 100%;
   padding: 20px;
+}
+
+.navigation-desktop-list {
+  display: flex;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.navigation-desktop-list-item {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navigation-desktop-link {
+  margin: 0;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--black);
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  padding: 20px 20px;
+  font-family: var(--main-font-family);
+  font-size: var(--text-base);
+  font-weight: var(--font-medium);
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.social-list-item {
+  text-decoration: none;
+}
+
+.social-link {
+  width: 30px;
+  cursor: pointer;
+}
+
+
+@media (max-width: 420px) {
+  .navigation-menu-desktop {
+    display: none;
+  }
+
+  .social-list {
+    display: none;
+  }
 }
