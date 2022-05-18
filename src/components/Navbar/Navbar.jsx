@@ -10,24 +10,26 @@ import './navbar.css'
 const Navbar = () => {
   return (
     <nav className='navbar'>
-      <div className='navbar__home-logo-container'>
-        <a
-          className='navbar__home-logo'
-          href="/"
-        >
-          <img className='navbar-img' src={logo} alt="foodieland logo" />
-        </a>
-      </div>
+      <div className="navbar-content-container">
+        <div className='navbar__home-logo-container'>
+          <a
+            className='navbar__home-logo'
+            href="/"
+          >
+            <img className='navbar-img' src={logo} alt="foodieland logo" />
+          </a>
+        </div>
 
-      <NavigationMenu
-        navigationMenuStatus='navigation-menu-desktop'
-        navigationList={`navigation-desktop-list`}
-        navigationListItem={`navigation-desktop-list-item`}
-        navigationLink={`navigation-desktop-link`}
-        handleNavigationClick={() => { }}
-      />
-      <MobileMenu />
-      <SocialsMenu />
+        <NavigationMenu
+          navigationMenuStatus='navigation-menu-desktop'
+          navigationList={`navigation-desktop-list`}
+          navigationListItem={`navigation-desktop-list-item`}
+          navigationLink={`navigation-desktop-link`}
+          handleNavigationClick={() => { }}
+        />
+        <MobileMenu />
+        <SocialsMenu />
+      </div>
     </nav>
   );
 };
