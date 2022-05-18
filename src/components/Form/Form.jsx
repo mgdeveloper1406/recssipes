@@ -47,7 +47,9 @@ const Form = () => {
 
   return (
     <div className='form__container'>
+      <div className='title_form'>
       <h1>Contact us</h1>
+      </div>
       <form className='form' onSubmit={handleSubmit}>
         <Input 
           labelText='name' 
@@ -95,7 +97,9 @@ const Form = () => {
           required
         >
         </Textarea>
+        <div className='container_button'>
         <button className='button_form' type='submit'>Submit</button>
+        </div>
       </form>
     </div>
   )

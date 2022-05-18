@@ -1,5 +1,6 @@
 .text_area{
-width: 373px;
+width: 100%;
+max-width: 600px;
 height: 200px;
 background: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.1);
@@ -17,7 +18,6 @@ display: flex;
 
 .textarea_div{
     padding: 10px;
-    margin-left:5px;
 }
 
 
