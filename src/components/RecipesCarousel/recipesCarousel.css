@@ -56,7 +56,7 @@
   }
 }
 
-@media (min-width: 1328px) {
+@media (min-width: 1422px) { /* 1422 * 90% (contact page width) = 1280 (carousel width) */
   .recipes {
     margin-left: 0;
     justify-content: center;

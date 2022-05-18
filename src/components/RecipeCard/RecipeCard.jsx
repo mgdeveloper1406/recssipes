@@ -4,9 +4,9 @@ import LikeButton from '../LikeButton/LikeButton';
 import TimerIcon from '/icons/timer.svg';
 import ForkKnifeIcon from '/icons/forkKnife.svg';
 
-import './RecipeCard.css';
+import './recipeCard.css';
 
-// id received in props but never used
+// id will be used in the route path
 const RecipeCard = ({ id, image, title, tag1, tag2 }) => {
 
   return (
