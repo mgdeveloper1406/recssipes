@@ -1,4 +1,4 @@
-textarea{
+.text_area{
 width: 373px;
 height: 200px;
 background: #FFFFFF;
@@ -11,4 +11,24 @@ font-size: 14px;
 line-height: 24px;
 color: rgba(0, 0, 0, 0.6);
 opacity: 0.8;
+display: flex;
+
+}
+
+.textarea_div{
+    padding: 10px;
+    margin-left:5px;
+}
+
+
+.label_textarea{
+    padding: 15px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    display: flex;
 }

@@ -1,19 +1,19 @@
-input{
-background: #FFFFFF;
-border: 1px solid rgba(0, 0, 0, 0.1);
-border-radius: 16px;
-width: 375px;
-height: 60px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-padding: 15px;
 
-}
+.input_form{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    max-width: 600px;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 15px;
+}    
 
-div{
+.input-container{
 font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
@@ -31,7 +31,7 @@ margin:1px;
 
 }
 
-label{
+.label-input{
     padding: 10px;
     color: rgba(0, 0, 0, 0.6);
     font-family: 'Inter';

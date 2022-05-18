@@ -12,7 +12,7 @@ const Select = ({
   
   return (
     <div>
-      <label htmlFor={id}>{labelText}</label>
+      <label htmlFor={id} className='label_select'>{labelText}</label>
       <select
         id={id} 
         value={value} 

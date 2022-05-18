@@ -47,6 +47,7 @@ const Form = () => {
 
   return (
     <div className='form__container'>
+      <h1>Contact us</h1>
       <form className='form' onSubmit={handleSubmit}>
         <Input 
           labelText='name' 
@@ -67,6 +68,7 @@ const Form = () => {
           handleOnChange={handleEmailChange} 
           required 
         />
+        
         <Select 
           labelText='Enquiry Type' 
           id='enquiry' 
@@ -93,7 +95,7 @@ const Form = () => {
           required
         >
         </Textarea>
-        <button type='submit'>Submit</button>
+        <button className='button_form' type='submit'>Submit</button>
       </form>
     </div>
   )
