@@ -10,9 +10,9 @@ const Textarea = ({
 }) => {
   
   return (
-    <div>
-      <label htmlFor={id}>{labelText}</label>
-      <textarea
+    <div className='textarea_div'>
+      <label htmlFor={id} className='label_textarea'>{labelText}</label>
+      <textarea  className='text_area'
         id={id}
         name={name}
         value={value} 
