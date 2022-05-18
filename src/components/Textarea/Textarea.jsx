@@ -1,3 +1,5 @@
+import './Textarea.css'
+
 const Textarea = ({ 
   labelText, 
   id,
