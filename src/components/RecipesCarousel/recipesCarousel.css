@@ -55,6 +55,10 @@
     font-size: var(--text-2xlarge);
     font-weight: var(--font-semibold);
   }
+
+  .recipes__container {
+    margin-bottom: 160px;
+  }
 }
 
 @media (min-width: 1422px) { /* 1422 * 90% (contact page width) = 1280 (carousel width) */
