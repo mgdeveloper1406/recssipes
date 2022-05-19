@@ -1,33 +1,24 @@
-.text_area{
+.text-area {
 width: 100%;
-max-width: 600px;
 height: 200px;
 background: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 16px;
 font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
+font-size: var(--text-small);
 line-height: 24px;
 color: rgba(0, 0, 0, 0.6);
 opacity: 0.8;
 display: flex;
-
+padding: 15px;
 }
 
-.textarea_div{
-    padding: 10px;
-}
-
-
-.label_textarea{
-    padding: 15px;
+.text-area__label {
+    padding: 14px 0;
     color: rgba(0, 0, 0, 0.6);
     font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
+    font-weight: var(--font-medium);
+    font-size: var(--text-xsmall);
     line-height: 20px;
     text-transform: uppercase;
     display: flex;

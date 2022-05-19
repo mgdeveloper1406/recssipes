@@ -1,23 +1,26 @@
 import './Textarea.css'
 
 const Textarea = ({ 
+  classes = null,
   labelText, 
   id,
   name, 
-  value, 
+  value,
+  placeholder,
   handleOnChange, 
   required = false
 }) => {
   
   return (
-    <div className='textarea_div'>
-      <label htmlFor={id} className='label_textarea'>{labelText}</label>
-      <textarea  className='text_area'
+    <div className={`text-area__container ${classes}`}>
+      <label htmlFor={id} className='text-area__label'>{labelText}</label>
+      <textarea  className='text-area'
         id={id}
         name={name}
-        value={value} 
+        value={value}
+        placeholder={placeholder}
         onChange={handleOnChange}
-        required
+        required={required}
       >
       </textarea>
     </div>

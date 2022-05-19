@@ -11,9 +11,10 @@ const Select = ({
   const options = selectOptions.map(option => <option key={option} value={option}>{option}</option>)
   
   return (
-    <div className='select_container'>
-      <label htmlFor={id} className='label_select'>{labelText}</label>
+    <div className='select__container'>
+      <label htmlFor={id} className='select__label'>{labelText}</label>
       <select 
+        className='select'
         id={id} 
         value={value} 
         onChange={handleOnChange} 

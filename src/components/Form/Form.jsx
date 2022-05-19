@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Input from '../Input/Input'
 import Select from '../Select/Select'
 import Textarea from '../Textarea/Textarea'
+import Chef from '/imgs/chef.png'
 import './Form.css'
 
 const Form = () => {
@@ -46,62 +47,62 @@ const Form = () => {
   }
 
   return (
-    <div className='form__container'>
-      <div className='title_form'>
-      <h1>Contact us</h1>
+    <section className='contact-us'>
+      <h1 className='contact-us__title'>Contact us</h1>
+      <div className='contact-us__content'>
+        <img className='contact-us__img' src={Chef} alt='Chef giving thumbs up'></img>
+        <form className='contact-us__form' onSubmit={handleSubmit}>
+          <Input 
+            labelText='name' 
+            id='username' type='text' 
+            placeholder='Enter your name...' 
+            name='username' 
+            value={username} 
+            handleOnChange={handleUsernameChange} 
+            required 
+          />
+          <Input 
+            labelText='email address' 
+            id='email' 
+            type='email' 
+            placeholder='Your email address...' 
+            name='email' 
+            value={email} 
+            handleOnChange={handleEmailChange} 
+            required 
+          />
+          <Select 
+            labelText='Enquiry Type' 
+            id='enquiry' 
+            value={enquiryType} 
+            handleOnChange={handleEnquiryTypeChange} 
+            selectOptions={['Advertising', 'New Recipes', 'New Article', 'Partnership']}
+          />
+          <Input 
+            labelText='subject' 
+            id='subject' 
+            type='text' 
+            placeholder='Enter subject...' 
+            name='subject' 
+            value={subject} 
+            handleOnChange={handleSubjectChange} 
+            required 
+          />
+          <Textarea
+            classes='grid-col-span-2'
+            labelText='Messages' 
+            id='messages' 
+            name='messages' 
+            value={message}
+            placeholder='Enter your messages...'
+            handleOnChange={handleMessageChange} 
+            required
+          >
+          </Textarea>
+          <button className='contact-us__form__button' type='submit'>Submit</button> 
+        </form>
       </div>
-      <form className='form' onSubmit={handleSubmit}>
-        <Input 
-          labelText='name' 
-          id='username' type='text' 
-          placeholder='Enter your name...' 
-          name='username' 
-          value={username} 
-          handleOnChange={handleUsernameChange} 
-          required 
-        />
-        <Input 
-          labelText='email address' 
-          id='email' 
-          type='email' 
-          placeholder='Your email address...' 
-          name='email' 
-          value={email} 
-          handleOnChange={handleEmailChange} 
-          required 
-        />
-        
-        <Select 
-          labelText='Enquiry Type' 
-          id='enquiry' 
-          value={enquiryType} 
-          handleOnChange={handleEnquiryTypeChange} 
-          selectOptions={['Advertising', 'New Recipes', 'New Article', 'Partnership']}
-        />
-        <Input 
-          labelText='subject' 
-          id='subject' 
-          type='text' 
-          placeholder='Enter subject...' 
-          name='subject' 
-          value={subject} 
-          handleOnChange={handleSubjectChange} 
-          required 
-        />
-        <Textarea 
-          labelText='Messages' 
-          id='messages' 
-          name='messages' 
-          value={message} 
-          handleOnChange={handleMessageChange} 
-          required
-        >
-        </Textarea>
-        <div className='container_button'>
-        <button className='button_form' type='submit'>Submit</button>
-        </div>
-      </form>
-    </div>
+    </section>
   )
 }
 
