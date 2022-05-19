@@ -9,7 +9,7 @@ const useForm = (callback, validation) => {
     message: ``
   });
 
-  const [contactInfoErrors, setContactInfoErros] = useState({
+  const [contactInfoErrors, setContactInfoErrors] = useState({
     userNameError: ``,
     userEmailError: ``,
     enquiryTypeError: ``,
@@ -29,7 +29,7 @@ const useForm = (callback, validation) => {
 
   const handleSubmit = (event) => {
     event.preventDefault()
-    setContactInfoErros(validation(contactInfo))
+    setContactInfoErrors(validation(contactInfo))
     callback()
   };
 

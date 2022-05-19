@@ -1,4 +1,4 @@
-export default validateContact = (contactInfo) => {
+export const validateContact = (contactInfo) => {
   const {
     userName,
     userEmail,
