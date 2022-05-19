@@ -1,20 +1,20 @@
 import './Textarea.css'
 
-const Textarea = ({ 
+const Textarea = ({
   classes = null,
-  labelText, 
+  labelText,
   id,
-  name, 
+  name,
   value,
   placeholder,
-  handleOnChange, 
+  handleOnChange,
   required = false
 }) => {
-  
+
   return (
     <div className={`text-area__container ${classes}`}>
       <label htmlFor={id} className='text-area__label'>{labelText}</label>
-      <textarea  className='text-area'
+      <textarea className='text-area'
         id={id}
         name={name}
         value={value}

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const useForm = (callback, validation) => {
   const [contactInfo, setContactInfo] = useState({
@@ -17,6 +17,8 @@ const useForm = (callback, validation) => {
     messageError: ``
   });
 
+  const [isSubmiting, setIsSubmiting] = useState(false)
+
   const handleChange = (event) => {
     const { name, value } = event.target;
     setContactInfo((prevState) => {
@@ -29,16 +31,23 @@ const useForm = (callback, validation) => {
 
   const handleSubmit = (event) => {
     event.preventDefault()
+    console.log(`handleSubmit`)
     setContactInfoErrors(validation(contactInfo))
-    callback()
+    setIsSubmiting(true)
   };
 
-  return [
+  useEffect(() => {
+    if (Object.keys(contactInfoErrors).length === 0 && isSubmiting) (
+      callback()
+    )
+  }, [contactInfoErrors])
+
+  return {
     contactInfo,
     contactInfoErrors,
     handleChange,
     handleSubmit
-  ];
+  };
 };
 
 export default useForm;

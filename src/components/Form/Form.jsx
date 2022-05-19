@@ -5,6 +5,7 @@ import useForm from '../../hooks/useForm'
 import { ToastContext } from '../../contexts/ToastContext';
 
 import { validateContact } from '../../utils/validateContact'
+
 import toastStatus from '../Toast/Toast';
 
 import Input from '../Input/Input';
@@ -16,18 +17,20 @@ import './Form.css';
 const Form = () => {
   const { openToast } = useContext(ToastContext)
 
-  const submitForm = () => {
+  const submit = () => {
     console.log(`teste`)
+    openToast({
+      text: `success`,
+      status: toastStatus.success
+    })
   }
 
-  const [
+  const {
     contactInfo,
     contactInfoErrors,
     handleChange,
     handleSubmit
-  ] = useForm(submitForm, validateContact)
-
-
+  } = useForm(submit, validateContact)
 
   console.log(contactInfoErrors, contactInfo)
   return (
@@ -39,15 +42,16 @@ const Form = () => {
           <div className='contact-us__input-container'>
             <Input
               labelText='name'
-              id='username' type='text'
+              id='username'
+              type='text'
               placeholder='Enter your name...'
               name='userName'
-              onChange={handleChange}
-              required
+              value={contactInfo.userName}
+              handleOnChange={handleChange}
             />
             {
-              contactInfo.userName
-              && <span>{contactInfoErrors.username}</span>
+              contactInfoErrors.userNameError
+              && <span>{contactInfoErrors.userNameError}</span>
             }
           </div>
           <div className='contact-us__input-container'>
@@ -57,16 +61,21 @@ const Form = () => {
               type='email'
               placeholder='Your email address...'
               name='userEmail'
-              onChange={handleChange}
-              required
+              value={contactInfo.userEmail}
+              handleOnChange={handleChange}
             />
+            {
+              contactInfoErrors.userEmailError
+              && <span>{contactInfoErrors.userEmailError}</span>
+            }
           </div>
           <div className='contact-us__input-container'>
             <Select
               labelText='Enquiry Type'
-              name='enquiryType'
               id='enquiry'
-              onChange={handleChange}
+              name='enquiryType'
+              value={contactInfo.enquiryType}
+              handleOnChange={handleChange}
               selectOptions={['Advertising', 'New Recipes', 'New Article', 'Partnership']}
             />
           </div>
@@ -77,9 +86,13 @@ const Form = () => {
               type='text'
               placeholder='Enter subject...'
               name='subject'
-              onChange={handleChange}
-              required
+              value={contactInfo.subject}
+              handleOnChange={handleChange}
             />
+            {
+              contactInfoErrors.subjectError
+              && <span>{contactInfoErrors.subjectError}</span>
+            }
           </div>
           <div className='contact-us__input-container'>
             <Textarea
@@ -87,10 +100,14 @@ const Form = () => {
               labelText='Messages'
               id='messages'
               name='message'
+              value={contactInfo.message}
               placeholder='Enter your messages...'
-              onChange={handleChange}
-              required
+              handleOnChange={handleChange}
             />
+            {
+              contactInfoErrors.messageError
+              && <span>{contactInfoErrors.messageError}</span>
+            }
           </div>
           <button className='contact-us__form__button' type='submit'>Submit</button>
         </form>
