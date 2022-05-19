@@ -2,7 +2,7 @@ import Recipes from '../../components/RecipesCarousel/RecipesCarousel';
 import Newsletter from '../../components/Newsletter/Newsletter';
 import ContactUsRecipes from '../../components/ContactUsRecipes';
 import Footer from '../../components/Footer/Footer';
-import Form from '../components/Form/form';
+import Form from '../../components/Form/Form'
 import './contact.css'
 import { useContext } from 'react';
 import { ToastContext } from '../../contexts/ToastContext';
