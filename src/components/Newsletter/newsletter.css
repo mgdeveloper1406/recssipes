@@ -11,7 +11,7 @@
   background-position: left bottom, right bottom;
   background-size: 150px 150px, 150px 150px;
   border-radius: 60px;
-  margin: 10px;
+  width: 100%;
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -27,6 +27,7 @@
 }
 
 .newsletter__title {
+  font-size: var(--text-xlarge);
   font-family: var(--main-font-family);
   font-weight: var(--font-semibold);
   line-height: 36px;
@@ -36,6 +37,7 @@
 
 .newsletter__paragraph {
   margin: 25px;
+  max-width: 460px;
 }
 
 .input-container {
@@ -64,17 +66,32 @@
   color: var(--white);
   padding: 20px;
   width: 100%;
-  max-width: 300px;
+  max-width: 460px;
+  cursor: pointer;
+}
+
+.newsletter__button:hover {
+  opacity: .7;;
 }
 
 @media (min-width:1024px) {
+  .newsletter__title {
+    font-size: var(--text-3xlarge);
+  }
+
+  .newsletter__paragraph {
+    max-width: 600px;
+  }
+
   .input-container {
     display: flex;
     width: 70%;
+    max-width: 480px;
     align-items: center;
     border-radius: 24px;
     background-color: var(--white);
     padding: 10px;
+    margin: 40px 0;
   }
 
   .newsletter__input {
