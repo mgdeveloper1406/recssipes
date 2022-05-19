@@ -1,7 +1,7 @@
 .mobile-menu__container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
   height: 100%;
   width: 34%;
 }
@@ -65,7 +65,7 @@
   font-weight: var(--font-medium);
 }
 
-@media (min-width: 420px) {
+@media (min-width: 1024px) {
   .mobile-menu__container {
     display: none;
   }
