@@ -16,6 +16,10 @@
   color: var(--black)
 }
 
+.recipe-card__link:hover {
+  opacity: .8;
+}
+
 .recipe-card {
   position: relative;
   text-align: left;
@@ -52,7 +56,7 @@
   flex-wrap: wrap;
 }
 
-.recipe-card__tag1--icon,
-.recipe-card__tag2--icon {
+.recipe-card__tag1__icon,
+.recipe-card__tag2__icon {
   margin-right: 8px;
 }
