@@ -16,18 +16,16 @@ function Footer() {
         <div className='icon-text'>
           <div className='teste1'>
           <img className='icone'src={logo}/>
-          <div className='text-footer'>
           <p>Testinho br testando o teste do teste da testa testado</p>
-          </div>
           </div>
           <div className='teste2'>
           <a className='link-footer'>Recipes</a> <a className='link-footer' >Blog</a> <a className='link-footer' >Contact</a>  <a className='link-footer'>About us</a>
           </div>
       </div>
           <hr></hr>
-          <div>
+          <div className='copyr'>
           <p className='copy'> &copy;2020 Flowbase.Powered by <span className='webflow'>Webflow</span></p>
-          </div>
+          </div> 
           <div className='icons'> 
           <a className='links-footer-icon'>
           <img className="face-icon"src={face}/>

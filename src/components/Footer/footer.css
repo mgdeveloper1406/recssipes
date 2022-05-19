@@ -71,13 +71,12 @@ color: rgba(0, 0, 0, 0.6);
 
 @media (min-width:420px) {
     .icons{
-        display:flex;
-        gap:15px;
-        align-items: right;
-        justify-content: right;
-        margin-bottom:5px;
-        margin-right: 5px;
-
+        display: inline-block;
+        box-sizing: border-box;
+        float:right;
+        margin:20px;
+        
+       
     }
 
     hr{
@@ -88,9 +87,8 @@ color: rgba(0, 0, 0, 0.6);
     }
     
     .link-footer{
-        display:flex;
-        flex-direction: row;
-        justify-content: flex-end;
+        display:inline;
+
 
 
 
@@ -98,10 +96,10 @@ color: rgba(0, 0, 0, 0.6);
     }
 
     .teste2{
-        display:flex;
-        justify-content: flex-end;
-        margin:20px;
-        width:400px;
+        display: inline-block;
+        box-sizing: border-box;
+        padding:20px;
+        
         
     
 
@@ -109,21 +107,24 @@ color: rgba(0, 0, 0, 0.6);
     }
 
     .teste1{
-        display:flex;
-        flex-direction: row;
-        justify-content:end;
+        display:inline-block;
+        box-sizing: border-box;
+    
 
     }
 
     .icon-text{
-        
-        width: 500px;;
-      
+        display: flex;
+        justify-content: space-between;
     }
-
     .icone{
         display: flex;
         margin-left:10px;
+        
+    }
+    .copyr{
+        display: inline-block;
+        box-sizing: border-box;
         
     }
 
