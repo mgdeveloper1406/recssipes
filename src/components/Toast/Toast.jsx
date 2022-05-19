@@ -17,7 +17,7 @@ const Toast = ({ handleClose, text, status }) => {
   return (
     <div className='toast__container' style={{ border: `3px solid ${color}` }}>
       <div className='toast__content'>
-        <img className='toast__icon' alt='' src={icon}></img>
+        <img className='toast__icon' alt={status} src={icon}></img>
         <p className='toast__text'>{text}</p>
       </div>
       <button onClick={handleClose} className='toast__close-button' aria-label='close'>
