@@ -1,7 +1,10 @@
 .footer-container{
     display: flex;
     width: 100%;
-    
+}
+.icone {
+    display: flex;
+    align-self: start;
 }
 .footer{
     width: 100%;
@@ -31,8 +34,9 @@
     
 }
 
-p{
-padding:25px;
+.footer-text{
+text-align: left;
+padding: 25px 0;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -50,12 +54,12 @@ a{
     letter-spacing: -0.02em;
 }
 hr{
-    margin:0 auto;
-    width:90%;
+    margin:0;
     border: 1px solid rgba(0, 0, 0, 0.1);
     
 }
 .copy{
+text-align: center;
 font-family: 'Eudoxus Sans';
 font-style: normal;
 font-weight: 400;
@@ -69,7 +73,7 @@ color: rgba(0, 0, 0, 0.6);
     color:#FF7967;
 }
 
-@media (min-width:420px) {
+@media (min-width:900px) {
     .icons{
         display: inline-block;
         box-sizing: border-box;
@@ -88,7 +92,7 @@ color: rgba(0, 0, 0, 0.6);
     
     .link-footer{
         display:inline;
-
+        font-weight: var(--font-medium);
 
 
 
@@ -116,11 +120,6 @@ color: rgba(0, 0, 0, 0.6);
     .icon-text{
         display: flex;
         justify-content: space-between;
-    }
-    .icone{
-        display: flex;
-        margin-left:10px;
-        
     }
     .copyr{
         display: inline-block;
