@@ -21,7 +21,7 @@ function Footer() {
       </div>
           <hr></hr>
           <div className='copyr'>
-          <p className='footer-text copy'> &copy;2020 Flowbase.Powered by <span className='webflow'>Webflow</span></p>
+          <p className='copy'> &copy;2020 Flowbase.Powered by <span className='webflow'>Webflow</span></p>
           </div> 
           <div className='icons'> 
           <a className='links-footer-icon'>

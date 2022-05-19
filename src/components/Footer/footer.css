@@ -1,10 +1,12 @@
 .footer-container{
     display: flex;
     width: 100%;
+    
 }
+
 .icone {
     display: flex;
-    align-self: start;
+    text-align: left;
 }
 .footer{
     width: 100%;
@@ -34,17 +36,19 @@
     
 }
 
-<<<<<<< HEAD
+
 .texto{
 text-align:left;
 padding:25px;
-=======
+}
+
 .footer-text{
 text-align: left;
 padding: 25px 0;
->>>>>>> fix-footer
+}
+.footer-text{
+padding:25px 0;
 font-family: 'Inter';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 28px;
@@ -65,11 +69,8 @@ hr{
     
 }
 .copy{
-<<<<<<< HEAD
 padding:30px;
-=======
 text-align: center;
->>>>>>> fix-footer
 font-family: 'Eudoxus Sans';
 font-style: normal;
 font-weight: 400;
@@ -92,17 +93,10 @@ color: rgba(0, 0, 0, 0.6);
         
        
     }
-
-    hr{
-        margin:0 auto;
-        width:95%;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        
-    }
     
     .link-footer{
         display:inline;
-        font-weight: var(--font-medium);
+
 
 
 
