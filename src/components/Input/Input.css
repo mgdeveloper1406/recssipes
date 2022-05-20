@@ -9,7 +9,15 @@
     font-size: var(--text-small);
     line-height: 24px;
     padding: 15px;
-}    
+}
+
+.input:focus {
+    outline: 1px solid var(--black);
+}
+
+.input--error {
+    border: 1px solid #FC2D2D;
+}
 
 .input__container {
 font-family: 'Inter';

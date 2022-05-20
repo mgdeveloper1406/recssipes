@@ -19,7 +19,8 @@ const Form = () => {
 
   const submit = () => {
     openToast({
-      text: `success`,
+      text: `Thank you, ${contactInfo.userName}! We've received your 
+        message and will get back to you within 24 hours.`,
       status: toastStatus.success
     })
   }
@@ -46,10 +47,11 @@ const Form = () => {
               name='userName'
               value={contactInfo.userName}
               handleOnChange={handleChange}
+              inputError={contactInfoErrors.userNameError && 'input--error'}
             />
             {
               contactInfoErrors.userNameError
-              && <span>{contactInfoErrors.userNameError}</span>
+              && <span className='contact-us__form-validation'>{contactInfoErrors.userNameError}</span>
             }
           </div>
           <div className='contact-us__input-container'>
@@ -61,10 +63,11 @@ const Form = () => {
               name='userEmail'
               value={contactInfo.userEmail}
               handleOnChange={handleChange}
+              inputError={contactInfoErrors.userEmailError && 'input--error'}
             />
             {
               contactInfoErrors.userEmailError
-              && <span>{contactInfoErrors.userEmailError}</span>
+              && <span className='contact-us__form-validation'>{contactInfoErrors.userEmailError}</span>
             }
           </div>
           <div className='contact-us__select-container'>
@@ -86,10 +89,11 @@ const Form = () => {
               name='subject'
               value={contactInfo.subject}
               handleOnChange={handleChange}
+              inputError={contactInfoErrors.subjectError && 'input--error'}
             />
             {
               contactInfoErrors.subjectError
-              && <span>{contactInfoErrors.subjectError}</span>
+              && <span className='contact-us__form-validation'>{contactInfoErrors.subjectError}</span>
             }
           </div>
           <div className='grid-col-span-2 contact-us__textarea-container'>
@@ -100,10 +104,11 @@ const Form = () => {
               value={contactInfo.message}
               placeholder='Enter your messages...'
               handleOnChange={handleChange}
+              textAreaError={contactInfoErrors.messageError && 'text-area--error'}
             />
             {
               contactInfoErrors.messageError
-              && <span>{contactInfoErrors.messageError}</span>
+              && <span className='contact-us__form-validation'>{contactInfoErrors.messageError}</span>
             }
           </div>
           <button className='contact-us__form__button' type='submit'>Submit</button>

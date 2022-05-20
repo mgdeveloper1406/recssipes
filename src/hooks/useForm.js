@@ -37,7 +37,6 @@ const useForm = (callback, validation) => {
 
   const handleSubmit = (event) => {
     event.preventDefault()
-    console.log(`handleSubmit`)
     setContactInfoErrors(validation(contactInfo))
     setIsSubmiting(true)
   };

@@ -7,14 +7,15 @@ const Input = ({
   placeholder, 
   name, 
   value, 
-  handleOnChange, 
+  handleOnChange,
+  inputError,
   required = false
 }) => {
 
   return (
     <div className='input__container'>
       <label htmlFor={id} className='input__label'>{labelText}</label>
-      <input className='input'
+      <input className={`input ${inputError}`}
         id={id} 
         type={type}
         placeholder={placeholder} 
