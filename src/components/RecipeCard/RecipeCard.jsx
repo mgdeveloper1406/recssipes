@@ -10,7 +10,6 @@ import './recipeCard.css';
 const RecipeCard = ({ id, image, title, tag1, tag2 }) => {
 
   return (
-    <li className='recipe-card__container'>
       <Link to='/recipes' className='recipe-card__link'>
         <div className='recipe-card'>
           <img className='recipe-card__img' src={image} alt={title} />
@@ -36,7 +35,6 @@ const RecipeCard = ({ id, image, title, tag1, tag2 }) => {
           </div>
         </div>
       </Link>
-    </li>
   );
 };
 

@@ -14,7 +14,6 @@
 
 .recipes {
   display: flex;
-  margin-left: 3rem;
   gap: 2.5rem;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
@@ -23,6 +22,17 @@
   /* hide scrollbar but keep its behavior */
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.recipe-card__container {
+  list-style-type: none;
+  flex: none;
+  max-width: 290px;
+  scroll-snap-align: center;
+}
+
+.recipe-card__container:nth-child(1)  {
+  margin-left: 3rem;
 }
 
 .recipes::-webkit-scrollbar { 
@@ -35,6 +45,7 @@
   position: absolute;
   top: 25%;
   cursor: pointer;
+  z-index: 1;
 }
 
 .carousel__left-arrow {
@@ -63,10 +74,13 @@
 
 @media (min-width: 1422px) { /* 1422 * 90% (contact page width) = 1280 (carousel width) */
   .recipes {
-    margin-left: 0;
     justify-content: center;
   }
   .carousel__arrow {
     display: none;
+  }
+
+  .recipe-card__container:nth-child(1)  {
+    margin-left: 0;
   }
 }

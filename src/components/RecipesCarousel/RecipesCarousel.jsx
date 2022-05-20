@@ -9,13 +9,15 @@ const RecipesCarousel = ({ items }) => {
 
   const recipes = items.map((item) => {
     return (
-      <RecipeCard
-        key={item.id}
-        image={item.image}
-        title={item.title}
-        tag1={item.tag1}
-        tag2={item.tag2}
-      />
+      <li className='recipe-card__container'>
+        <RecipeCard
+          key={item.id}
+          image={item.image}
+          title={item.title}
+          tag1={item.tag1}
+          tag2={item.tag2}
+        />
+      </li>
     );
   });
 
