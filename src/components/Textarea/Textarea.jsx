@@ -1,7 +1,6 @@
 import './Textarea.css'
 
 const Textarea = ({
-  classes = null,
   labelText,
   id,
   name,
@@ -12,7 +11,7 @@ const Textarea = ({
 }) => {
 
   return (
-    <div className={`text-area__container ${classes}`}>
+    <div className='text-area__container'>
       <label htmlFor={id} className='text-area__label'>{labelText}</label>
       <textarea className='text-area'
         id={id}

@@ -18,7 +18,6 @@ const Form = () => {
   const { openToast } = useContext(ToastContext)
 
   const submit = () => {
-    console.log(`teste`)
     openToast({
       text: `success`,
       status: toastStatus.success
@@ -32,7 +31,6 @@ const Form = () => {
     handleSubmit
   } = useForm(submit, validateContact)
 
-  console.log(contactInfoErrors, contactInfo)
   return (
     <section className='contact-us'>
       <h1 className='contact-us__title'>Contact us</h1>
@@ -58,7 +56,7 @@ const Form = () => {
             <Input
               labelText='email address'
               id='email'
-              type='email'
+              type='text'
               placeholder='Your email address...'
               name='userEmail'
               value={contactInfo.userEmail}
@@ -69,7 +67,7 @@ const Form = () => {
               && <span>{contactInfoErrors.userEmailError}</span>
             }
           </div>
-          <div className='contact-us__input-container'>
+          <div className='contact-us__select-container'>
             <Select
               labelText='Enquiry Type'
               id='enquiry'
@@ -94,9 +92,8 @@ const Form = () => {
               && <span>{contactInfoErrors.subjectError}</span>
             }
           </div>
-          <div className='contact-us__input-container'>
+          <div className='grid-col-span-2 contact-us__textarea-container'>
             <Textarea
-              classes='grid-col-span-2'
               labelText='Messages'
               id='messages'
               name='message'

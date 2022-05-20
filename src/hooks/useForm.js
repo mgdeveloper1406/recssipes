@@ -1,6 +1,12 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useContext } from 'react';
+
+import { ToastContext } from '../contexts/ToastContext';
+
+import { toastStatus } from '../components/Toast/Toast';
 
 const useForm = (callback, validation) => {
+  const { openToast } = useContext(ToastContext)
+
   const [contactInfo, setContactInfo] = useState({
     userName: ``,
     userEmail: ``,
@@ -37,9 +43,21 @@ const useForm = (callback, validation) => {
   };
 
   useEffect(() => {
-    if (Object.keys(contactInfoErrors).length === 0 && isSubmiting) (
+    if (Object.keys(contactInfoErrors).length === 0 && isSubmiting) {
       callback()
-    )
+    }
+    // if (contactInfoErrors.userNameError && isSubmiting) {
+    //   openToast({
+    //     text: contactInfoErrors.userNameError,
+    //     status: toastStatus.error
+    //   })
+    // }
+    //  if (contactInfoErrors.userEmailError && isSubmiting) {
+    //   openToast({
+    //     text: contactInfoErrors.userEmailError,
+    //     status: toastStatus.error
+    //   })
+    // }
   }, [contactInfoErrors])
 
   return {
