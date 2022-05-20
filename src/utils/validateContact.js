@@ -14,7 +14,6 @@ export const validateContact = (contactInfo) => {
   } else if (!/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(userEmail)) {
     errors.userEmailError = `Please type a valid email.`
   }
-  if (!enquiryType) errors.enquiryTypeError = `Please, state the nature of your contact.`
   if (!subject) errors.subjectError = `What do you want to talk about?`
   if (!message) errors.messageError = `Isn't there anything you want to say?`
 

@@ -10,7 +10,7 @@ const useForm = (callback, validation) => {
   const [contactInfo, setContactInfo] = useState({
     userName: ``,
     userEmail: ``,
-    enquiryType: ``,
+    enquiryType: `Advertising`,
     subject: ``,
     message: ``
   });
@@ -38,6 +38,7 @@ const useForm = (callback, validation) => {
   const handleSubmit = (event) => {
     event.preventDefault()
     setContactInfoErrors(validation(contactInfo))
+    console.log(contactInfo.enquiryType)
     setIsSubmiting(true)
   };
 
