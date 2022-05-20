@@ -1,7 +1,7 @@
 import React from 'react'
-import ErrorIcon from '../../../public/icons/error.svg'
-import SuccessIcon from '../../../public/icons/success.svg'
-import CloseIcon from '../../../public/icons/close.svg'
+import ErrorIcon from '/icons/error.svg'
+import SuccessIcon from '/icons/success.svg'
+import CloseIcon from '/icons/close.svg'
 import './toast.css'
 
 export const toastStatus = {

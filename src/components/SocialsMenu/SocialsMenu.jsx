@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
-import fbLogo from '/public/icons/001-facebook.svg'
-import twitterLogo from '/public/icons/003-twitter.svg'
-import instagramLogo from '/public/icons/instagram.svg'
+import fbLogo from '/icons/facebook.svg'
+import twitterLogo from '/icons/twitter-small.svg'
+import instagramLogo from '/icons/instagram.svg'
 
 const SocialsMenu = () => {
   return (
