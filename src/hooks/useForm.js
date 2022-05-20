@@ -1,24 +1,19 @@
 import { useEffect, useState, useContext } from 'react';
 
-import { ToastContext } from '../contexts/ToastContext';
-
-import { toastStatus } from '../components/Toast/Toast';
-
 const useForm = (callback, validation) => {
-  const { openToast } = useContext(ToastContext)
-
-  const [contactInfo, setContactInfo] = useState({
+  const initialContactInfo = {
     userName: ``,
     userEmail: ``,
     enquiryType: `Advertising`,
     subject: ``,
     message: ``
-  });
+  }
+
+  const [contactInfo, setContactInfo] = useState(initialContactInfo);
 
   const [contactInfoErrors, setContactInfoErrors] = useState({
     userNameError: ``,
     userEmailError: ``,
-    enquiryTypeError: ``,
     subjectError: ``,
     messageError: ``
   });
@@ -38,26 +33,14 @@ const useForm = (callback, validation) => {
   const handleSubmit = (event) => {
     event.preventDefault()
     setContactInfoErrors(validation(contactInfo))
-    console.log(contactInfo.enquiryType)
     setIsSubmiting(true)
   };
 
   useEffect(() => {
     if (Object.keys(contactInfoErrors).length === 0 && isSubmiting) {
       callback()
+      setContactInfo(initialContactInfo)
     }
-    // if (contactInfoErrors.userNameError && isSubmiting) {
-    //   openToast({
-    //     text: contactInfoErrors.userNameError,
-    //     status: toastStatus.error
-    //   })
-    // }
-    //  if (contactInfoErrors.userEmailError && isSubmiting) {
-    //   openToast({
-    //     text: contactInfoErrors.userEmailError,
-    //     status: toastStatus.error
-    //   })
-    // }
   }, [contactInfoErrors])
 
   return {
