@@ -9,9 +9,8 @@ const RecipesCarousel = ({ items }) => {
 
   const recipes = items.map((item) => {
     return (
-      <li className='recipe-card__container'>
+      <li className='recipe-card__container' key={item.id}>
         <RecipeCard
-          key={item.id}
           image={item.image}
           title={item.title}
           tag1={item.tag1}
