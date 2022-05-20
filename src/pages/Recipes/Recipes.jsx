@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import "./recipes.css";
 
 const Recipes = () => {
-  return (
-    <div>Recipes</div>
-  )
-}
+  return <div className="recipes-page__container">Recipes</div>;
+};
 
-export default Recipes
+export default Recipes;
