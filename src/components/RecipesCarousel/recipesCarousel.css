@@ -14,7 +14,6 @@
 
 .recipes {
   display: flex;
-  gap: 2.5rem;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
@@ -29,10 +28,7 @@
   flex: none;
   max-width: 290px;
   scroll-snap-align: center;
-}
-
-.recipe-card__container:nth-child(1)  {
-  margin-left: 3rem;
+  margin-left: 2.5rem;
 }
 
 .recipes::-webkit-scrollbar { 
@@ -76,11 +72,12 @@
   .recipes {
     justify-content: center;
   }
+
   .carousel__arrow {
     display: none;
   }
 
-  .recipe-card__container:nth-child(1)  {
+  .recipe-card__container:first-child {
     margin-left: 0;
   }
 }

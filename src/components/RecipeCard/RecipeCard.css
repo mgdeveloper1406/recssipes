@@ -5,6 +5,10 @@
   display: flex;
 }
 
+.recipe-card__link:link {
+  color: var(--black);
+}
+
 .recipe-card__link:visited {
   color: var(--black)
 }
