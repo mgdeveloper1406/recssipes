@@ -12,7 +12,7 @@ const Contact = () => {
   const { isOpen, closeToast, toastProps } = useContext(ToastContext)
 
   return (
-    <div className={`contact-page__container`}>
+    <div className='contact-page__container'>
       <Form />
       <Newsletter />
       <Recipes items={ContactUsRecipes} />

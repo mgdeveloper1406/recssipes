@@ -1,9 +1,18 @@
-import React from 'react'
-import "./blog.css";
+import Footer from '../../components/Footer/Footer'
+import Newsletter from '../../components/Newsletter/Newsletter'
+
+import './blog.css'
 
 const Blog = () => {
   return (
-    <div className='blog-page__container'>Blog</div>
+    <div className='blog-page__container'>
+      {/* Blog & Article component */}
+      {/* Post list component */}
+      {/* Advertising  component */}
+      {/* Tasty Recipes  component */}
+      <Newsletter />
+      <Footer />
+    </div>
   )
 }
 
