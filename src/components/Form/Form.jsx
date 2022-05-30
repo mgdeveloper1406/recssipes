@@ -12,7 +12,7 @@ import Input from '../Input/Input';
 import Select from '../Select/Select';
 import Textarea from '../Textarea/Textarea';
 import Chef from '/imgs/chef.png';
-import './Form.css';
+import './Form.scss';
 
 const Form = () => {
   const { openToast } = useContext(ToastContext)

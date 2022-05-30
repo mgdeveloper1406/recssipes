@@ -4,7 +4,7 @@ import LikeButton from '../LikeButton/LikeButton';
 import TimerIcon from '/icons/timer.svg';
 import ForkKnifeIcon from '/icons/forkKnife.svg';
 
-import './recipeCard.css';
+import './recipeCard.scss';
 
 // id will be used in the route path
 const RecipeCard = ({ id, image, title, tag1, tag2 }) => {

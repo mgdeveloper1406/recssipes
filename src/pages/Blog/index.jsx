@@ -1,7 +1,7 @@
 import Footer from '../../components/Footer/Footer'
 import Newsletter from '../../components/Newsletter/Newsletter'
 
-import './styles.css'
+import './styles.scss'
 
 const Blog = () => {
   return (

@@ -5,7 +5,7 @@ import NavigationMenu from '../NavigationMenu/NavigationMenu';
 
 import logo from "/imgs/foodieland-logo-small.png"
 
-import './navbar.css'
+import './navbar.scss'
 
 const Navbar = () => {
   return (

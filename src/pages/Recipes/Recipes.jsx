@@ -1,5 +1,5 @@
 import React from "react";
-import "./recipes.css";
+import "./recipes.scss";
 
 const Recipes = () => {
   return <div className="recipes-page__container">Recipes</div>;

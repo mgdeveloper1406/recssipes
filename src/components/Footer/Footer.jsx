@@ -3,7 +3,7 @@ import face from '/icons/face.svg'
 import instagram from '/icons/instagram.svg'
 import twitter from '/icons/twitter.svg'
 
-import './footer.css'
+import './footer.scss'
 
 function Footer() {
 

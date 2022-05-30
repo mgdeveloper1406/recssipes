@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import NavigationMenu from '../NavigationMenu/NavigationMenu';
 
-import './mobileMenu.css';
+import './mobileMenu.scss';
 
 const MobileMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

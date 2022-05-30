@@ -3,7 +3,7 @@ import Newsletter from '../../components/Newsletter/Newsletter';
 import ContactUsRecipes from '../../components/ContactUsRecipes';
 import Footer from '../../components/Footer/Footer';
 import Form from '../../components/Form/Form'
-import './contact.css'
+import './contact.scss'
 import { useContext } from 'react';
 import { ToastContext } from '../../contexts/ToastContext';
 import Toast from '../../components/Toast/Toast';

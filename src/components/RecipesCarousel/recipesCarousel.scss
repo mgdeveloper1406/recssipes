@@ -23,16 +23,16 @@
   scrollbar-width: none;
 }
 
+.recipes::-webkit-scrollbar { 
+  display: none;
+}
+
 .recipe-card__container {
   list-style-type: none;
   flex: none;
   max-width: 290px;
   scroll-snap-align: center;
   margin-left: 2.5rem;
-}
-
-.recipes::-webkit-scrollbar { 
-  display: none;
 }
 
 .carousel__arrow {

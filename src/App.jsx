@@ -8,7 +8,7 @@ import Contact from './pages/Contact/Contact';
 
 import { ToastProvider } from './contexts/ToastContext';
 
-import './App.css';
+import './App.scss';
 import React from 'react';
 
 const App = () => {

@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import ArrowIcon from '/icons/carouselArrow.svg';
 import RecipeCard from '../RecipeCard/RecipeCard';
-import './recipesCarousel.css';
+import './recipesCarousel.scss';
 import '../LikeButton/LikeButton';
 
 const RecipesCarousel = ({ items }) => {
