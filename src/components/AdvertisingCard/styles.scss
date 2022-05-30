@@ -1,7 +1,9 @@
 .advertisingCard {
-  display: inline-block;
-  margin: 0;
-  margin-bottom: 50px;
+  &__link {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 50px;
+  }
 
   &__img {
     width: 100%;
