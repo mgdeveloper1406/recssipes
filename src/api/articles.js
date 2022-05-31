@@ -1,16 +1,16 @@
-import picture1 from '/public/imgs/chicken-ramen-soup.png';
-import picture2 from '/public/imgs/mixed-tropical-fruit-salad.png';
-import picture3 from '/public/imgs/full-guide-to-become-a-chef.png'
-import picture4 from '/public/imgs/vegetarian-lasagna.png';
-import picture5 from '/public/imgs/plantain-and-pinto-stew-aji-verde.png';
-import picture6 from '/public/imgs/hiring-communication-assistant.png';
+import picture1 from '/imgs/chicken-ramen-soup.png';
+import picture2 from '/imgs/mixed-tropical-fruit-salad.png';
+import picture3 from '/imgs/full-guide-to-become-a-chef.png'
+import picture4 from '/imgs/vegetarian-lasagna.png';
+import picture5 from '/imgs/plantain-and-pinto-stew-aji-verde.png';
+import picture6 from '/imgs/hiring-communication-assistant.png';
 
-import user1 from '/public/imgs/wade-warren.png';
-import user2 from '/public/imgs/robert-fox.png';
-import user3 from '/public/imgs/dianne-russel.png';
-import user4 from '/public/imgs/leslie-alexander.png';
-import user5 from '/public/imgs/courtney-henry.png';
-import user6 from '/public/imgs/albert-flores.png';
+import user1 from '/imgs/wade-warren.png';
+import user2 from '/imgs/robert-fox.png';
+import user3 from '/imgs/dianne-russel.png';
+import user4 from '/imgs/leslie-alexander.png';
+import user5 from '/imgs/courtney-henry.png';
+import user6 from '/imgs/albert-flores.png';
 
 export const articles = [
   {
