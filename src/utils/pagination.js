@@ -22,6 +22,7 @@ const pagination = ({ total = 1, activePage = 1 } = {}) => {
   }
 
   const visiblePages = 3;
+
   let pages = [
     1,
     ...Array.from({ length: visiblePages }, (_, i) => i + centerRule({ total, activePage })),
@@ -77,7 +78,7 @@ const pagination = ({ total = 1, activePage = 1 } = {}) => {
   return pages
 }
 
-export default pagination
+export default pagination;
 
 // Function developed here:
 // Curso React.js Ninja - React Completo by Fernando Daciuk

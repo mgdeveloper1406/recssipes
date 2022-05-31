@@ -2,7 +2,7 @@ import React from 'react'
 
 const Dots = ({ className }) => <span className={className}>...</span>;
 
-const Link = ({ page, pageLink, onClick }) => {
+const PaginationNumber = ({ page, pageLink, onClick }) => {
   const Component = page === '...' ? Dots : 'a';
 
   const handleClick = !onClick ? null : (e) => {
@@ -18,4 +18,4 @@ const Link = ({ page, pageLink, onClick }) => {
   );
 };
 
-export default Link;
+export default PaginationNumber;
