@@ -4,11 +4,13 @@ import Pagination from '../Pagination';
 import ArticleItem from './ArticleItem';
 import usePageWidth from '../../hooks/usePageWidth'
 
+import './index.css'
+
 
 const ArticlesList = () => {
   const width = usePageWidth()
   const [currentPage, setCurrentPage] = useState(1);
-  const [pageWidth, setpageWidth] = useState(width)
+  const [pageWidth, setPageWidth] = useState(width)
   const [pageSize, setPageSize] = useState(6)
 
   console.log('currentPage', currentPage)
@@ -17,8 +19,8 @@ const ArticlesList = () => {
   console.log('width', width)
 
   useEffect(() => {
-    setpageWidth(width)
-    pageWidth <= 420 ? setPageSize(6) : setPageSize(3)
+    setPageWidth(width)
+    pageWidth <= 420 ? setPageSize(3) : setPageSize(6)
   }, [pageWidth])
 
   const currentTableData = useMemo(() => {
