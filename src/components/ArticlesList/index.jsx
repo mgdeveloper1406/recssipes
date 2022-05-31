@@ -1,18 +1,32 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { articles } from '../../api/articles';
 import Pagination from '../Pagination';
 import ArticleItem from './ArticleItem';
+import usePageWidth from '../../hooks/usePageWidth'
 
-const articlesPerPage = 6
 
 const ArticlesList = () => {
+  const width = usePageWidth()
   const [currentPage, setCurrentPage] = useState(1);
+  const [pageWidth, setpageWidth] = useState(width)
+  const [pageSize, setPageSize] = useState(6)
+
+  console.log('currentPage', currentPage)
+  console.log('pageWidth', pageWidth)
+  console.log('pageSize', pageSize)
+  console.log('width', width)
+
+  useEffect(() => {
+    setpageWidth(width)
+    pageWidth <= 420 ? setPageSize(6) : setPageSize(3)
+  }, [pageWidth])
 
   const currentTableData = useMemo(() => {
-    const firstPageIndex = (currentPage - 1) * articlesPerPage;
-    const lastPageIndex = firstPageIndex + articlesPerPage;
+    const firstPageIndex = (currentPage - 1) * pageSize;
+    const lastPageIndex = firstPageIndex + pageSize;
     return articles.slice(firstPageIndex, lastPageIndex);
   }, [currentPage]);
+
 
   return (
     <>
@@ -20,6 +34,7 @@ const ArticlesList = () => {
         {currentTableData.map(article => {
           return (
             <ArticleItem
+              key={article.id}
               id={article.id}
               image={article.image}
               title={article.title}
@@ -34,8 +49,8 @@ const ArticlesList = () => {
       <Pagination
         currentPage={currentPage}
         totalCount={articles.length}
-        articlesPerPage={articlesPerPage}
-        setCurrentPage={page => setCurrentPage(page)}
+        pageSize={pageSize}
+        onPageChange={page => setCurrentPage(page)}
       />
     </>
   );
