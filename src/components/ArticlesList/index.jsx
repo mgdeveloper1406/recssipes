@@ -6,34 +6,26 @@ import usePageWidth from '../../hooks/usePageWidth'
 
 import './index.css'
 
-
 const ArticlesList = () => {
-  const width = usePageWidth()
-  const [currentPage, setCurrentPage] = useState(1);
-  const [pageWidth, setPageWidth] = useState(width)
-  const [pageSize, setPageSize] = useState(6)
+  const [currentPage, setCurrentPage] = useState(1)
 
-  console.log('currentPage', currentPage)
-  console.log('pageWidth', pageWidth)
-  console.log('pageSize', pageSize)
-  console.log('width', width)
+  const windowWidth = usePageWidth()
+  const pageSize = windowWidth <= 420 ? 3 : 6
 
-  useEffect(() => {
-    setPageWidth(width)
-    pageWidth <= 420 ? setPageSize(3) : setPageSize(6)
-  }, [pageWidth])
+  // test
+  // console.log('pageSize', pageSize)
+  // console.log('width', windowWidth)
 
-  const currentTableData = useMemo(() => {
+  const currentList = useMemo(() => {
     const firstPageIndex = (currentPage - 1) * pageSize;
     const lastPageIndex = firstPageIndex + pageSize;
     return articles.slice(firstPageIndex, lastPageIndex);
-  }, [currentPage]);
-
+  }, [currentPage, pageSize]);
 
   return (
     <>
       <ul className='articleList'>
-        {currentTableData.map(article => {
+        {currentList.map(article => {
           return (
             <ArticleItem
               key={article.id}
