@@ -1,17 +1,18 @@
+import { usePagination } from '../../hooks/usePagination'
 
 const Pagination = ({
   onPageChange,
   totalCount,
   siblingCount = 1,
   currentPage,
-  articlesPerPage,
+  pageSize,
 }) => {
 
   const paginationRange = usePagination({
     currentPage,
     totalCount,
     siblingCount,
-    articlesPerPage
+    pageSize
   });
 
   if (currentPage === 0 || paginationRange.length < 2) {
