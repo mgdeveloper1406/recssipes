@@ -1,0 +1,41 @@
+.pagination {
+  list-style: none;
+  display: flex;
+
+  &__item {
+    background-color: var(--white);
+    color: var(--black);
+    height: 64px;
+    width: 64px;
+    border: 2px solid var(--black);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+  }
+
+  &__itemButton {
+    outline: none;
+    background: none;
+    border: none;
+  }
+
+  &__item.--active {
+    background-color: var(--black);
+    color: var(--white);
+  }
+
+  &__leftArrow {}
+
+  &__leftArrow {}
+
+  &__pageNumber--dots {
+    color: var(--black);
+    font-size: 20px;
+  }
+
+  &__pageNumber {}
+
+  &__rightArrow {}
+}

@@ -1,6 +1,6 @@
 import { usePagination, DOTS } from '../../hooks/usePagination';
 
-import './index.css';
+import './index.scss';
 
 const Pagination = ({
   totalCount,
@@ -38,16 +38,16 @@ const Pagination = ({
           disabled={currentPage === 1}
           onClick={onPrevious}
         >
-          <button disabled={currentPage === 1} >previous</button>
+          <button className='pagination__itemButton' disabled={currentPage === 1} >previous</button>
         </li>
         {paginationRange.map((page, index) => {
           if (page === DOTS) {
             return (
               <li
-                className='pagination__item pagination__pageNumber--dots'
+                className='pagination__item '
                 disabled={true}
                 key={DOTS + index}
-              ><button disabled={true}>{DOTS}</button></li>
+              ><button className='pagination__itemButton pagination__pageNumber--dots' disabled={true}>{DOTS}</button></li>
             )
           }
           return (
@@ -65,7 +65,7 @@ const Pagination = ({
           disabled={currentPage === lastPage}
           onClick={onNext}
         >
-          <button disabled={currentPage === lastPage}>next</button>
+          <button className='pagination__itemButton' disabled={currentPage === lastPage}>next</button>
         </li>
       </ul>
     </>
