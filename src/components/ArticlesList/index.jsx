@@ -4,7 +4,7 @@ import Pagination from '../Pagination';
 import ArticleItem from './ArticleItem';
 import usePageWidth from '../../hooks/usePageWidth'
 
-import './index.css'
+import './index.scss'
 
 const ArticlesList = () => {
   const [currentPage, setCurrentPage] = useState(1)
@@ -23,7 +23,7 @@ const ArticlesList = () => {
   }, [currentPage, pageSize]);
 
   return (
-    <>
+    <div className='articleListContainer'>
       <ul className='articleList'>
         {currentList.map(article => {
           return (
@@ -46,7 +46,7 @@ const ArticlesList = () => {
         pageSize={pageSize}
         onPageChange={page => setCurrentPage(page)}
       />
-    </>
+    </div>
   );
 };
 
