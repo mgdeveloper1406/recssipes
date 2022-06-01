@@ -1,0 +1,14 @@
+.advertisingCard {
+  display: inline-block;
+  margin-bottom: 50px;
+
+  &__link {
+    display: inline-block;
+    margin: 0;
+  }
+
+  &__img {
+    width: 100%;
+    max-width: 400px;
+  }
+}

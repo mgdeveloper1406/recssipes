@@ -1,6 +1,6 @@
 import Recipes from '../../components/RecipesCarousel/RecipesCarousel';
 import Newsletter from '../../components/Newsletter/Newsletter';
-import ContactUsRecipes from '../../components/ContactUsRecipes';
+import ContactUsRecipes from '../../api/ContactUsRecipes'
 import Footer from '../../components/Footer/Footer';
 import Form from '../../components/Form/Form'
 import './contact.scss'
