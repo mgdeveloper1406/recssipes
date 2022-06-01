@@ -1,4 +1,6 @@
-import { usePagination, DOTS } from '../../hooks/usePagination'
+import { usePagination, DOTS } from '../../hooks/usePagination';
+
+import './index.css';
 
 const Pagination = ({
   totalCount,
@@ -7,7 +9,6 @@ const Pagination = ({
   currentPage,
   onPageChange
 }) => {
-
   const paginationRange = usePagination({
     totalCount,
     pageSize,
@@ -32,18 +33,43 @@ const Pagination = ({
   return (
     <>
       <ul className='pagination'>
-        <li className='pagination__leftArrow' onClick={onPrevious}>
-          <button></button>
+        <li
+          className='pagination__item pagination__leftArrow'
+          disabled={currentPage === 1}
+          onClick={onPrevious}
+        >
+          <button disabled={currentPage === 1} >previous</button>
         </li>
         {paginationRange.map((page, index) => {
-          if (page === DOTS) { <li className='pagination__pageNumber--dots'>...</li> }
-          return <li key={index} className='pagination__pageNumber' onClick={() => onPageChange(page)}>{page}</li>
+          if (page === DOTS) {
+            return (
+              <li
+                className='pagination__item pagination__pageNumber--dots'
+                disabled={true}
+                key={DOTS + index}
+              ><button disabled={true}>{DOTS}</button></li>
+            )
+          }
+          return (
+            <li
+              key={index}
+              className={`pagination__item ${currentPage === page ? '--active' : ''} pagination__pageNumber `}
+              onClick={() => onPageChange(page)}
+            >
+              {page}
+            </li>
+          )
         })}
-        <li className='pagination__rightArrow' onClick={onNext}>
-          <button></button></li>
+        <li
+          className='pagination__item pagination__rightArrow'
+          disabled={currentPage === lastPage}
+          onClick={onNext}
+        >
+          <button disabled={currentPage === lastPage}>next</button>
+        </li>
       </ul>
     </>
-  )
+  );
 };
 
 export default Pagination;
