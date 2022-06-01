@@ -12,17 +12,19 @@ const ArticleItem = ({
   return (
     <>
       <li key={id} className='articleItem'>
-        <div className="articleItem__image">
-          <img src={image} />
+        <div className="articleItem__imageContainer">
+          <img className='articleItem__image' src={image} />
         </div>
-        <div className="articleItem__info">
-          <h2>{title}</h2>
-          <p>{description}</p>
-        </div>
-        <div className="articleItem__userInfo">
-          <img src={userImage} />
-          <p>{userName}</p>
-          <p>{plublishedAt}</p>
+        <div className="articleItem__infoContainer">
+          <div className="articleItem__articleIntro">
+            <h2 className="articleItem__title">{title}</h2>
+            <p className="articleItem__description">{description}</p>
+          </div>
+          <div className="articleItem__userInfo">
+            <img className="articleItem__userImage" src={userImage} />
+            <p className="articleItem__userName" >{userName}</p>
+            <p className="articleItem__publishedAt" >{plublishedAt}</p>
+          </div>
         </div>
       </li>
     </>
