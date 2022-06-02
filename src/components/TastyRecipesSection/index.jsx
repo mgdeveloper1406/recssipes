@@ -28,15 +28,19 @@ const TastyRecipes = () => {
     
 return(
         <section className='TastyRecipes_container'>
+            <h1 className='TastyRecipes_title_section'>
+                    Tasty recipies
+            </h1>
             <ul className='TastyRecipes_list'>
                 {tastyrecipeslist.map((tastyrecipe) => {
                 return(
+                
                 <li key={tastyrecipe.id} className='TastyRecipes_list-item'>
                 <img src={tastyrecipe.src} alt={tastyrecipe.title} className="TastyRecipes_image" />
                 <div className='TastyRecipes_title_autor_container'>
-                <h2 className='TastyRecipes_title'>
+                <h3 className='TastyRecipes_title'>
                 {tastyrecipe.title}
-                </h2>
+                </h3>
                 <p className='TastyRecipes_autor'>
                 {tastyrecipe.autor}
                 </p>
