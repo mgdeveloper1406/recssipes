@@ -21,14 +21,9 @@
 }
 
 .TastyRecipes_autor{
-    padding:25px;
+    padding: 25px;
 }
 
-.TastyRecipes_list-item{
-    
-    
-    
-}
 
 .TastyRecipes_title_autor_container{
     padding: 10px;
@@ -43,3 +38,46 @@
 }
 
 //Desktop
+@media(min-width:800px){
+    .TastyRecipes_list{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+   .TastyRecipes_image{
+    display:flex;
+    margin: 0;
+    }
+
+    .TastyRecipes_list-item{
+    display: flex;
+    align-items: right;
+    margin:20px;
+    }
+
+    .TastyRecipes_autor{
+    display:flex;
+    padding:8px;
+    
+    }
+
+    .TastyRecipes_title_section{
+    display:flex;
+
+    }
+
+    .TastyRecipes_container{
+        max-width:490px;
+        
+    }
+    .TastyRecipes_title{
+        padding: 5px;
+          
+    }
+
+    .TastyRecipes_title_autor_container{
+        text-align:left;
+    }
+
+}
