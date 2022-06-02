@@ -3,41 +3,58 @@ import image1 from '/imgs/image-tr1.png'
 import image2 from '/imgs/image-tr2.png'
 import image3 from '/imgs/image-tr3.png'
 
-
 const tastyrecipeslist = [
-    {image:{image1},
+    {
+    id:'1',
+    src:image1,
     title:'Chicken Meatballs with Cream chesse',
     autor:'By Andreas Paula'
     },
     {
-    image:{image2},
+    id:'2',
+    src:image2,
     title:'Traditional Bolognaise Ragu',
     autor:'By Andreas Paula'
     },
     {
-    image:{image3},
+    id:'3',    
+    src:image3,
     title:'Pork and Chive Chinese Dumplings',
     autor:'By Andreas Paula'
     }
 ];
 
 const TastyRecipes = () => {
+    
 return(
-    <div>
-        <section className='tasty-recipes-item'>
-            {
-            tastyrecipeslist.map(tastyrecipeslist => (
-                <div className="itens-list">
-                {tastyrecipeslist.image}
-                {tastyrecipeslist.title}
-                {tastyrecipeslist.autor}
-                </div> 
-            ))
-            }
+        <section className='TastyRecipes_container'>
+            <ul className='TastyRecipes_list'>
+                {tastyrecipeslist.map((tastyrecipe) => {
+                return(
+                <li key={tastyrecipe.id} className='TastyRecipes_list-item'>
+                <img src={tastyrecipe.src} alt={tastyrecipe.title} className="TastyRecipes_image" />
+                <div className='TastyRecipes_title_autor_container'>
+                <h2 className='TastyRecipes_title'>
+                {tastyrecipe.title}
+                </h2>
+                <p className='TastyRecipes_autor'>
+                {tastyrecipe.autor}
+                </p>
+                </div>
+                </li>
+               
+                )
+                
+                })}
+           </ul>     
+        </section>        
+ 
+        
             
-        </section>
+            
+        
 
-    </div>
+    
 )
 }
 
