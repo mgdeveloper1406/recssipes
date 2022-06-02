@@ -2,6 +2,7 @@ import Footer from '../../components/Footer/Footer'
 import Newsletter from '../../components/Newsletter/Newsletter'
 import './styles.scss'
 import TitleAndSearch from '../../components/TitleAndSearch'
+import TastyRecipes from '../../components/TastyRecipesSection'
 
 const Blog = () => {
   return (
@@ -9,7 +10,7 @@ const Blog = () => {
       <TitleAndSearch/>
       {/* Post list component */}
       {/* Advertising  component */}
-      {/* Tasty Recipes  component */}
+      <TastyRecipes/>
       <Newsletter />
       <Footer />
     </div>
