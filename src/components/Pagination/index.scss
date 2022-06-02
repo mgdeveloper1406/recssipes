@@ -3,39 +3,43 @@
   display: flex;
 
   &__item {
-    background-color: var(--white);
-    color: var(--black);
-    height: 64px;
-    width: 64px;
-    border: 2px solid var(--black);
-    border-radius: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 4px;
   }
 
   &__itemButton {
-    outline: none;
-    background: none;
-    border: none;
-  }
-
-  &__item.--active {
-    background-color: var(--black);
-    color: var(--white);
-  }
-
-  &__leftArrow {}
-
-  &__leftArrow {}
-
-  &__pageNumber--dots {
     color: var(--black);
-    font-size: 20px;
+    background-color: var(--white);
+    font-weight: var(--font-bold);
+    border: 1px solid var(--grey-light);
+
+    height: 64px;
+    width: 64px;
+    border-radius: 16px;
+
+    cursor: pointer;
   }
 
-  &__pageNumber {}
+  &__itemButton.--active {
+    color: var(--white);
+    border: 1px solid var(--black);
+    background-color: var(--black);
+  }
 
-  &__rightArrow {}
+  &__arrow {
+    border: none;
+
+    &--left, &--right {
+      width: 10px;
+      height: 20px;
+    }
+
+    &--left {
+      transform: rotate(180deg);
+    }
+  }
+
+  &__dots {
+    font-size: 20px;
+    font-weight: var(--font-regular);
+  }
 }

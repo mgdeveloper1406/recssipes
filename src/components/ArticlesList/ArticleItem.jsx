@@ -12,9 +12,7 @@ const ArticleItem = ({
   return (
     <>
       <li key={id} className='articleItem'>
-        <div className="articleItem__imageContainer">
-          <img className='articleItem__image' src={image} />
-        </div>
+        <img className='articleItem__image' src={image} />
         <div className="articleItem__infoContainer">
           <div className="articleItem__articleIntro">
             <h2 className="articleItem__title">{title}</h2>

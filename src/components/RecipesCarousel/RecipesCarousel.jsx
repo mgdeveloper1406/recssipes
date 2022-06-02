@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import ArrowIcon from '/icons/carouselArrow.svg';
+import ArrowIcon from '/icons/arrow.svg';
 import RecipeCard from '../RecipeCard/RecipeCard';
 import './recipesCarousel.scss';
 import '../LikeButton/LikeButton';

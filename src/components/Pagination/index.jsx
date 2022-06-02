@@ -1,4 +1,5 @@
 import { usePagination, DOTS } from '../../hooks/usePagination';
+import ArrowIcon from '/icons/arrow.svg'
 
 import './index.scss';
 
@@ -33,13 +34,13 @@ const Pagination = ({
   return (
     <>
       <ul className='pagination'>
-        <li
-          className='pagination__item pagination__leftArrow'
-          disabled={currentPage === 1}
-          onClick={onPrevious}
+        {!(currentPage === 1) && <li
+          className='pagination__item'
         >
-          <button className='pagination__itemButton' disabled={currentPage === 1} >previous</button>
-        </li>
+          <button className='pagination__itemButton pagination__arrow' onClick={onPrevious} aria-label='Previous'>
+            <img className='pagination__arrow--left' src={ArrowIcon}/>
+          </button>
+        </li>}
         {paginationRange.map((page, index) => {
           if (page === DOTS) {
             return (
@@ -47,26 +48,30 @@ const Pagination = ({
                 className='pagination__item '
                 disabled={true}
                 key={DOTS + index}
-              ><button className='pagination__itemButton pagination__pageNumber--dots' disabled={true}>{DOTS}</button></li>
+              ><button className='pagination__itemButton pagination__dots' disabled={true}>{DOTS}</button></li>
             )
           }
           return (
             <li
               key={index}
-              className={`pagination__item ${currentPage === page ? '--active' : ''} pagination__pageNumber `}
-              onClick={() => onPageChange(page)}
+              className={`pagination__item`}
             >
-              {page}
+              <button
+                className={`pagination__itemButton ${currentPage === page ? '--active' : ''}`} 
+                onClick={() => onPageChange(page)} 
+                aria-label={`Page ${page}`}>
+                {page}
+              </button>
             </li>
           )
         })}
-        <li
-          className='pagination__item pagination__rightArrow'
-          disabled={currentPage === lastPage}
-          onClick={onNext}
+        {!(currentPage === lastPage) && <li
+          className='pagination__item'
         >
-          <button className='pagination__itemButton' disabled={currentPage === lastPage}>next</button>
-        </li>
+          <button className='pagination__itemButton pagination__arrow' onClick={onNext} aria-label='Next'>
+            <img className='pagination__arrow--right' src={ArrowIcon}/>
+          </button>
+        </li>}
       </ul>
     </>
   );
