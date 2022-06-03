@@ -34,7 +34,6 @@ return(
             <ul className='TastyRecipes_list'>
                 {tastyrecipeslist.map((tastyrecipe) => {
                 return(
-                
                 <li key={tastyrecipe.id} className='TastyRecipes_list-item'>
                 <img src={tastyrecipe.src} alt={tastyrecipe.title} className="TastyRecipes_image" />
                 <div className='TastyRecipes_title_autor_container'>
