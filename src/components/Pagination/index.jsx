@@ -21,6 +21,8 @@ const Pagination = ({
     return null;
   }
 
+  const setMobilePagination = (size) => size === 3;
+
   const onNext = () => {
     onPageChange(currentPage + 1);
   };
@@ -38,14 +40,18 @@ const Pagination = ({
           className='pagination__item'
         >
           <button className='pagination__itemButton pagination__arrow' onClick={onPrevious} aria-label='Previous'>
-            <img className='pagination__arrow--left' src={ArrowIcon}/>
+            <img className='pagination__arrow--left' src={ArrowIcon} />
           </button>
         </li>}
-        {paginationRange.map((page, index) => {
+        {setMobilePagination(pageSize) ? (
+          <li className='pagination__item'>
+            <button className='pagination__itemButton' disabled > {currentPage}</button>
+          </li>
+        ) : paginationRange.map((page, index) => {
           if (page === DOTS) {
             return (
               <li
-                className='pagination__item '
+                className='pagination__item'
                 disabled={true}
                 key={DOTS + index}
               ><button className='pagination__itemButton pagination__dots' disabled={true}>{DOTS}</button></li>
@@ -57,8 +63,8 @@ const Pagination = ({
               className={`pagination__item`}
             >
               <button
-                className={`pagination__itemButton ${currentPage === page ? '--active' : ''}`} 
-                onClick={() => onPageChange(page)} 
+                className={`pagination__itemButton ${currentPage === page ? '--active' : ''}`}
+                onClick={() => onPageChange(page)}
                 aria-label={`Page ${page}`}>
                 {page}
               </button>
@@ -69,7 +75,7 @@ const Pagination = ({
           className='pagination__item'
         >
           <button className='pagination__itemButton pagination__arrow' onClick={onNext} aria-label='Next'>
-            <img className='pagination__arrow--right' src={ArrowIcon}/>
+            <img className='pagination__arrow--right' src={ArrowIcon} />
           </button>
         </li>}
       </ul>
