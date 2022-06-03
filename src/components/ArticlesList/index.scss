@@ -10,7 +10,7 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: end;
   margin-bottom: 40px;
 }
 
@@ -126,5 +126,19 @@
     &__userInfo {
       padding-bottom: 10px;
     }
+  }
+}
+
+@media (min-width: 1400px) {
+  .articleListContainer .pagination {
+    align-self: end;
+  }
+
+  .articleItem {
+
+    &__infoContainer {
+      padding: 14px 0;
+    }
+
   }
 }

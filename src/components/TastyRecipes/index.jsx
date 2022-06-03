@@ -7,7 +7,7 @@ const tastyrecipeslist = [
     {
     id:'1',
     src:image1,
-    title:'Chicken Meatballs with Cream chesse',
+    title:'Chicken Meatballs with Cream Cheese',
     autor:'By Andreas Paula'
     },
     {
@@ -29,7 +29,7 @@ const TastyRecipes = () => {
 return(
         <section className='TastyRecipes_container'>
             <h1 className='TastyRecipes_title_section'>
-                    Tasty recipies
+                    Tasty Recipes
             </h1>
             <ul className='TastyRecipes_list'>
                 {tastyrecipeslist.map((tastyrecipe) => {

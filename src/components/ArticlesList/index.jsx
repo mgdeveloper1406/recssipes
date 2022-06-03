@@ -9,7 +9,7 @@ const ArticlesList = ({ filteredArticles }) => {
   const [currentPage, setCurrentPage] = useState(1)
 
   const windowWidth = usePageWidth()
-  const pageSize = windowWidth <= 420 ? 3 : 6
+  const pageSize = windowWidth <= 600 ? 3 : 6
 
   const currentList = useMemo(() => {
     const firstPageIndex = (currentPage - 1) * pageSize;

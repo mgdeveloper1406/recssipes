@@ -13,7 +13,7 @@ function Footer() {
         <div className='icon-text'>
           <div className='teste1'>
           <img className='icone'src={logo}/>
-          <p className='footer-text'>Testinho br testando o teste do teste da testa testado</p>
+          <p className='footer-text'>Lorem ipsum dolor sit amet, consectetuipisicing elit,</p>
           </div>
           <div className='teste2'>
           <a className='link-footer'>Recipes</a> <a className='link-footer' >Blog</a> <a className='link-footer' >Contact</a>  <a className='link-footer'>About us</a>

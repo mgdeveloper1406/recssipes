@@ -45,7 +45,7 @@ const Pagination = ({
         </li>}
         {setMobilePagination(pageSize) ? (
           <li className='pagination__item'>
-            <button className='pagination__itemButton' disabled > {currentPage}</button>
+            <button className='pagination__itemButton --active' disabled > {currentPage}</button>
           </li>
         ) : paginationRange.map((page, index) => {
           if (page === DOTS) {
