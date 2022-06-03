@@ -48,8 +48,8 @@
     margin-bottom: 40px;
 }
 
-//Desktop
-@media(min-width:600px){
+@media (min-width:600px) {
+
     .TastyRecipes_list{
         display: flex;
         flex-direction: column;
@@ -64,7 +64,7 @@
     .TastyRecipes_list-item{
     display: flex;
     align-items: right;
-    margin: 20px 0;
+    margin: 24px 0 0;
     }
 
     .TastyRecipes_autor{
@@ -98,6 +98,7 @@
 }
 
 @media(min-width: 1400px){
+
     .TastyRecipes_title_section {
         justify-content: start;
         margin-bottom: 10px;

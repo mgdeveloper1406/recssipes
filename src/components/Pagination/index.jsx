@@ -25,10 +25,12 @@ const Pagination = ({
 
   const onNext = () => {
     onPageChange(currentPage + 1);
+    window.scrollTo({top: 100, left: 100, behavior: 'smooth'})
   };
 
   const onPrevious = () => {
     onPageChange(currentPage - 1);
+    window.scrollTo({top: 100, left: 100, behavior: 'smooth'})
   };
 
   let lastPage = paginationRange[paginationRange.length - 1];

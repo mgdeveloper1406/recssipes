@@ -14,17 +14,20 @@ import './styles.scss'
 
 const Blog = () => {
 
-  const [filteredArticles, setFilteredArticles] = useState(articles)
+  const [articlesData, setArticlesData] = useState(articles)
+  const [filtered, setFiltered] = useState(false)
 
   const filterArticles = (searchTerm) => {
     if (searchTerm.trim() === '') {
-      setFilteredArticles(articles)
+      setArticlesData(articles)
+      setFiltered(false)
     } else {
-      const newFilteredArticles = articles.filter((article) => 
+      const filteredArticles = articles.filter((article) => 
         article.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
         article.userName.toLowerCase().includes(searchTerm.toLowerCase())
       )
-      setFilteredArticles(newFilteredArticles)
+      setArticlesData(filteredArticles)
+      setFiltered(true)
     }
   }
 
@@ -32,7 +35,7 @@ const Blog = () => {
     <div className='blog-page__container'>
       <TitleAndSearch filterArticles={filterArticles} />
       <div className='blog-page__mainContent'>
-        <ArticlesList filteredArticles={filteredArticles}/>
+        <ArticlesList articlesData={articlesData} filtered={filtered} />
         <aside className='blog-page__aside'>
           <AdvertisingCard data={AdvertisingData} />
           <TastyRecipes/>

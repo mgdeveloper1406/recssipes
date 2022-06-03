@@ -5,17 +5,18 @@ import usePageWidth from '../../hooks/usePageWidth'
 
 import './index.scss'
 
-const ArticlesList = ({ filteredArticles }) => {
+const ArticlesList = ({ articlesData, filtered}) => {
   const [currentPage, setCurrentPage] = useState(1)
+  const [filterCurrentPage, setFilterCurrentPage] = useState(1)
 
   const windowWidth = usePageWidth()
   const pageSize = windowWidth <= 600 ? 3 : 6
 
   const currentList = useMemo(() => {
-    const firstPageIndex = (currentPage - 1) * pageSize;
+    const firstPageIndex = filtered ? ((filterCurrentPage - 1) * pageSize) : ((currentPage - 1) * pageSize);
     const lastPageIndex = firstPageIndex + pageSize;
-    return filteredArticles.slice(firstPageIndex, lastPageIndex);
-  }, [currentPage, pageSize, filteredArticles]);
+    return articlesData.slice(firstPageIndex, lastPageIndex);
+  }, [currentPage, filterCurrentPage, pageSize, articlesData]);
 
   return (
     <div className='articleListContainer'>
@@ -38,10 +39,16 @@ const ArticlesList = ({ filteredArticles }) => {
             })}
           </ul>
           <Pagination
-            currentPage={currentPage}
-            totalCount={filteredArticles.length}
+            currentPage={filtered ? filterCurrentPage : currentPage}
+            totalCount={articlesData.length}
             pageSize={pageSize}
-            onPageChange={page => setCurrentPage(page)}
+            onPageChange={filtered ? (page => {
+              setFilterCurrentPage(page) 
+              window.scrollTo({top: 100, left: 100, behavior: 'smooth'})
+          } ) : (page => {
+            setCurrentPage(page)
+            window.scrollTo({top: 100, left: 100, behavior: 'smooth'})
+          })}
           />
         </>)
       : <p className='articlesList--empty'>No results found.</p>}

@@ -106,10 +106,6 @@
 
 @media (min-width: 900px) {
 
-  .articleListContainer {
-    margin-bottom: 160px;
-  }
-
   .articleList {
     grid-template-columns: 1fr;
   }
@@ -130,6 +126,11 @@
 }
 
 @media (min-width: 1400px) {
+
+  .articleListContainer {
+    margin-bottom: 160px;
+  }
+
   .articleListContainer .pagination {
     align-self: end;
   }
