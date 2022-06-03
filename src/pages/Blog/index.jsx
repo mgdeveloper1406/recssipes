@@ -5,6 +5,7 @@ import ArticlesList from '../../components/ArticlesList'
 import Footer from '../../components/Footer/Footer'
 import Newsletter from '../../components/Newsletter/Newsletter'
 import TitleAndSearch from '../../components/TitleAndSearch'
+import TastyRecipes from '../../components/TastyRecipesSection'
 
 import AdvertisingData from '../../api/AdvertisingData'
 import { articles } from '../../api/articles'
@@ -32,7 +33,7 @@ const Blog = () => {
       <TitleAndSearch filterArticles={filterArticles} />
       <ArticlesList filteredArticles={filteredArticles}/>
       <AdvertisingCard data={AdvertisingData} />
-      {/* Tasty Recipes  component */}
+      <TastyRecipes/>
       <Newsletter />
       <Footer />
     </div>
