@@ -1,8 +1,8 @@
 import { useRef } from 'react';
 import ArrowIcon from '/icons/arrow.svg';
-import RecipeCard from '../RecipeCard/RecipeCard';
-import './recipesCarousel.scss';
-import '../LikeButton/LikeButton';
+import RecipeCard from '../RecipeCard';
+import './styles.scss'
+import '../LikeButton';
 
 const RecipesCarousel = ({ items }) => {
   const carousel = useRef();

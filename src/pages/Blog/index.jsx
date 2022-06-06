@@ -2,8 +2,8 @@
 import { useState } from 'react'
 import AdvertisingCard from '../../components/AdvertisingCard'
 import ArticlesList from '../../components/ArticlesList'
-import Footer from '../../components/Footer/Footer'
-import Newsletter from '../../components/Newsletter/Newsletter'
+import Footer from '../../components/Footer'
+import Newsletter from '../../components/Newsletter'
 import TitleAndSearch from '../../components/TitleAndSearch'
 import TastyRecipes from '../../components/TastyRecipes'
 

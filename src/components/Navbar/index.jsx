@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import MobileMenu from '../MobileMenu/MobileMenu';
-import SocialsMenu from '../SocialsMenu/SocialsMenu';
-import NavigationMenu from '../NavigationMenu/NavigationMenu';
+import MobileMenu from '../MobileMenu';
+import SocialsMenu from '../SocialsMenu';
+import NavigationMenu from '../NavigationMenu';
 
 import logo from "/imgs/foodieland-logo-small.png"
 
-import './navbar.scss'
+import './styles.scss'
 
 const Navbar = () => {
   return (
@@ -28,7 +28,7 @@ const Navbar = () => {
           handleNavigationClick={() => { }}
         />
         <MobileMenu />
-        <SocialsMenu />
+        <SocialsMenu className='navbar__socialsMenu' />
       </div>
     </nav>
   );

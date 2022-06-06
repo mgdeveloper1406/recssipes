@@ -61,29 +61,12 @@
   font-weight: var(--font-medium);
 }
 
-.social-list {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  list-style: none;
-}
-
-.social-list-item {
-  text-decoration: none;
-}
-
-.social-link {
-  width: 30px;
-  cursor: pointer;
-}
-
-
 @media (max-width: 1024px) {
   .navigation-menu-desktop {
     display: none;
   }
 
-  .social-list {
+  .socialList {
     display: none;
   }
 }

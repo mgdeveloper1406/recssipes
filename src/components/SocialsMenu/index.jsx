@@ -5,7 +5,7 @@ import instagramLogo from '/icons/instagram.svg'
 
 const SocialsMenu = () => {
   return (
-    <ul className='social-list'>
+    <ul className='socialList'>
       <li className='social-list-item'>
         <Link
           to='/facebook'

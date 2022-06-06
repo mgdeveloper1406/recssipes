@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './newsletter.scss';
+import './styles.scss'
 
 const Newsletter = () => {
   return (

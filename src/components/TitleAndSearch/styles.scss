@@ -1,4 +1,4 @@
-.titleAndSearch__container {
+.titleAndSearch {
     display: grid;
     place-items: center;
     margin-top: 70px;
@@ -59,7 +59,7 @@
 
 @media (min-width:800px){
 
-    .titleAndSearch__container {
+    .titleAndSearch {
     margin-top: 80px;
     margin-bottom: 60px;
         }

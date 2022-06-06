@@ -1,0 +1,16 @@
+.social-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+  
+  .social-list-item {
+    text-decoration: none;
+  }
+  
+  .social-link {
+    width: 30px;
+    cursor: pointer;
+  }
+  

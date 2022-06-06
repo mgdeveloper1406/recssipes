@@ -19,7 +19,7 @@ const ArticlesList = ({ articlesData, filtered}) => {
   }, [currentPage, filterCurrentPage, pageSize, articlesData]);
 
   return (
-    <div className='articleListContainer'>
+    <div className='articleList__container'>
       {currentList.length > 0 ? ( 
         <>
           <ul className='articleList'>

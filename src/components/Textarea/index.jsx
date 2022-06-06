@@ -1,4 +1,4 @@
-import './Textarea.scss'
+import './styles.scss'
 
 const Textarea = ({
   labelText,

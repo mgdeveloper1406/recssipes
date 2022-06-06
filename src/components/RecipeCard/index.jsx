@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 
-import LikeButton from '../LikeButton/LikeButton';
+import LikeButton from '../LikeButton';
 import TimerIcon from '/icons/timer.svg';
 import ForkKnifeIcon from '/icons/forkKnife.svg';
 
-import './recipeCard.scss';
+import './styles.scss'
 
 // id will be used in the route path
 const RecipeCard = ({ id, image, title, tag1, tag2 }) => {

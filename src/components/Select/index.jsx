@@ -1,4 +1,4 @@
-import './Select.scss'
+import './styles.scss'
 
 const Select = ({
   labelText,

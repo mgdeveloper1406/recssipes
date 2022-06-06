@@ -1,12 +1,12 @@
-import Recipes from '../../components/RecipesCarousel/RecipesCarousel';
-import Newsletter from '../../components/Newsletter/Newsletter';
+import Recipes from '../../components/RecipesCarousel';
+import Newsletter from '../../components/Newsletter';
 import ContactUsRecipes from '../../api/ContactUsRecipes'
-import Footer from '../../components/Footer/Footer';
-import Form from '../../components/Form/Form'
-import './contact.scss'
+import Footer from '../../components/Footer';
+import Form from '../../components/Form'
+import './styles.scss'
 import { useContext } from 'react';
 import { ToastContext } from '../../contexts/ToastContext';
-import Toast from '../../components/Toast/Toast';
+import Toast from '../../components/Toast';
 
 const Contact = () => {
   const { isOpen, closeToast, toastProps } = useContext(ToastContext)

@@ -16,7 +16,7 @@ const handleOnClick = () => {
 }
 
   return (
-    <div className='titleAndSearch__container'>
+    <div className='titleAndSearch'>
       <h1 className='titleAndSearch__title'>Blog & Article</h1>
       <p className='titleAndSearch__text'> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>      
       <div className='titleAndSearch__search'>

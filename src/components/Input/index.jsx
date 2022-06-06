@@ -1,4 +1,4 @@
-import './Input.scss'
+import './styles.scss'
 
 const Input = ({ 
   labelText, 

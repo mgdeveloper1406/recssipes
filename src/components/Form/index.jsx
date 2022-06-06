@@ -6,13 +6,13 @@ import { ToastContext } from '../../contexts/ToastContext';
 
 import { validateContact } from '../../utils/validateContact'
 
-import toastStatus from '../Toast/Toast';
+import toastStatus from '../Toast';
 
-import Input from '../Input/Input';
-import Select from '../Select/Select';
-import Textarea from '../Textarea/Textarea';
+import Input from '../Input';
+import Select from '../Select';
+import Textarea from '../Textarea';
 import Chef from '/imgs/chef.png';
-import './Form.scss';
+import './styles.scss';
 
 const Form = () => {
   const { openToast } = useContext(ToastContext)

@@ -1,7 +1,7 @@
 import { usePagination, DOTS } from '../../hooks/usePagination';
 import ArrowIcon from '/icons/arrow.svg'
 
-import './index.scss';
+import './styles.scss';
 
 const Pagination = ({
   totalCount,

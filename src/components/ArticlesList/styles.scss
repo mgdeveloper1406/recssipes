@@ -1,4 +1,4 @@
-.articleListContainer {
+.articleList__container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,7 +22,7 @@
 
 
 @media (min-width: 700px) {
-  .articleListContainer {
+  .articleList__container {
     margin-bottom: 100px;
   }
   
@@ -43,11 +43,11 @@
 
 @media (min-width: 1400px) {
 
-  .articleListContainer {
+  .articleList__container {
     margin-bottom: 160px;
   }
 
-  .articleListContainer .pagination {
+  .articleList__container .pagination {
     align-self: end;
   }
 }
