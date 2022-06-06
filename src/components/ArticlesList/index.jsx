@@ -1,9 +1,9 @@
 import { useMemo, useState } from 'react';
 import Pagination from '../Pagination';
-import ArticleItem from './ArticleItem';
+import ArticleItem from '../ArticleItem';
 import usePageWidth from '../../hooks/usePageWidth'
 
-import './index.scss'
+import './styles.scss'
 
 const ArticlesList = ({ articlesData, filtered}) => {
   const [currentPage, setCurrentPage] = useState(1)
@@ -45,10 +45,10 @@ const ArticlesList = ({ articlesData, filtered}) => {
             onPageChange={filtered ? (page => {
               setFilterCurrentPage(page) 
               window.scrollTo({top: 100, left: 100, behavior: 'smooth'})
-          } ) : (page => {
-            setCurrentPage(page)
-            window.scrollTo({top: 100, left: 100, behavior: 'smooth'})
-          })}
+            } ) : (page => {
+              setCurrentPage(page)
+              window.scrollTo({top: 100, left: 100, behavior: 'smooth'})
+            })}
           />
         </>)
       : <p className='articlesList--empty'>No results found.</p>}
