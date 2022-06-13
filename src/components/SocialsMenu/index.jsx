@@ -2,14 +2,15 @@ import { Link } from 'react-router-dom'
 import fbLogo from '/icons/facebook.svg'
 import twitterLogo from '/icons/twitter-small.svg'
 import instagramLogo from '/icons/instagram.svg'
+import './styles.scss'
 
-const SocialsMenu = () => {
+const SocialsMenu = ({socialListDisabled = false}) => {
   return (
-    <ul className='socialList'>
-      <li className='social-list-item'>
+    <ul className={`socialList${socialListDisabled ? '--disabled' : ''}`}>
+      <li className='socialList__item'>
         <Link
           to='/facebook'
-          className='social-link'
+          className='socialList__link'
         >
           <img src={fbLogo} alt="facebook logo" />
         </Link>
@@ -17,7 +18,7 @@ const SocialsMenu = () => {
       <li>
         <Link
           to='/twitter'
-          className='social-icon'
+          className='socialList__link'
         >
           <img src={twitterLogo} alt="twitter logo" />
         </Link>
@@ -25,7 +26,7 @@ const SocialsMenu = () => {
       <li>
         <Link
           to='/instagram'
-          className='social-icon'
+          className='socialList__link'
         >
           <img src={instagramLogo} alt="instagram logo" />
         </Link>

@@ -28,7 +28,7 @@ const Navbar = () => {
           handleNavigationClick={() => { }}
         />
         <MobileMenu />
-        <SocialsMenu className='navbar__socialsMenu' />
+        <SocialsMenu className='navbar__socialsMenu' socialListDisabled />
       </div>
     </nav>
   );
