@@ -1,0 +1,42 @@
+.learnMore {
+  display: grid;
+  height: 70vh;
+  padding: 20px 10px;
+  grid-auto-rows: 60% 40%;
+  gap: 10px;
+}
+
+.learnMore__content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+
+.learnMore__title {
+  letter-spacing: -0.4px;
+}
+
+.learnMore__paragraph {
+  padding: 0 10px;
+  font-weight: var(--font-regular);
+  color: var(--grey-2);
+  text-align: justify;
+  letter-spacing: -0.8px;
+  line-height: 24px;
+}
+
+.learnMore__button {
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--black);
+  color: var(--white);
+  font-size: var(--text-small);
+  font-weight: var(--font-semibold);
+  padding: 10px;
+}
+
+.learnMore__images {
+  background: url();
+}
