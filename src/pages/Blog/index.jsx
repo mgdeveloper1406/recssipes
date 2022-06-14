@@ -11,6 +11,7 @@ import AdvertisingData from '../../api/AdvertisingData'
 import { articles } from '../../api/articles'
 
 import './styles.scss'
+import HeroCard from '../../components/HeroCard'
 
 const Blog = () => {
 
@@ -43,6 +44,7 @@ const Blog = () => {
       </div>
       <Newsletter />
       <Footer />
+      <HeroCard/>
     </div>
   )
 }

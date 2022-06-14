@@ -30,7 +30,7 @@ const ArticlesList = ({ articlesData, filtered}) => {
                   id={article.id}
                   image={article.image}
                   title={article.title}
-                  description={article.description}
+                  description={article.description} 
                   userImage={article.userImage}
                   userName={article.userName}
                   plublishedAt={article.publishedAt}
