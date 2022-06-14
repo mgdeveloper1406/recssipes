@@ -3,7 +3,7 @@
   height: 70vh;
   padding: 20px 10px;
   grid-auto-rows: 60% 40%;
-  gap: 10px;
+  gap: 30px;
 }
 
 .learnMore__content {
@@ -14,7 +14,7 @@
 }
 
 .learnMore__title {
-  letter-spacing: -0.4px;
+  letter-spacing: -0.8px;
 }
 
 .learnMore__paragraph {
@@ -38,5 +38,37 @@
 }
 
 .learnMore__images {
-  background: url();
+  background: url(/imgs/chef-holding-dish.png) center center no-repeat;
+  background-size: contain;
+}
+
+@media (min-width: 420px) {
+
+  .learnMore {
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: auto;
+  }
+
+  .learnMore__content {
+    align-items: left;
+    justify-content: space-evenly;
+  }
+
+  .learnMore__title {
+    font-size: var(--text-4xlarge);
+    line-height: 60px;
+    text-align: left;
+
+  }
+
+  .learnMore__paragraph {
+    text-align: left;
+    padding: 0;
+  }
+
+  .learnMore__button {
+    width: 200px;
+  }
+
+  .learnMore__images {}
 }
