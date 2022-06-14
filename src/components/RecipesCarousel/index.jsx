@@ -15,6 +15,7 @@ const RecipesCarousel = ({ items }) => {
           title={item.title}
           tag1={item.tag1}
           tag2={item.tag2}
+          cardSize='small'
         />
       </li>
     );

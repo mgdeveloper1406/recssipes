@@ -7,14 +7,14 @@ import ForkKnifeIcon from '/icons/forkKnife.svg';
 import './styles.scss'
 
 // id will be used in the route path
-const RecipeCard = ({ id, image, title, tag1, tag2 }) => {
+const RecipeCard = ({ id, image, title, tag1, tag2, cardSize }) => {
 
   return (
       <Link to='/recipes' className='recipe-card__link'>
         <div className='recipe-card'>
           <img className='recipe-card__img' src={image} alt={title} />
           <LikeButton />
-          <h3 className='recipe-card__title'>{title}</h3>
+          <h3 className={`recipe-card__title recipe-card__title--${cardSize}`}>{title}</h3>
           <div className='recipe-card__tags'>
             <span className='recipe-card__tag1'>
               <img

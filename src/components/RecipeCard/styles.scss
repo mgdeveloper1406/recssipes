@@ -13,10 +13,6 @@
   color: var(--black)
 }
 
-.recipe-card__link:hover {
-  opacity: .8;
-}
-
 .recipe-card {
   position: relative;
   text-align: left;
@@ -30,9 +26,16 @@
 }
 
 .recipe-card__title {
-  font-size: clamp(var(--text-small), 4vw, var(--text-medium));
   font-weight: var(--font-semibold);
   margin-bottom: 20px;
+
+  &--small {
+    font-size: clamp(var(--text-small), 4vw, var(--text-medium));
+  }
+
+  &--large {
+    font-size: clamp(var(--text-large), 4.2vw, var(--text-xlarge));
+  }
 }
 
 .recipe-card__tags {
