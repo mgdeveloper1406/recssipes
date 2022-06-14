@@ -1,9 +1,11 @@
-import React from 'react'
+import LearnMore from '../../components/LearnMore'
 import './styles.scss'
 
 const Home = () => {
   return (
-    <div className='home-page__container'>Home</div>
+    <div className='homePage'>
+      <LearnMore />
+    </div>
   )
 }
 
