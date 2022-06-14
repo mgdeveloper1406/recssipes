@@ -10,25 +10,25 @@ import './styles.scss'
 const RecipeCard = ({ id, image, title, tag1, tag2, cardSize }) => {
 
   return (
-      <Link to='/recipes' className='recipe-card__link'>
-        <div className='recipe-card'>
-          <img className='recipe-card__img' src={image} alt={title} />
+      <Link to='/recipes' className='recipeCard__link'>
+        <div className='recipeCard'>
+          <img className='recipeCard__img' src={image} alt={title} />
           <LikeButton />
-          <h3 className={`recipe-card__title recipe-card__title--${cardSize}`}>{title}</h3>
-          <div className='recipe-card__tags'>
-            <span className='recipe-card__tag1'>
+          <h3 className={`recipeCard__title recipeCard__title--${cardSize}`}>{title}</h3>
+          <div className='recipeCard__tags'>
+            <span className='recipeCard__tag1'>
               <img
                 src={TimerIcon}
                 alt='Duration'
-                className='recipe-card__tag1__icon'
+                className='recipeCard__tag1__icon'
               />
               {tag1}
             </span>
-            <span className='recipe-card__tag2'>
+            <span className='recipeCard__tag2'>
               <img
                 src={ForkKnifeIcon}
                 alt='Type'
-                className='recipe-card__tag2__icon'
+                className='recipeCard__tag2__icon'
               />
               {tag2}
             </span>
