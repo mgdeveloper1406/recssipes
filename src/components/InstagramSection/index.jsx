@@ -3,7 +3,6 @@ import InstagramCard from '@components/InstagramCard';
 import ArrowIcon from "/icons/arrow.svg";
 import './styles.css'
 
-
 const IntagramSection = () => {
   return (
     <section>
