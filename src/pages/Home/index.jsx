@@ -15,8 +15,8 @@ import './styles.scss'
 
 const Home = () => {
   return (
-    <div className='home-page__container'>
-      <Hero />
+    <div className='homePage'>
+      <Hero/>
       <RecipeCategories />
       <SimpleTastyRecipes recipes={SimpleTastyRecipesData} />
       <LearnMore />

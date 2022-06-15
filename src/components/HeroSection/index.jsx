@@ -15,6 +15,10 @@ function Hero() {
 				itemsArray={HeroData}
 				ItemComponent={HeroCard}
 				arrowIcon={ArrowIcon}
+				arrowBackground='white'
+				arrowBackgroundSize='medium'
+				alwaysDisplayArrow
+				noMargin
 			/>
 		</section>
 	)
