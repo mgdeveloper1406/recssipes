@@ -4,13 +4,14 @@ import Newsletter from '../../components/Newsletter'
 import RecipeCategories from '../../components/RecipeCategories/index.jsx'
 import TryOutRecipes from '../../components/TryOutRecipes/index.jsx'
 import TryOutRecipesData from '../../api/TryOutRecipes.js'
+import Hero from '../../components/HeroSection'
 
 import './styles.scss'
 
 const Home = () => {
   return (
     <div className='home-page__container'>
-      {/* Hero section */}
+      <Hero/>
       <RecipeCategories />
       {/* Simple and Tasty Recipes section */}
       <LearnMore />
