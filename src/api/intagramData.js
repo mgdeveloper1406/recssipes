@@ -18,7 +18,7 @@ const instagramData = [
     image: instagram_3
   },
   {
-    id: 3,
+    id: 4,
     image: instagram_4
   }
 ]
