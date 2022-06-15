@@ -5,7 +5,29 @@
 
   &__container {
     list-style-type: none;
-    max-width: 290px;
+
+    /* size */
+    &--small {
+      max-width: 290px;
+      border-radius: 20px;
+      padding-bottom: 1rem;
+    }
+
+    &--large {
+      max-width: 400px;
+      border-radius: 30px;
+      padding: 1rem;
+      padding-bottom: 2rem;
+    }
+
+    /* background color */
+    &--default {
+      background-color: var(--white);
+    }
+
+    &--lightBlue {
+      background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    } 
   }
 
   &__link {

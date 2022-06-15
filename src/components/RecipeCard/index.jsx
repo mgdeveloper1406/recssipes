@@ -5,10 +5,10 @@ import ForkKnifeIcon from '/icons/forkKnife.svg'
 
 import './styles.scss'
 
-const RecipeCard = ({ image, title, tag1, tag2, cardSize }) => {
+const RecipeCard = ({ image, title, tag1, tag2, cardSize, background = 'default' }) => {
 
   return (
-      <li className='recipeCard__container'>
+      <li className={`recipeCard__container recipeCard__container--${cardSize} recipeCard__container--${background}`}>
         <Link to='/recipes' className='recipeCard__link'>
           <div className='recipeCard'>
             <img className='recipeCard__img' src={image} alt={title} />
