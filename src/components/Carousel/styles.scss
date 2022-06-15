@@ -3,6 +3,10 @@
   width: 100%;
   overflow-x: auto;
   padding: 0 1rem;
+
+  &--noMargin {
+    padding: 0;
+  }
   
   &__items {
     display: flex;
@@ -29,21 +33,41 @@
     }
   }
 
-  &__arrow {
-    padding: 4px;
+  &__arrow, &__arrow--alwaysDisplay {
     border: none;
     border-radius: 50%;
     position: absolute;
     top: 50%;
     cursor: pointer;
     z-index: 1;
-    
+  }
+
+  &__arrow {
+
+    /* arrow background color */
     &__background--transparent {
       background-color: transparent;
     }
 
+    &__background--white {
+      background-color: var(--white);
+    }
+
     &__background--lightBlue {
       background-color: var(--blue-2);
+    }
+
+    /* arrow background size */
+    &__background--small {
+      padding: 4px;
+    }
+
+    &__background--medium {
+      padding: 10px 10px;
+    }
+
+    &__background--large {
+      padding: 10px 20px;
     }
 
     &__icon {
