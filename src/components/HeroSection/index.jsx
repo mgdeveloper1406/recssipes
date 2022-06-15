@@ -3,7 +3,7 @@ import React from "react";
 import Carousel from "../Carousel";
 import HeroCard from "../HeroCard";
 import HeroData from "@api/HeroData.js";
-import ArrowIcon from "/icons/arrow.svg";
+import ArrowIcon from "/icons/arrowSmall.svg";
 
 
 
