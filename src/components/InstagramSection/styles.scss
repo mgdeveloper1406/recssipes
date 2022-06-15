@@ -1,0 +1,27 @@
+.instagramSection {
+  list-style: none;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+
+  &__title {}
+
+  &__titleLink {}
+
+  &__button {
+    background: var(--black);
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    color: var(--white);
+    font-family: var(--main-font-family);
+    padding: 20px;
+    width: 100%;
+    max-width: 230px;
+    cursor: pointer;
+    margin-bottom: 80px;
+  }
+
+  &__button:hover {
+    opacity: .8;
+  }
+
+}
