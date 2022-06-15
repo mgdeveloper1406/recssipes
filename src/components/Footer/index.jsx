@@ -14,7 +14,7 @@ function Footer() {
             <img className='footer__logo'src={logo}/>
             <p className='footer__text'>Lorem ipsum dolor sit amet, consectetuipisicing elit,</p>
           </div>
-          <div className='footer__links'>{/* teste2*/}
+          <div className='footer__links'>
             <Link to='/recipes' className='footer__link'>Recipes</Link> 
             <Link to='/blog' className='footer__link'>Blog</Link>
             <Link to='/contact' className='footer__link' >Contact</Link> 
@@ -25,7 +25,7 @@ function Footer() {
           <div className='footer__socialsContainer'>
           <p className='footer__copyright'> &copy;2020 Flowbase.Powered by <span className='footer__copyrightWebflow'>Webflow</span></p>
           <div className='footer__socials'>
-          <SocialsMenu />
+          <SocialsMenu/>
           </div>
           </div>
           </footer>
