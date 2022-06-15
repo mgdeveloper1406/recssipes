@@ -4,10 +4,12 @@ import Newsletter from '@components/Newsletter'
 import RecipeCategories from '@components/RecipeCategories'
 import SimpleTastyRecipes from '@components/SimpleTastyRecipes'
 import TryOutRecipes from '@components/TryOutRecipes'
+import InstagramSection from '@components/InstagramSection'
+import Hero from '@components/HeroSection'
 
 import SimpleTastyRecipesData from '@api/SimpleTastyRecipes.js'
 import TryOutRecipesData from '@api/TryOutRecipes.js'
-import Hero from '@components/HeroSection'
+import instagramData from '@api/intagramData.js';
 
 import './styles.scss'
 
@@ -18,7 +20,7 @@ const Home = () => {
       <RecipeCategories />
       <SimpleTastyRecipes recipes={SimpleTastyRecipesData} />
       <LearnMore />
-      {/* Check out @foodieland on Instagram section */}
+      <InstagramSection posts={instagramData} />
       <TryOutRecipes recipes={TryOutRecipesData} />
       <Newsletter />
       <Footer />
