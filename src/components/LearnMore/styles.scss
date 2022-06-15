@@ -90,7 +90,7 @@
   }
 }
 
-@media (min-width:1024px) {
+@media (min-width:1024px) and (max-width:1300px) {
   .learnMore {
     grid-template-columns: 50% 50%;
     grid-template-rows: 500px;
@@ -106,7 +106,44 @@
   .learnMore__title {
     text-align: justify;
     font-weight: var(--font-semibold);
-    font-size: var(--text-2xlarge);
+    font-size: var(--text-3xlarge);
+    margin-top: 100px;
+    max-width: 600px;
+  }
+
+  .learnMore__paragraph {
+    font-size: var(--text-base);
+    line-height: 30px;
+    max-width: 600px;
+  }
+
+  .learnMore__button {
+    margin-bottom: 100px;
+  }
+
+  .learnMore__image {
+    display: inline;
+  }
+
+}
+
+@media (min-width:1300px) {
+  .learnMore {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 500px;
+    gap: 20px;
+    padding: 40px;
+  }
+
+  .learnMore__content {
+    justify-items: left;
+    align-items: center;
+  }
+
+  .learnMore__title {
+    text-align: justify;
+    font-weight: var(--font-semibold);
+    font-size: var(--text-4xlarge);
     margin-top: 100px;
     max-width: 600px;
   }
