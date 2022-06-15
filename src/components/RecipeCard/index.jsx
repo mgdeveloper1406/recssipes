@@ -1,15 +1,14 @@
 import { Link } from 'react-router-dom';
-
 import LikeButton from '../LikeButton';
 import TimerIcon from '/icons/timer.svg';
 import ForkKnifeIcon from '/icons/forkKnife.svg';
 
 import './styles.scss'
 
-// id will be used in the route path
-const RecipeCard = ({ id, image, title, tag1, tag2, cardSize }) => {
+const RecipeCard = ({ image, title, tag1, tag2, cardSize }) => {
 
   return (
+      <li className='recipe-card__container'>
       <Link to='/recipes' className='recipe-card__link'>
         <div className='recipe-card'>
           <img className='recipe-card__img' src={image} alt={title} />
@@ -35,6 +34,7 @@ const RecipeCard = ({ id, image, title, tag1, tag2, cardSize }) => {
           </div>
         </div>
       </Link>
+      </li>
   );
 };
 
