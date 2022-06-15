@@ -5,8 +5,8 @@ import RecipeCategories from '@components/RecipeCategories'
 import SimpleTastyRecipes from '@components/SimpleTastyRecipes'
 import TryOutRecipes from '@components/TryOutRecipes'
 
-import SimpleTastyRecipesData from '../../api/SimpleTastyRecipes.js'
-import TryOutRecipesData from '../../api/TryOutRecipes.js'
+import SimpleTastyRecipesData from '@api/SimpleTastyRecipes.js'
+import TryOutRecipesData from '@api/TryOutRecipes.js'
 import Hero from '@components/HeroSection'
 
 import './styles.scss'

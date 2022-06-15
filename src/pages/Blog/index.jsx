@@ -7,8 +7,8 @@ import Newsletter from '@components/Newsletter'
 import TitleAndSearch from '@components/TitleAndSearch'
 import TastyRecipes from '@components/TastyRecipes'
 
-import AdvertisingData from '../../api/AdvertisingData'
-import { articles } from '../../api/articles'
+import AdvertisingData from '@api/AdvertisingData'
+import { articles } from '@api/articles'
 
 import './styles.scss'
 import Hero from '@components/HeroCard'

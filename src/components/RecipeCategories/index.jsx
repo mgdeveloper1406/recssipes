@@ -1,7 +1,7 @@
 import RecipeCategoryCard from '../RecipeCategoryCard'
 import FilterIcon from '/icons/filter.svg'
 import ArrowIcon from '/icons/arrowSmall.svg';
-import CategoriesData from '../../api/CategoriesData.js'
+import CategoriesData from '@api/CategoriesData.js'
 import Carousel from '../Carousel';
 
 import './styles.scss'
@@ -19,8 +19,8 @@ const RecipeCategories = () => {
           <img className='recipeCategories__filterButton__img' src={FilterIcon} />
         </button>
       </div>
-      <Carousel 
-        itemsArray={CategoriesData} 
+      <Carousel
+        itemsArray={CategoriesData}
         ItemComponent={RecipeCategoryCard}
         arrowIcon={ArrowIcon}
         arrowBackground='lightBlue'
