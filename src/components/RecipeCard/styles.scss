@@ -1,62 +1,66 @@
-.recipe-card__link {
-  margin: 0;
-  text-decoration: none;
-  cursor: pointer;
-  display: flex;
-}
-
-.recipe-card__link:link {
-  color: var(--black);
-}
-
-.recipe-card__link:visited {
-  color: var(--black)
-}
-
-.recipe-card {
+.recipeCard {
   position: relative;
   text-align: left;
   width: 100%;
-}
 
-.recipe-card__img {
-  border-radius: 20px;
-  width: 100%;
-  margin-bottom: 14px;
-}
-
-.recipe-card__title {
-  font-weight: var(--font-semibold);
-  margin-bottom: 20px;
-
-  &--small {
-    font-size: clamp(var(--text-small), 4vw, var(--text-medium));
+  &__container {
+    list-style-type: none;
+    max-width: 290px;
   }
 
-  &--large {
-    font-size: clamp(var(--text-large), 4.2vw, var(--text-xlarge));
+  &__link {
+    margin: 0;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+
+    &:link {
+      color: var(--black);
+    }
+
+    &:visited {
+      color: var(--black);
+    }
   }
-}
 
-.recipe-card__tags {
-  display: flex;
-  font-size: var(--text-small);
-  font-weight: var(--font-medium);
-  color: var(--grey-2);
-  text-align: left;
-}
+  &__img {
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 14px;
+  }
 
-.recipe-card__tag1 {
-  margin-right: 16px;
-}
+  &__title {
+    font-weight: var(--font-semibold);
+    margin-bottom: 20px;
 
-.recipe-card__tag1, .recipe-card__tag2 {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-}
+    &--small {
+      font-size: clamp(var(--text-small), 4vw, var(--text-medium));
+    }
 
-.recipe-card__tag1__icon,
-.recipe-card__tag2__icon {
-  margin-right: 8px;
+    &--large {
+      font-size: clamp(var(--text-large), 4.2vw, var(--text-xlarge));
+    }
+  }
+
+  &__tags {
+    display: flex;
+    font-size: var(--text-small);
+    font-weight: var(--font-medium);
+    color: var(--grey-2);
+    text-align: left;
+  }
+
+  &__tag1, &__tag2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &__tag1 {
+    margin-right: 16px;
+  }
+
+  &__tag1__icon, &__tag2__icon {
+    margin-right: 8px;
+  }
 }

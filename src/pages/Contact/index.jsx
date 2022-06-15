@@ -1,12 +1,12 @@
-import Recipes from '../../components/RecipesCarousel';
-import Newsletter from '../../components/Newsletter';
-import ContactUsRecipes from '../../api/ContactUsRecipes'
-import Footer from '../../components/Footer';
+import CheckoutRecipes from '../../components/CheckoutRecipes'
+import Newsletter from '../../components/Newsletter'
+import Footer from '../../components/Footer'
 import Form from '../../components/Form'
+import { useContext } from 'react'
+import { ToastContext } from '../../contexts/ToastContext'
+import Toast from '../../components/Toast'
+
 import './styles.scss'
-import { useContext } from 'react';
-import { ToastContext } from '../../contexts/ToastContext';
-import Toast from '../../components/Toast';
 
 const Contact = () => {
   const { isOpen, closeToast, toastProps } = useContext(ToastContext)
@@ -15,11 +15,11 @@ const Contact = () => {
     <div className='contact-page__container'>
       <Form />
       <Newsletter />
-      <Recipes items={ContactUsRecipes} />
+      <CheckoutRecipes />
       <Footer />
       {isOpen && <Toast handleClose={closeToast} {...toastProps} />}
     </div>
   );
 };
 
-export default Contact;
+export default Contact
