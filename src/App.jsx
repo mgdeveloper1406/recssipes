@@ -1,10 +1,10 @@
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import Recipes from './pages/Recipes';
-import Blog from './pages/Blog'
-import About from './pages/About';
-import Contact from './pages/Contact';
+import Home from '@components/pages/Home';
+import Recipes from '@components/pages/Recipes';
+import Blog from '@components/pages//Blog'
+import About from '@components/pages/About';
+import Contact from '@components/pages/Contact';
 
 import { ToastProvider } from './contexts/ToastContext';
 
