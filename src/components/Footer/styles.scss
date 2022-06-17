@@ -69,7 +69,12 @@ color: rgba(0, 0, 0, 0.6);
     
     .footer__link{
         display:inline;
+        text-decoration: none;
+        color: var(--black);
 
+        &:active {
+            color: var(--black);
+        }
     }
 
     .footer__links{
