@@ -18,12 +18,11 @@
 }
 
 .learnMore__paragraph {
-  font-weight: var(--font-light);
+  font-weight: var(--font-medium);
   font-size: var(--text-small);
   color: var(--grey-2);
   text-align: justify;
   text-justify: distribute;
-  letter-spacing: -0.8px;
   line-height: 24px;
 }
 
@@ -43,7 +42,7 @@
 }
 
 .learnMore__image {
-  background: url(/public/imgs/chef-holding-dish.png) center center no-repeat;
+  background: url(/imgs/chef-holding-dish.png) center center no-repeat;
   background-size: contain;
   display: none;
 }
