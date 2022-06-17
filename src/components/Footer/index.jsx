@@ -24,9 +24,7 @@ function Footer() {
           <hr className='footer__horizontalRule'></hr>
           <div className='footer__socialsContainer'>
           <p className='footer__copyright'> &copy;2020 Flowbase.Powered by <span className='footer__copyrightWebflow'>Webflow</span></p>
-          <div className='footer__socials'>
           <SocialsMenu/>
-          </div>
           </div>
           </footer>
           </div>
