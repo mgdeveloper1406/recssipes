@@ -4,13 +4,15 @@
   display: grid;
   place-items: center;
 
+  &__carouselContainer {
+    max-width: 1280px;
+  }
+
   &__title {}
 
   &__titleLink {}
 
-  &__posts {
-    max-width: 1280px;
-  }
+  &__paragraph {}
 
   &__button {
     background: var(--black);
