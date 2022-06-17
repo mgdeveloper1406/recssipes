@@ -1,8 +1,9 @@
+import { forwardRef } from 'react'
 import './styles.scss'
 
-const RecipeCategoryCard = ({ categoryName, cardColor, icon}) => {
+const RecipeCategoryCard = ({ categoryName, cardColor, icon}, ref) => {
   return (
-    <li className='recipeCategoryCard__container'>
+    <li ref={ref} className='recipeCategoryCard__container'>
       <button className={`recipeCategoryCard recipeCategoryCard--${cardColor}`}
         aria-label={`Select ${categoryName} category`}
       >
@@ -13,4 +14,4 @@ const RecipeCategoryCard = ({ categoryName, cardColor, icon}) => {
   )
 }
 
-export default RecipeCategoryCard
+export default forwardRef(RecipeCategoryCard)

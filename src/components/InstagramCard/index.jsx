@@ -1,10 +1,11 @@
+import { forwardRef } from 'react'
 import './styles.scss'
 
-const InstagramCard = ({ image }) => {
+const InstagramCard = ({ image }, ref) => {
   return (
-    <li className='instagramCard'>
+    <li ref={ref} className='instagramCard'>
       <img src={image} className='instagramCard__image' />
     </li>
   );
 };
-export default InstagramCard;
+export default forwardRef(InstagramCard)

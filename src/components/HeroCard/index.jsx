@@ -49,19 +49,18 @@ const itenscard = [
   }
 ]
 */
+
+import { forwardRef } from 'react'
 import './styles.scss'
 
-
-
-function HeroCard({image}) {
+const HeroCard = ({image}, ref) => {
 	
 	return (
-    <li className="heroCard">
+    <li ref={ref} className="heroCard">
 			<img src={image} className="heroCard__image"/>
 		</li>
 	)
    
 }
 
-
-export default HeroCard;
+export default forwardRef(HeroCard)

@@ -1,3 +1,4 @@
+import { forwardRef } from 'react'
 import { Link } from 'react-router-dom'
 import LikeButton from '../LikeButton'
 import TimerIcon from '/icons/timer.svg'
@@ -5,10 +6,10 @@ import ForkKnifeIcon from '/icons/forkKnife.svg'
 
 import './styles.scss'
 
-const RecipeCard = ({ image, title, tag1, tag2, cardSize, background = 'default' }) => {
+const RecipeCard = ({ image, title, tag1, tag2, cardSize, background = 'default' }, ref) => {
 
   return (
-      <li className={`recipeCard__container recipeCard__container--${cardSize} recipeCard__container--${background}`}>
+      <li ref={ref} className={`recipeCard__container recipeCard__container--${cardSize} recipeCard__container--${background}`}>
         <Link to='/recipes' className='recipeCard__link'>
           <div className='recipeCard'>
             <img className='recipeCard__img' src={image} alt={title} />
@@ -38,4 +39,4 @@ const RecipeCard = ({ image, title, tag1, tag2, cardSize, background = 'default'
   );
 };
 
-export default RecipeCard
+export default forwardRef(RecipeCard)
