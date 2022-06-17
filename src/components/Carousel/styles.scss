@@ -41,32 +41,32 @@
   &__arrow {
 
     /* arrow background color */
-    &__background--transparent {
+    &Background--transparent {
       background-color: transparent;
     }
 
-    &__background--white {
+    &Background--white {
       background-color: var(--white);
     }
 
-    &__background--lightBlue {
+    &Background--lightBlue {
       background-color: var(--blue-2);
     }
 
     /* arrow background size */
-    &__background--small {
+    &Background--small {
       padding: 4px;
     }
 
-    &__background--medium {
+    &Background--medium {
       padding: 10px 10px;
     }
 
-    &__background--large {
+    &Background--large {
       padding: 10px 20px;
     }
 
-    &__icon {
+    &Icon {
       width: 100%;
     }
 
