@@ -1,0 +1,9 @@
+/*this class do not apply to first and 5th child 
+(Hero and Check out instagram sections). They need to touch page margin.*/
+
+.homePage > *:not(:first-child):not(:nth-child(5)) {
+  margin-right: auto; /* it has to explicitly be declared this way (right and left, separately) to not affect margin top and bottom of components */
+  margin-left: auto;
+  width: 90%;
+  max-width: 1280px;
+}

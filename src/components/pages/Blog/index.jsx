@@ -1,18 +1,17 @@
 
 import { useState } from 'react'
-import AdvertisingCard from '../../components/AdvertisingCard'
-import ArticlesList from '../../components/ArticlesList'
-import Footer from '../../components/Footer'
-import Newsletter from '../../components/Newsletter'
-import TitleAndSearch from '../../components/TitleAndSearch'
-import TastyRecipes from '../../components/TastyRecipes'
+import AdvertisingCard from '@components/AdvertisingCard'
+import ArticlesList from '@components/ArticlesList'
+import Footer from '@components/Footer'
+import Hero from '@components/HeroCard'
+import Newsletter from '@components/Newsletter'
+import TitleAndSearch from '@components/TitleAndSearch'
+import TastyRecipes from '@components/TastyRecipes'
 
-import AdvertisingData from '../../api/AdvertisingData'
-import { articles } from '../../api/articles'
+import AdvertisingData from '@api/AdvertisingData'
+import { articles } from '@api/articles'
 
 import './styles.scss'
-import Hero from '../../components/HeroCard'
-
 
 const Blog = () => {
 
@@ -24,7 +23,7 @@ const Blog = () => {
       setArticlesData(articles)
       setFiltered(false)
     } else {
-      const filteredArticles = articles.filter((article) => 
+      const filteredArticles = articles.filter((article) =>
         article.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
         article.userName.toLowerCase().includes(searchTerm.toLowerCase())
       )
@@ -34,18 +33,18 @@ const Blog = () => {
   }
 
   return (
-    <div className='blog-page__container'>
+    <div className='blogPage'>
       <TitleAndSearch filterArticles={filterArticles} />
-      <div className='blog-page__mainContent'>
+      <div className='blogPage__mainContent'>
         <ArticlesList articlesData={articlesData} filtered={filtered} />
-        <aside className='blog-page__aside'>
+        <aside className='blogPage__aside'>
           <AdvertisingCard data={AdvertisingData} />
-          <TastyRecipes/>
+          <TastyRecipes />
         </aside>
       </div>
       <Newsletter />
       <Footer />
-      <Hero/>
+      <Hero />
     </div>
   )
 }

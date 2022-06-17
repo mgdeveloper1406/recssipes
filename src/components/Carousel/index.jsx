@@ -2,7 +2,15 @@ import { useRef } from 'react';
 
 import './styles.scss'
 
-const Carousel = ({ itemsArray, ItemComponent, arrowIcon, arrowBackground = 'transparent', cardSize = null }) => {
+const Carousel = ({ 
+  itemsArray, 
+  ItemComponent, 
+  arrowIcon,
+  arrowBackground = 'transparent',
+  arrowBackgroundSize = 'small',
+  alwaysDisplayArrow = false,
+  cardSize = null
+}) => {
   const carousel = useRef();
 
   const scrollLeft = (e) => {
@@ -17,17 +25,23 @@ const Carousel = ({ itemsArray, ItemComponent, arrowIcon, arrowBackground = 'tra
 
   const items = itemsArray.map((item) => {
     return (
-      <ItemComponent 
+      <ItemComponent
         key={item.id}
         cardSize={cardSize}
         {...item}
       />
     )
   })
+
   return (
     <div className='carousel'>
       <button 
-        className={`carousel__arrow carousel__arrow__background--${arrowBackground} carousel__arrow--left`}
+        className={`
+          carousel__arrow${alwaysDisplayArrow ? '--alwaysDisplay' : ''}
+          carousel__arrow__background--${arrowBackground}
+          carousel__arrow__background--${arrowBackgroundSize}
+          carousel__arrow--left
+        `}
         aria-label='Scroll left'
         onClick={scrollLeft}
       >
@@ -37,7 +51,12 @@ const Carousel = ({ itemsArray, ItemComponent, arrowIcon, arrowBackground = 'tra
         {items}
       </ul>
       <button
-        className={`carousel__arrow carousel__arrow__background--${arrowBackground} carousel__arrow--right`}
+        className={`
+          carousel__arrow${alwaysDisplayArrow ? '--alwaysDisplay' : ''}
+          carousel__arrow__background--${arrowBackground}
+          carousel__arrow__background--${arrowBackgroundSize}
+          carousel__arrow--right
+        `}
         aria-label='Scroll right' 
         onClick={scrollRight}
       >

@@ -1,5 +1,5 @@
 import AdvertisingCard from '../AdvertisingCard'
-import AdvertisingData from '../../api/AdvertisingData'
+import AdvertisingData from '@api/AdvertisingData'
 import RecipeCard from '../RecipeCard'
 
 import './styles.scss'
@@ -7,7 +7,7 @@ import './styles.scss'
 const SimpleTastyRecipes = ({ recipes }) => {
   const simpleTastyRecipes = recipes.map((recipe) => {
     return (
-      <RecipeCard 
+      <RecipeCard
         key={recipe.id}
         {...recipe}
         cardSize='large'
