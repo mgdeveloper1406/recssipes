@@ -11,11 +11,13 @@ const InstagramSection = ({ posts }) => {
     <section className='instagramSection'>
       <h2 className='instagramSection__title'>Check out @foodieland on <a className='instagramSection__titleLink' href="www.instagram.com/foofieland">Instagram</a></h2>
       <p className='instagramSection__paragraph'></p>
-      <Carousel
-        itemsArray={posts}
-        ItemComponent={InstagramCard}
-        arrowIcon={ArrowIcon}
-      />
+      <div className='instagramSection__posts'>
+        <Carousel
+          itemsArray={posts}
+          ItemComponent={InstagramCard}
+          arrowIcon={ArrowIcon}
+        />
+      </div>
       <button className='instagramSection__button'>Vist our Instagram</button>
     </section>
   )

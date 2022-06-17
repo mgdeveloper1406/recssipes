@@ -5,7 +5,7 @@ import HeroCard from "../HeroCard";
 import HeroData from "@api/HeroData.js";
 import ArrowIcon from "/icons/arrowSmall.svg";
 
-
+import './styles.scss'
 
 function Hero() {
 
@@ -17,8 +17,7 @@ function Hero() {
 				arrowIcon={ArrowIcon}
 				arrowBackground='white'
 				arrowBackgroundSize='medium'
-				alwaysDisplayArrow
-				noMargin
+				alwaysDisplayArrow				
 			/>
 		</section>
 	)
