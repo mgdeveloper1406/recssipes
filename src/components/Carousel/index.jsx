@@ -9,8 +9,7 @@ const Carousel = ({
   arrowBackground = 'transparent',
   arrowBackgroundSize = 'small',
   alwaysDisplayArrow = false,
-  cardSize = null,
-  noMargin = false 
+  cardSize = null
 }) => {
   const carousel = useRef();
 
@@ -35,7 +34,7 @@ const Carousel = ({
   })
 
   return (
-    <div className={`carousel ${noMargin ? 'carousel--noMargin' : ''}`}>
+    <div className='carousel'>
       <button 
         className={`
           carousel__arrow${alwaysDisplayArrow ? '--alwaysDisplay' : ''}
