@@ -14,7 +14,7 @@
 .learnMore__title {
   letter-spacing: -0.8px;
   font-weight: var(--font-medium);
-  font-size: var(--text-xlarge);
+  font-size: clamp(var(--text-2xlarge), 4vw, var(--text-4xlarge));
 }
 
 .learnMore__paragraph {
@@ -59,7 +59,7 @@
   }
 }
 
-@media (min-width:768px) and (max-width:1024px) {
+@media (min-width:768px) {
   .learnMore {
     grid-template-columns: 60% 40%;
     grid-template-rows: 300px;
@@ -84,17 +84,15 @@
   }
 
   .learnMore__image {
-
     display: inline;
   }
 }
 
-@media (min-width:1024px) and (max-width:1300px) {
+@media (min-width:1024px) {
   .learnMore {
     grid-template-columns: 50% 50%;
     grid-template-rows: 500px;
     gap: 20px;
-    padding: 40px;
   }
 
   .learnMore__content {
@@ -131,7 +129,6 @@
     grid-template-columns: 50% 50%;
     grid-template-rows: 500px;
     gap: 20px;
-    padding: 40px;
   }
 
   .learnMore__content {

@@ -90,13 +90,18 @@ color: rgba(0, 0, 0, 0.6);
         justify-content: space-between;
     }
     
-    .footer__socials{
+    .footer__socialsContainer{
         display: flex;
         justify-content: flex-end;
-
+        margin-left:40px;
     }
 
-    
+    .footer__copyright{
+        margin:auto;
+
+        
+        
+    }
    
 }
 
