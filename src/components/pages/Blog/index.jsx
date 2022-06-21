@@ -1,11 +1,11 @@
 
 import { useState } from 'react'
 import AdvertisingCard from '@components/AdvertisingCard'
-import ArticlesList from '@components/ArticlesList'
+import ArticlesList from '@organisms/ArticlesList'
 import Footer from '@components/Footer'
 import Hero from '@components/HeroCard'
 import Newsletter from '@components/Newsletter'
-import TitleAndSearch from '@components/TitleAndSearch'
+import TitleAndSearch from '@organisms/TitleAndSearch'
 import TastyRecipes from '@components/TastyRecipes'
 
 import AdvertisingData from '@api/AdvertisingData'

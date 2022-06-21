@@ -1,6 +1,6 @@
 import AdvertisingCard from '../AdvertisingCard'
 import AdvertisingData from '@api/AdvertisingData'
-import RecipeCard from '../RecipeCard'
+import RecipeCard from '../../RecipeCard'
 
 import './styles.scss'
 

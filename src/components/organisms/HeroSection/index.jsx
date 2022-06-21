@@ -1,7 +1,7 @@
 
 import React from "react";
 import Carousel from "../Carousel";
-import HeroCard from "../HeroCard";
+import HeroCard from "../../molecules/HeroCard";
 import HeroData from "@api/HeroData.js";
 import ArrowIcon from "/icons/arrowSmall.svg";
 

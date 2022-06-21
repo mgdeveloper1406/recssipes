@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import MobileMenu from '../MobileMenu';
-import SocialsMenu from '../SocialsMenu';
-import NavigationMenu from '../NavigationMenu';
+import SocialsMenu from '../../molecules/SocialsMenu';
+import NavigationMenu from '../../molecules/NavigationMenu';
 
 import logo from "/imgs/foodieland-logo-small.png"
 

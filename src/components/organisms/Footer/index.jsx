@@ -1,6 +1,6 @@
 import logo from '/icons/logo.svg'
 import { Link } from 'react-router-dom'
-import SocialsMenu from '../SocialsMenu'
+import SocialsMenu from '../../SocialsMenu'
 
 import './styles.scss'
 

@@ -1,16 +1,16 @@
 import React, { useContext } from 'react';
 
-import useForm from '../../hooks/useForm'
+import useForm from '../../../hooks/useForm'
 
-import { ToastContext } from '../../contexts/ToastContext';
+import { ToastContext } from '../../../contexts/ToastContext';
 
-import { validateContact } from '../../utils/validateContact'
+import { validateContact } from '../../../utils/validateContact'
 
-import toastStatus from '../Toast';
+import toastStatus from '../../Toast';
 
-import Input from '../Input';
-import Select from '../Select';
-import Textarea from '../Textarea';
+import Input from '../../Input';
+import Select from '../../Select';
+import Textarea from '../../Textarea';
 import Chef from '/imgs/chef.png';
 import './styles.scss';
 

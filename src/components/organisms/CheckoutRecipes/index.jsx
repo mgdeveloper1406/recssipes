@@ -1,7 +1,7 @@
 import ArrowIcon from '/icons/arrow.svg'
 import Carousel from '../Carousel'
 import ContactUsRecipes from '@api/ContactUsRecipes'
-import RecipeCard from '../RecipeCard'
+import RecipeCard from '../../RecipeCard'
 
 import './styles.scss'
 
