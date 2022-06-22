@@ -1,6 +1,6 @@
-import AdvertisingCard from '../AdvertisingCard'
+import AdvertisingCard from '@molecules/Cards/Advertising'
 import AdvertisingData from '@api/AdvertisingData'
-import RecipeCard from '../../RecipeCard'
+import RecipeCard from '@molecules/Cards/Recipe'
 
 import './styles.scss'
 

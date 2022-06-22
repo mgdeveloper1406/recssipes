@@ -6,11 +6,11 @@ import { ToastContext } from '../../../contexts/ToastContext';
 
 import { validateContact } from '../../../utils/validateContact'
 
-import toastStatus from '../../Toast';
+import toastStatus from '@organisms/Toast';
 
-import Input from '../../Input';
-import Select from '../../Select';
-import Textarea from '../../Textarea';
+import Input from '@molecules/Input';
+import Select from '@molecules/Select';
+import Textarea from '@molecules/Textarea';
 import Chef from '/imgs/chef.png';
 import './styles.scss';
 

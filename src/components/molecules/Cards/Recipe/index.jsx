@@ -1,6 +1,6 @@
 import { forwardRef } from 'react'
 import { Link } from 'react-router-dom'
-import LikeButton from '../LikeButton'
+import LikeButton from '../../LikeButton'
 import TimerIcon from '/icons/timer.svg'
 import ForkKnifeIcon from '/icons/forkKnife.svg'
 

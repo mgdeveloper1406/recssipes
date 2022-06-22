@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
-import Pagination from '../../Pagination';
-import ArticleItem from '../../molecules/ArticleItem';
+import Pagination from '@molecules/Pagination';
+import ArticleItem from '@molecules/Cards/Article';
 import usePageWidth from '../../../hooks/usePageWidth'
 
 import './styles.scss'

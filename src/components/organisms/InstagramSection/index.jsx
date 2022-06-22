@@ -1,5 +1,5 @@
-import Carousel from '@components/Carousel'
-import InstagramCard from '@components/InstagramCard';
+import Carousel from '../Carousel'
+import InstagramCard from '@molecules/Cards/Instagram';
 
 import ArrowIcon from '/icons/arrow.svg';
 import InstagramIcon from '/icons/instagramWhite.svg'

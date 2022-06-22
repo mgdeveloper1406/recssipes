@@ -1,4 +1,4 @@
-import RecipeCategoryCard from '../../RecipeCategoryCard'
+import RecipeCategoryCard from '@molecules/Cards/RecipeCategory'
 import FilterIcon from '/icons/filter.svg'
 import ArrowIcon from '/icons/arrowSmall.svg';
 import CategoriesData from '@api/CategoriesData.js'
