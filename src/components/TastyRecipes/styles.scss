@@ -1,95 +1,97 @@
 //Mobile
 
-.TastyRecipes_container {
+.TastyRecipes {
     margin: 0 auto;
     margin-bottom: 20px;
 }
 
-.TastyRecipes_list{
-    list-style:none;
+.TastyRecipes__list {
+    list-style: none;
     text-align: start;
     max-width: 222px;
     margin: 0 auto;
 }
 
-.TastyRecipes_list-item{
+.TastyRecipes__listItem {
     margin-top: 15px;
 }
 
-.TastyRecipes_image{
-    border-radius:20px;
+.TastyRecipes__image {
+    border-radius: 20px;
     display: block;
-    margin:auto;
+    margin: auto;
 
 }
 
-.TastyRecipes_title{
+.TastyRecipes__authorTitle {
     font-size: var(--text-large);
     letter-spacing: -0.016cm;
-    padding: 10px 0;   
+    padding: 10px 0;
 }
 
-.TastyRecipes_autor{
+.TastyRecipes__author {
     color: var(--grey-2);
     font-size: var(--text-small);
-    font-weight: var(--font-medium);;
+    font-weight: var(--font-medium);
+    ;
     padding: 25px 0;
 }
 
 
-.TastyRecipes_title_autor_container{
+.TastyRecipes__authorContainer {
     display: flex;
     flex-direction: column;
     padding: 10px 0;
 }
 
-.TastyRecipes_title_section{
+.TastyRecipes__titleHeader {
     font-size: var(--text-2xlarge);
     margin-bottom: 40px;
 }
 
 @media (min-width:600px) {
 
-    .TastyRecipes_list{
+    .TastyRecipes__list {
         display: flex;
         flex-direction: column;
         max-width: 100%;
     }
 
-   .TastyRecipes_image{
-    display:flex;
-    margin-right: 24px;
+    .TastyRecipes__image {
+        display: flex;
+        margin-right: 24px;
     }
 
-    .TastyRecipes_list-item{
-    display: flex;
-    align-items: right;
-    margin: 24px 0 0;
+    .TastyRecipes__listItem {
+        display: flex;
+        align-items: right;
+        margin: 24px 0 0;
     }
 
-    .TastyRecipes_autor{
-    display:flex;
-    padding:8px;
-    padding-left: 0;
-    
+    .TastyRecipes__author {
+        display: flex;
+        padding: 8px;
+        padding-left: 0;
+
     }
 
-    .TastyRecipes_title_section{
+    .TastyRecipes__titleHeader {
         display: flex;
         justify-content: center;
     }
 
-    .TastyRecipes_container{
-        max-width:490px;
-        
-    }
-    .TastyRecipes_title{
-        padding-bottom: 5px;
-        padding-top: 0;
-          
+    .TastyRecipes {
+        max-width: 490px;
+
     }
 
-    .TastyRecipes_title_autor_container{
+    .TastyRecipes__authorTitle {
+        padding-bottom: 5px;
+        padding-top: 0;
+
+    }
+
+    .TastyRecipes__authorContainer {
         padding: 0;
         align-content: left;
         justify-content: center;
@@ -97,14 +99,14 @@
 
 }
 
-@media(min-width: 1400px){
+@media(min-width: 1400px) {
 
-    .TastyRecipes_title_section {
+    .TastyRecipes__titleHeader {
         justify-content: start;
         margin-bottom: 10px;
     }
 
-    .TastyRecipes_container {
+    .TastyRecipes {
         margin-bottom: 60px;
     }
 }

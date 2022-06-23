@@ -10,23 +10,17 @@ import './styles.scss'
 const Navbar = () => {
   return (
     <nav className='navbar'>
-      <div className="navbar-content-container">
-        <div className='navbar__home-logo-container'>
+      <div className="navbar__contentContainer">
+        <div className='navbar__homeLogoContainer'>
           <a
-            className='navbar__home-logo'
+            className='navbar__homeLogo'
             href="/"
           >
-            <img className='navbar-img' src={logo} alt="foodieland logo" />
+            <img className='navbar__logoImg' src={logo} alt="foodieland logo" />
           </a>
         </div>
 
-        <NavigationMenu
-          navigationMenuStatus='navigation-menu-desktop'
-          navigationList={`navigation-desktop-list`}
-          navigationListItem={`navigation-desktop-list-item`}
-          navigationLink={`navigation-desktop-link`}
-          handleNavigationClick={() => { }}
-        />
+        <NavigationMenu />
         <MobileMenu />
         <SocialsMenu className='navbar__socialsMenu' socialListDisabled />
       </div>

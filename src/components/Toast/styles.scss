@@ -24,7 +24,7 @@
   font-size: var(--text-medium);
 }
 
-.toast__close-button {
+.toast__closeButton {
   position: absolute;
   top: 6px;
   right: 6px;
@@ -35,11 +35,11 @@
   cursor: pointer;
 }
 
-.toast__close-button:hover {
+.toast__closeButton:hover {
   opacity: .7;
 }
 
-.toast__close-button__img {
+.toast__closeButton__img {
   width: 100%;
 }
 
@@ -54,9 +54,8 @@
   from {
     transform: translateX(-100%);
   }
+
   to {
     transform: translate(0);
   }
 }
-
-

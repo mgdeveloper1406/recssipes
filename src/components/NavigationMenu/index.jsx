@@ -1,31 +1,26 @@
 import { Link } from 'react-router-dom';
 
-const NavigationMenu = (props) => {
-  const {
-    navigationMenuStatus,
-    navigationList,
-    navigationListItem,
-    navigationLink,
-    handleNavigationClick
-  } = props
+import './styles.scss'
+
+const NavigationMenu = () => {
 
   return (
-    <div className={navigationMenuStatus}>
-      <ul className={navigationList}>
-        <li className={navigationListItem} onClick={handleNavigationClick}>
-          <Link to='/' className={navigationLink}>Home</Link>
+    <div className='navigationMenu__container'>
+      <ul className='navigationMenu'>
+        <li className='navigationMenu__item' onClick={() => { }}>
+          <Link to='/' className='navigationMenu__link'>Home</Link>
         </li>
-        <li className={navigationListItem} onClick={handleNavigationClick}>
-          <Link to='/recipes' className={navigationLink}>Recipes</Link>
+        <li className='navigationMenu__item' onClick={() => { }}>
+          <Link to='/recipes' className='navigationMenu__link'>Recipes</Link>
         </li>
-        <li className={navigationListItem} onClick={handleNavigationClick}>
-          <Link to='/blog' className={navigationLink}>Blog</Link>
+        <li className='navigationMenu__item' onClick={() => { }}>
+          <Link to='/blog' className='navigationMenu__link'>Blog</Link>
         </li>
-        <li className={navigationListItem} onClick={handleNavigationClick}>
-          <Link to='/about' className={navigationLink}>About us</Link>
+        <li className='navigationMenu__item' onClick={() => { }}>
+          <Link to='/about' className='navigationMenu__link'>About us</Link>
         </li>
-        <li className={navigationListItem} onClick={handleNavigationClick}>
-          <Link to='/contact' className={navigationLink}>Contact</Link>
+        <li className='navigationMenu__item' onClick={() => { }}>
+          <Link to='/contact' className='navigationMenu__link'>Contact</Link>
         </li>
       </ul>
     </div>
@@ -33,3 +28,4 @@ const NavigationMenu = (props) => {
 };
 
 export default NavigationMenu;
+

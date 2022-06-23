@@ -20,8 +20,8 @@ const Toast = ({ handleClose, text, status }) => {
         <img className='toast__icon' alt={status} src={icon}></img>
         <p className='toast__text'>{text}</p>
       </div>
-      <button onClick={handleClose} className='toast__close-button' aria-label='close'>
-        <img className='toast__close-button__img' src={CloseIcon}></img>
+      <button onClick={handleClose} className='toast__closeButton' aria-label='close'>
+        <img className='toast__closeButton__img' src={CloseIcon}></img>
       </button>
     </div>
   )

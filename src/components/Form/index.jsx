@@ -33,12 +33,12 @@ const Form = () => {
   } = useForm(submit, validateContact)
 
   return (
-    <section className='contact-us'>
-      <h1 className='contact-us__title'>Contact us</h1>
-      <div className='contact-us__content'>
-        <img className='contact-us__img' src={Chef} alt='Chef giving thumbs up'></img>
-        <form className='contact-us__form' onSubmit={handleSubmit} name='contactForm'>
-          <div className='contact-us__input-container'>
+    <section className='contactUs'>
+      <h1 className='contactUs__title'>Contact us</h1>
+      <div className='contactUs__content'>
+        <img className='contactUs__img' src={Chef} alt='Chef giving thumbs up'></img>
+        <form className='contactUs__form' onSubmit={handleSubmit} name='contactForm'>
+          <div className='contactUs__inputContainer'>
             <Input
               labelText='name'
               id='username'
@@ -51,10 +51,10 @@ const Form = () => {
             />
             {
               contactInfoErrors.userNameError
-              && <span className='contact-us__form-validation'>{contactInfoErrors.userNameError}</span>
+              && <span className='contactUs__formValidation'>{contactInfoErrors.userNameError}</span>
             }
           </div>
-          <div className='contact-us__input-container'>
+          <div className='contactUs__inputContainer'>
             <Input
               labelText='email address'
               id='email'
@@ -67,10 +67,10 @@ const Form = () => {
             />
             {
               contactInfoErrors.userEmailError
-              && <span className='contact-us__form-validation'>{contactInfoErrors.userEmailError}</span>
+              && <span className='contactUs__formValidation'>{contactInfoErrors.userEmailError}</span>
             }
           </div>
-          <div className='contact-us__select-container'>
+          <div className='contactUs__selectContainer'>
             <Select
               labelText='Enquiry Type'
               id='enquiry'
@@ -80,7 +80,7 @@ const Form = () => {
               selectOptions={['Advertising', 'New Recipes', 'New Article', 'Partnership']}
             />
           </div>
-          <div className='contact-us__input-container'>
+          <div className='contactUs__inputContainer'>
             <Input
               labelText='subject'
               id='subject'
@@ -93,10 +93,10 @@ const Form = () => {
             />
             {
               contactInfoErrors.subjectError
-              && <span className='contact-us__form-validation'>{contactInfoErrors.subjectError}</span>
+              && <span className='contactUs__formValidation'>{contactInfoErrors.subjectError}</span>
             }
           </div>
-          <div className='grid-col-span-2 contact-us__textarea-container'>
+          <div className='gridCol-span-2 contactUs__textareaContainer'>
             <Textarea
               labelText='Messages'
               id='messages'
@@ -108,10 +108,10 @@ const Form = () => {
             />
             {
               contactInfoErrors.messageError
-              && <span className='contact-us__form-validation'>{contactInfoErrors.messageError}</span>
+              && <span className='contactUs__formValidation'>{contactInfoErrors.messageError}</span>
             }
           </div>
-          <button className='contact-us__form__button' type='submit'>Submit</button>
+          <button className='contactUs__formButton' type='submit'>Submit</button>
         </form>
       </div>
     </section>

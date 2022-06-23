@@ -1,17 +1,17 @@
-.contact-us {
+.contactUs {
     margin-bottom: 2rem;
 }
 
-.contact-us__title {
+.contactUs__title {
     text-align: left;
-    margin: 1.8rem 0; 
+    margin: 1.8rem 0;
     font-weight: var(--font-semibold);
     font-size: var(--text-4xlarge);
     line-height: 73px;
     letter-spacing: -0.04em;
 }
 
-.contact-us__form__button {
+.contactUs__formButton {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,20 +29,20 @@
     cursor: pointer;
 }
 
-.contact-us__form__button:hover {
+.contactUs__formButton:hover {
     opacity: .8;
 }
 
-.contact-us__img {
+.contactUs__img {
     display: none;
 }
 
-.contact-us__form {
+.contactUs__form {
     display: grid;
     gap: 5px;
 }
 
-.contact-us__form-validation {
+.contactUs__formValidation {
     color: #FC2D2D;
     font-size: var(--text-small);
     display: block;
@@ -51,49 +51,52 @@
 }
 
 @media (min-width: 600px) {
-    .grid-col-span-2 { /* class passed to textarea div */
+    .grid-col-span-2 {
+        /* class passed to textarea div */
         grid-column: span 2;
     }
 
-    .contact-us__form {
+    .contactUs__form {
         gap: 5px 2.5rem;
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .contact-us__form :nth-child(4) { /*according to layout, switch enquiry type and subject positions */
+    .contactUs__form :nth-child(4) {
+        /*according to layout, switch enquiry type and subject positions */
         grid-column: 1 / 2;
         grid-row: 2 / 3;
     }
 
-    .contact-us__form__button {
+    .contactUs__formButton {
         margin-top: 3rem;
         max-width: 180px;
     }
 }
 
 @media (min-width: 1024px) {
-    .contact-us {
+    .contactUs {
         margin-bottom: 140px;
     }
 
-    .contact-us__title {
+    .contactUs__title {
         text-align: center;
         margin: 4rem 0;
     }
 
-    .contact-us__content {
+    .contactUs__content {
         display: grid;
         gap: 2.5rem;
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .contact-us__img {
+    .contactUs__img {
         display: flex;
         padding-top: 4px;
-        height: calc(100% - (64px + 3rem)); /* to maintain image and form align -> 64px + 3rem is the submit button size + margin */
+        height: calc(100% - (64px + 3rem));
+        /* to maintain image and form align -> 64px + 3rem is the submit button size + margin */
     }
 
-    .contact-us__form {
+    .contactUs__form {
         grid-column: span 2;
     }
 }

@@ -1,4 +1,4 @@
-.like-button {
+.likeButton {
   position: absolute;
   width: 48px;
   height: 48px;
@@ -11,7 +11,7 @@
   transition: 0.2s;
 }
 
-.like-button__image {
+.likeButton__image {
   position: absolute;
   width: 22px;
   height: 18px;
@@ -20,8 +20,7 @@
   transform: translate(-50%, -50%);
 }
 
-.like-button:hover,
-.like-button__image:hover {
+.likeButton:hover,
+.likeButton__image:hover {
   opacity: 0.9;
 }
-

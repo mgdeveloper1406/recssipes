@@ -15,9 +15,9 @@ const MobileMenu = () => {
   };
 
   return (
-    <div className='mobile-menu__container'>
+    <div className='mobileMenu__container'>
       <button
-        className={isMenuOpen ? 'button mobile-menu__button' : 'button mobile-menu__button--open'}
+        className={isMenuOpen ? 'button mobileMenu__button' : 'button mobileMenu__button--open'}
         onClick={handleMenuClick}
       >
       </button>
@@ -25,12 +25,12 @@ const MobileMenu = () => {
       <NavigationMenu
         navigationMenuStatus={
           isMenuOpen
-            ? `navigation-menu-mobile--open`
-            : `navigation-menu-mobile--closed`
+            ? `navigationMenuMobile--open`
+            : `navigationMenuMobile--closed`
         }
-        navigationList={`navigation-list`}
-        navigationListItem={`navigation-list-item`}
-        navigationLink={`navigation-link`}
+        navigationList={`navigationList`}
+        navigationListItem={`navigationList-item`}
+        navigationLink={`navigationLink`}
         handleNavigationClick={handleNavigationClick}
       />
     </div>
