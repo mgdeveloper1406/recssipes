@@ -8,9 +8,9 @@ import { validateContact } from '../../../utils/validateContact'
 
 import toastStatus from '@organisms/Toast';
 
-import Input from '@molecules/Input';
-import Select from '@molecules/Select';
-import Textarea from '@molecules/Textarea';
+import Input from '@molecules/InputLabel';
+import Select from '@molecules/SelectLabel';
+import Textarea from '@molecules/TextareaLabel';
 import Chef from '/imgs/chef.png';
 import './styles.scss';
 
@@ -40,14 +40,15 @@ const Form = () => {
         <form className='contact-us__form' onSubmit={handleSubmit} name='contactForm'>
           <div className='contact-us__input-container'>
             <Input
-              labelText='name'
+              labelText='Name'
               id='username'
+              showLabel
               type='text'
               placeholder='Enter your name...'
               name='userName'
               value={contactInfo.userName}
               handleOnChange={handleChange}
-              inputError={contactInfoErrors.userNameError && 'input--error'}
+              inputError={contactInfoErrors.userNameError}
             />
             {
               contactInfoErrors.userNameError
@@ -56,14 +57,15 @@ const Form = () => {
           </div>
           <div className='contact-us__input-container'>
             <Input
-              labelText='email address'
+              labelText='Email address'
               id='email'
+              showLabel
               type='text'
               placeholder='Your email address...'
               name='userEmail'
               value={contactInfo.userEmail}
               handleOnChange={handleChange}
-              inputError={contactInfoErrors.userEmailError && 'input--error'}
+              inputError={contactInfoErrors.userEmailError}
             />
             {
               contactInfoErrors.userEmailError
@@ -74,6 +76,7 @@ const Form = () => {
             <Select
               labelText='Enquiry Type'
               id='enquiry'
+              showLabel
               name='enquiryType'
               value={contactInfo.enquiryType}
               handleOnChange={handleChange}
@@ -82,14 +85,15 @@ const Form = () => {
           </div>
           <div className='contact-us__input-container'>
             <Input
-              labelText='subject'
+              labelText='Subject'
               id='subject'
+              showLabel
               type='text'
               placeholder='Enter subject...'
               name='subject'
               value={contactInfo.subject}
               handleOnChange={handleChange}
-              inputError={contactInfoErrors.subjectError && 'input--error'}
+              inputError={contactInfoErrors.subjectError}
             />
             {
               contactInfoErrors.subjectError
@@ -100,11 +104,12 @@ const Form = () => {
             <Textarea
               labelText='Messages'
               id='messages'
+              showLabel
               name='message'
               value={contactInfo.message}
               placeholder='Enter your messages...'
               handleOnChange={handleChange}
-              textAreaError={contactInfoErrors.messageError && 'text-area--error'}
+              textareaError={contactInfoErrors.messageError}
             />
             {
               contactInfoErrors.messageError

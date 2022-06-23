@@ -1,21 +1,22 @@
 import './styles.scss'
 
-const Input = ({ 
+const InputLabel = ({ 
   labelText, 
-  id, 
+  id,
+  showLabel,
   type, 
   placeholder, 
   name, 
   value, 
   handleOnChange,
-  inputError,
+  inputError = false,
   required = false
 }) => {
 
   return (
-    <div className='input__container'>
-      <label htmlFor={id} className='input__label'>{labelText}</label>
-      <input className={`input ${inputError}`}
+    <div className='inputLabel'>
+      <label htmlFor={id} className={`inputLabel__label${showLabel ? '' : '--visuallyHidden'}`}>{labelText}</label>
+      <input className={`inputLabel__input ${inputError ? 'inputLabel__input--error' : ''}`}
         id={id} 
         type={type}
         placeholder={placeholder} 
@@ -28,4 +29,4 @@ const Input = ({
   )
 }
  
-export default Input
+export default InputLabel
