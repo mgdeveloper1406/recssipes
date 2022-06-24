@@ -1,6 +1,6 @@
 import './styles.scss'
 
-const TextareaLabel = ({
+const DefaultTextarea = ({
   labelText,
   id,
   showLabel,
@@ -13,9 +13,9 @@ const TextareaLabel = ({
 }) => {
 
   return (
-    <div className='textareaLabel'>
-      <label htmlFor={id} className={`textareaLabel__label${showLabel ? '' : '--visuallyHidden'}`}>{labelText}</label>
-      <textarea className={`textareaLabel__textarea ${textareaError ? 'textareaLabel__textarea--error' : ''}`}
+    <div className='defaultTextarea__container'>
+      <label htmlFor={id} className={`defaultTextarea__label${showLabel ? '' : '--visuallyHidden'}`}>{labelText}</label>
+      <textarea className={`defaultTextarea ${textareaError ? 'defaultTextarea--error' : ''}`}
         id={id}
         name={name}
         value={value}
@@ -28,4 +28,4 @@ const TextareaLabel = ({
   )
 }
 
-export default TextareaLabel
+export default DefaultTextarea

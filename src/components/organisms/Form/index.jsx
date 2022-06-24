@@ -1,18 +1,18 @@
-import React, { useContext } from 'react';
+import React, { useContext } from 'react'
 
 import useForm from '../../../hooks/useForm'
 
-import { ToastContext } from '../../../contexts/ToastContext';
+import { ToastContext } from '../../../contexts/ToastContext'
 
 import { validateContact } from '../../../utils/validateContact'
 
-import toastStatus from '@organisms/Toast';
+import toastStatus from '@organisms/Toast'
 
-import Input from '@molecules/InputLabel';
-import Select from '@molecules/SelectLabel';
-import Textarea from '@molecules/TextareaLabel';
-import Chef from '/imgs/chef.png';
-import './styles.scss';
+import Input from '@molecules/DefaultInput'
+import Select from '@molecules/DefaultSelect'
+import Textarea from '@molecules/DefaultTextarea'
+import Chef from '/imgs/chef.png'
+import './styles.scss'
 
 const Form = () => {
   const { openToast } = useContext(ToastContext)
@@ -120,7 +120,7 @@ const Form = () => {
         </form>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Form;
+export default Form

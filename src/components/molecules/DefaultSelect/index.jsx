@@ -1,6 +1,6 @@
 import './styles.scss'
 
-const SelectLabel = ({
+const DefaultSelect = ({
   labelText,
   id,
   showLabel,
@@ -13,10 +13,10 @@ const SelectLabel = ({
   const options = selectOptions.map(option => <option key={option} value={option}>{option}</option>)
 
   return (
-    <div className='selectLabel'>
-      <label htmlFor={id} className={`selectLabel__label${showLabel ? '' : '--visuallyHidden'}`}>{labelText}</label>
+    <div className='defaultSelect__container'>
+      <label htmlFor={id} className={`defaultSelect__label${showLabel ? '' : '--visuallyHidden'}`}>{labelText}</label>
       <select
-        className='selectLabel__select'
+        className='defaultSelect'
         id={id}
         name={name}
         value={value}
@@ -28,4 +28,4 @@ const SelectLabel = ({
   )
 }
 
-export default SelectLabel
+export default DefaultSelect

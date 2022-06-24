@@ -1,6 +1,6 @@
 import './styles.scss'
 
-const InputLabel = ({ 
+const DefaultInput = ({ 
   labelText, 
   id,
   showLabel,
@@ -14,9 +14,9 @@ const InputLabel = ({
 }) => {
 
   return (
-    <div className='inputLabel'>
-      <label htmlFor={id} className={`inputLabel__label${showLabel ? '' : '--visuallyHidden'}`}>{labelText}</label>
-      <input className={`inputLabel__input ${inputError ? 'inputLabel__input--error' : ''}`}
+    <div className='defaultInput__container'>
+      <label htmlFor={id} className={`defaultInput__label${showLabel ? '' : '--visuallyHidden'}`}>{labelText}</label>
+      <input className={`defaultInput ${inputError ? 'defaultInput--error' : ''}`}
         id={id} 
         type={type}
         placeholder={placeholder} 
@@ -29,4 +29,4 @@ const InputLabel = ({
   )
 }
  
-export default InputLabel
+export default DefaultInput
