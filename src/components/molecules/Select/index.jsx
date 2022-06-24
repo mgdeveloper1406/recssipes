@@ -1,6 +1,6 @@
 import './styles.scss'
 
-const DefaultSelect = ({
+const Select = ({
   labelText,
   id,
   showLabel,
@@ -28,4 +28,4 @@ const DefaultSelect = ({
   )
 }
 
-export default DefaultSelect
+export default Select

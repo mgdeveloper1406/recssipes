@@ -1,6 +1,6 @@
 import './styles.scss'
 
-const DefaultInput = ({ 
+const Input = ({ 
   labelText, 
   id,
   showLabel,
@@ -29,4 +29,4 @@ const DefaultInput = ({
   )
 }
  
-export default DefaultInput
+export default Input

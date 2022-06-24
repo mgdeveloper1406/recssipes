@@ -8,9 +8,9 @@ import { validateContact } from '../../../utils/validateContact'
 
 import toastStatus from '@organisms/Toast'
 
-import Input from '@molecules/DefaultInput'
-import Select from '@molecules/DefaultSelect'
-import Textarea from '@molecules/DefaultTextarea'
+import Input from '@molecules/Input'
+import Select from '@molecules/Select'
+import Textarea from '@molecules/Textarea'
 import Chef from '/imgs/chef.png'
 import './styles.scss'
 

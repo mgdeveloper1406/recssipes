@@ -1,6 +1,6 @@
 import './styles.scss'
 
-const DefaultTextarea = ({
+const Textarea = ({
   labelText,
   id,
   showLabel,
@@ -28,4 +28,4 @@ const DefaultTextarea = ({
   )
 }
 
-export default DefaultTextarea
+export default Textarea
