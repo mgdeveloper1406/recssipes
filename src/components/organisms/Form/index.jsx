@@ -100,7 +100,7 @@ const Form = () => {
               && <span className='contactUs__formValidation'>{contactInfoErrors.subjectError}</span>
             }
           </div>
-          <div className='gridCol-span-2 contactUs__textareaContainer'>
+          <div className='grid-col-span-2 contactUs__textareaContainer'>
             <Textarea
               labelText='Messages'
               id='messages'
