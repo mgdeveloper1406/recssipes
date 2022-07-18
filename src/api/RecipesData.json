@@ -1,0 +1,1060 @@
+[
+  {
+     "id":"1",
+     "image":"/imgs/mixed-tropical-fruit-salad.png",
+     "title":"Mixed Tropical Fruit Salad with Superfood Boosts",
+     "prepTime":"30 minutes",
+     "foodType":"Healthy",
+     "author":"Robert Fox",
+     "authorImage":"/imgs/robert-fox.png",
+     "nutritionInfo": {
+      "calories": "219.9",
+      "totalFat": "10.7",
+      "protein": "7.9",
+      "carbohydrate": "22.3",
+      "cholesterol": "0,0374"
+     },
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "ingredients": {
+      "main": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet",
+        "4": "Lorem ipsum dolor sit amet",
+        "5": "Lorem ipsum dolor sit amet"
+      },
+      "sauce": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet"
+      }
+     },
+     "directions": {
+        "1": {
+          "title": "1. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "image": "/imgs/woman-cooking.png"
+        },
+        "2": {
+          "title": "2. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+        "3": {
+          "title": "3. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        }
+     }
+  },
+  {
+     "id":"2",
+     "image":"/imgs/big-juicy-waygu.png",
+     "title":"Big and Juicy Wagyu Beef Cheeseburger",
+     "prepTime":"30 minutes",
+     "foodType":"Western",
+     "author":"Dianne Russel",
+     "authorImage":"/imgs/dianne-russel.png",
+     "nutritionInfo": {
+      "calories": "219.9",
+      "totalFat": "10.7",
+      "protein": "7.9",
+      "carbohydrate": "22.3",
+      "cholesterol": "0,0374"
+     },
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "ingredients": {
+      "main": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet",
+        "4": "Lorem ipsum dolor sit amet",
+        "5": "Lorem ipsum dolor sit amet"
+      },
+      "sauce": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet"
+      }
+     },
+     "directions": {
+        "1": {
+          "title": "1. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "image": "/imgs/woman-cooking.png"
+        },
+        "2": {
+          "title": "2. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+        "3": {
+          "title": "3. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        }
+     }
+  },
+  {
+     "id":"3",
+     "image":"/imgs/healthy-japanese-fries-rice.png",
+     "title":"Healthy Japanese Fried Rice with Asparagus",
+     "prepTime":"30 minutes",
+     "foodType":"Healthy",
+     "author":"Dianne Russel",
+     "authorImage":"/imgs/dianne-russel.png",
+     "nutritionInfo": {
+      "calories": "219.9",
+      "totalFat": "10.7",
+      "protein": "7.9",
+      "carbohydrate": "22.3",
+      "cholesterol": "0,0374"
+     },
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "ingredients": {
+      "main": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet",
+        "4": "Lorem ipsum dolor sit amet",
+        "5": "Lorem ipsum dolor sit amet"
+      },
+      "sauce": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet"
+      }
+     },
+     "directions": {
+        "1": {
+          "title": "1. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "image": "/imgs/woman-cooking.png"
+        },
+        "2": {
+          "title": "2. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+        "3": {
+          "title": "3. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        }
+     }
+  },
+  {
+     "id":"4",
+     "image":"/imgs/cauliflower-walnut-vegeterian-taco.png",
+     "title":"Cauliflower Walnut Vegetarian Taco Meat",
+     "prepTime":"30 minutes",
+     "foodType":"Eastern",
+     "author":"Robert Fox",
+     "authorImage":"/imgs/robert-fox.png",
+     "nutritionInfo": {
+      "calories": "219.9",
+      "totalFat": "10.7",
+      "protein": "7.9",
+      "carbohydrate": "22.3",
+      "cholesterol": "0,0374"
+     },
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "ingredients": {
+      "main": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet",
+        "4": "Lorem ipsum dolor sit amet",
+        "5": "Lorem ipsum dolor sit amet"
+      },
+      "sauce": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet"
+      }
+     },
+     "directions": {
+        "1": {
+          "title": "1. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "image": "/imgs/woman-cooking.png"
+        },
+        "2": {
+          "title": "2. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+        "3": {
+          "title": "3. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        }
+     }
+  },
+  {
+     "id":"51",
+     "image":"/imgs/cheeseburger.png",
+     "title":"Big and Juicy Wagyu Beef Cheeseburger",
+     "prepTime":"30 minutes",
+     "foodType":"Snack",
+     "author":"Dianne Russel",
+     "authorImage":"/imgs/dianne-russel.png",
+     "nutritionInfo": {
+      "calories": "219.9",
+      "totalFat": "10.7",
+      "protein": "7.9",
+      "carbohydrate": "22.3",
+      "cholesterol": "0,0374"
+     },
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "ingredients": {
+      "main": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet",
+        "4": "Lorem ipsum dolor sit amet",
+        "5": "Lorem ipsum dolor sit amet"
+      },
+      "sauce": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet"
+      }
+     },
+     "directions": {
+        "1": {
+          "title": "1. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "image": "/imgs/woman-cooking.png"
+        },
+        "2": {
+          "title": "2. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+        "3": {
+          "title": "3. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        }
+     }
+  },
+  {
+     "id":"52",
+     "image":"/imgs/roasted-salmon.png",
+     "title":"Fresh Lime Roasted Salmon with Ginger Sauce",
+     "prepTime":"30 minutes",
+     "foodType":"Fish",
+     "author":"Courtney Henry",
+     "authorImage":"/imgs/courtney-henry.png",
+     "nutritionInfo": {
+      "calories": "219.9",
+      "totalFat": "10.7",
+      "protein": "7.9",
+      "carbohydrate": "22.3",
+      "cholesterol": "0,0374"
+     },
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "ingredients": {
+      "main": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet",
+        "4": "Lorem ipsum dolor sit amet",
+        "5": "Lorem ipsum dolor sit amet"
+      },
+      "sauce": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet"
+      }
+     },
+     "directions": {
+        "1": {
+          "title": "1. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "image": "/imgs/woman-cooking.png"
+        },
+        "2": {
+          "title": "2. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+        "3": {
+          "title": "3. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        }
+     }
+  },
+  {
+     "id":"53",
+     "image":"/imgs/pancake-honey-syrup.png",
+     "title":"Strawberry Oatmeal Pancake with Honey Syrup",
+     "prepTime":"30 minutes",
+     "foodType":"Breakfast",
+     "author":"Courtney Henry",
+     "authorImage":"/imgs/courtney-henry.png",
+     "nutritionInfo": {
+      "calories": "219.9",
+      "totalFat": "10.7",
+      "protein": "7.9",
+      "carbohydrate": "22.3",
+      "cholesterol": "0,0374"
+     },
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "ingredients": {
+      "main": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet",
+        "4": "Lorem ipsum dolor sit amet",
+        "5": "Lorem ipsum dolor sit amet"
+      },
+      "sauce": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet"
+      }
+     },
+     "directions": {
+        "1": {
+          "title": "1. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "image": "/imgs/woman-cooking.png"
+        },
+        "2": {
+          "title": "2. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+        "3": {
+          "title": "3. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        }
+     }
+  },
+  {
+     "id":"54",
+     "image":"/imgs/mayo-salad.png",
+     "title":"Fresh and Healthy Mixed Mayonnaise Salad",
+     "prepTime":"30 minutes",
+     "foodType":"Healthy",
+     "author":"Robert Fox",
+     "authorImage":"/imgs/robert-fox.png",
+     "nutritionInfo": {
+      "calories": "219.9",
+      "totalFat": "10.7",
+      "protein": "7.9",
+      "carbohydrate": "22.3",
+      "cholesterol": "0,0374"
+     },
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "ingredients": {
+      "main": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet",
+        "4": "Lorem ipsum dolor sit amet",
+        "5": "Lorem ipsum dolor sit amet"
+      },
+      "sauce": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet"
+      }
+     },
+     "directions": {
+        "1": {
+          "title": "1. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "image": "/imgs/woman-cooking.png"
+        },
+        "2": {
+          "title": "2. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+        "3": {
+          "title": "3. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        }
+     }
+  },
+  {
+     "id":"55",
+     "image":"/imgs/meatballs.png",
+     "title":"Chicken Meatballs with Cream Cheese",
+     "prepTime":"30 minutes",
+     "foodType":"Meat",
+     "author":"Courtney Henry",
+     "authorImage":"/imgs/courtney-henry.png",
+     "nutritionInfo": {
+      "calories": "219.9",
+      "totalFat": "10.7",
+      "protein": "7.9",
+      "carbohydrate": "22.3",
+      "cholesterol": "0,0374"
+     },
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "ingredients": {
+      "main": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet",
+        "4": "Lorem ipsum dolor sit amet",
+        "5": "Lorem ipsum dolor sit amet"
+      },
+      "sauce": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet"
+      }
+     },
+     "directions": {
+        "1": {
+          "title": "1. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "image": "/imgs/woman-cooking.png"
+        },
+        "2": {
+          "title": "2. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+        "3": {
+          "title": "3. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        }
+     }
+  },
+  {
+     "id":"56",
+     "image":"/imgs/pancake-orange-blueberry.png",
+     "title":"Fruity Pancake with Orange & Blueberry",
+     "prepTime":"30 minutes",
+     "foodType":"Sweet",
+     "author":"Leslie Alexander",
+     "authorImage":"/imgs/leslie-alexander.png",
+     "nutritionInfo": {
+      "calories": "219.9",
+      "totalFat": "10.7",
+      "protein": "7.9",
+      "carbohydrate": "22.3",
+      "cholesterol": "0,0374"
+     },
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "ingredients": {
+      "main": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet",
+        "4": "Lorem ipsum dolor sit amet",
+        "5": "Lorem ipsum dolor sit amet"
+      },
+      "sauce": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet"
+      }
+     },
+     "directions": {
+        "1": {
+          "title": "1. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "image": "/imgs/woman-cooking.png"
+        },
+        "2": {
+          "title": "2. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+        "3": {
+          "title": "3. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        }
+     }
+  },
+  {
+     "id":"57",
+     "image":"/imgs/chicken-rice.png",
+     "title":"The Best Easy One Pot Chicken and Rice",
+     "prepTime":"30 minutes",
+     "foodType":"Snack",
+     "author":"Wade Warren",
+     "authorImage":"/imgs/wade-warren.png",
+     "nutritionInfo": {
+      "calories": "219.9",
+      "totalFat": "10.7",
+      "protein": "7.9",
+      "carbohydrate": "22.3",
+      "cholesterol": "0,0374"
+     },
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "ingredients": {
+      "main": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet",
+        "4": "Lorem ipsum dolor sit amet",
+        "5": "Lorem ipsum dolor sit amet"
+      },
+      "sauce": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet"
+      }
+     },
+     "directions": {
+        "1": {
+          "title": "1. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "image": "/imgs/woman-cooking.png"
+        },
+        "2": {
+          "title": "2. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+        "3": {
+          "title": "3. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        }
+     }
+  },
+  {
+     "id":"58",
+     "image":"/imgs/pasta-bacon.png",
+     "title":"The Creamiest Creamy Chicken and Bacon Pasta",
+     "prepTime":"30 minutes",
+     "foodType":"Noodles",
+     "author":"Leslie Alexander",
+     "authorImage":"/imgs/leslie-alexander.png",
+     "nutritionInfo": {
+      "calories": "219.9",
+      "totalFat": "10.7",
+      "protein": "7.9",
+      "carbohydrate": "22.3",
+      "cholesterol": "0,0374"
+     },
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "ingredients": {
+      "main": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet",
+        "4": "Lorem ipsum dolor sit amet",
+        "5": "Lorem ipsum dolor sit amet"
+      },
+      "sauce": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet"
+      }
+     },
+     "directions": {
+        "1": {
+          "title": "1. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "image": "/imgs/woman-cooking.png"
+        },
+        "2": {
+          "title": "2. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+        "3": {
+          "title": "3. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        }
+     }
+  },
+  {
+     "id":"101",
+     "image":"/imgs/mixed-tropical-fruit-salad.png",
+     "title":"Mixed Tropical Fruit Salad with Superfood Boosts",
+     "prepTime":"30 minutes",
+     "foodType":"Healthy",
+     "author":"Leslie Alexander",
+     "authorImage":"/imgs/leslie-alexander.png",
+     "nutritionInfo": {
+      "calories": "219.9",
+      "totalFat": "10.7",
+      "protein": "7.9",
+      "carbohydrate": "22.3",
+      "cholesterol": "0,0374"
+     },
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "ingredients": {
+      "main": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet",
+        "4": "Lorem ipsum dolor sit amet",
+        "5": "Lorem ipsum dolor sit amet"
+      },
+      "sauce": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet"
+      }
+     },
+     "directions": {
+        "1": {
+          "title": "1. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "image": "/imgs/woman-cooking.png"
+        },
+        "2": {
+          "title": "2. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+        "3": {
+          "title": "3. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        }
+     }
+  },
+  {
+     "id":"102",
+     "image":"/imgs/big-juicy-waygu.png",
+     "title":"Big and Juicy Wagyu Beef Cheeseburger",
+     "prepTime":"30 minutes",
+     "foodType":"Western",
+     "author":"Albert Flores",
+     "authorImage": "/imgs/albert-flores.png",
+     "nutritionInfo": {
+      "calories": "219.9",
+      "totalFat": "10.7",
+      "protein": "7.9",
+      "carbohydrate": "22.3",
+      "cholesterol": "0,0374"
+     },
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "ingredients": {
+      "main": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet",
+        "4": "Lorem ipsum dolor sit amet",
+        "5": "Lorem ipsum dolor sit amet"
+      },
+      "sauce": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet"
+      }
+     },
+     "directions": {
+        "1": {
+          "title": "1. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "image": "/imgs/woman-cooking.png"
+        },
+        "2": {
+          "title": "2. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+        "3": {
+          "title": "3. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        }
+     }
+  },
+  {
+     "id":"103",
+     "image":"/imgs/healthy-japanese-fries-rice.png",
+     "title":"Healthy Japanese Fried Rice with Asparagus",
+     "prepTime":"30 minutes",
+     "foodType":"Healthy",
+     "author":"Wade Warren",
+     "authorImage":"/imgs/wade-warren.png",
+     "nutritionInfo": {
+      "calories": "219.9",
+      "totalFat": "10.7",
+      "protein": "7.9",
+      "carbohydrate": "22.3",
+      "cholesterol": "0,0374"
+     },
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "ingredients": {
+      "main": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet",
+        "4": "Lorem ipsum dolor sit amet",
+        "5": "Lorem ipsum dolor sit amet"
+      },
+      "sauce": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet"
+      }
+     },
+     "directions": {
+        "1": {
+          "title": "1. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "image": "/imgs/woman-cooking.png"
+        },
+        "2": {
+          "title": "2. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+        "3": {
+          "title": "3. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        }
+     }
+  },
+  {
+     "id":"104",
+     "image":"/imgs/cauliflower-walnut-vegeterian-taco.png",
+     "title":"Cauliflower Walnut Vegetarian Taco Meat",
+     "prepTime":"30 minutes",
+     "foodType":"Eastern",
+     "author":"Albert Flores",
+     "authorImage": "/imgs/albert-flores.png",
+     "nutritionInfo": {
+      "calories": "219.9",
+      "totalFat": "10.7",
+      "protein": "7.9",
+      "carbohydrate": "22.3",
+      "cholesterol": "0,0374"
+     },
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "ingredients": {
+      "main": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet",
+        "4": "Lorem ipsum dolor sit amet",
+        "5": "Lorem ipsum dolor sit amet"
+      },
+      "sauce": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet"
+      }
+     },
+     "directions": {
+        "1": {
+          "title": "1. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "image": "/imgs/woman-cooking.png"
+        },
+        "2": {
+          "title": "2. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+        "3": {
+          "title": "3. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        }
+     }
+  },
+  {
+     "id":"105",
+     "image":"/imgs/rainbow-chicken-salad.png",
+     "title":"Rainbow Chicken Salad with Almond Honey Mustard Dressing",
+     "prepTime":"30 minutes",
+     "foodType":"Healthy",
+     "author":"Wade Warren",
+     "authorImage":"/imgs/wade-warren.png",
+     "nutritionInfo": {
+      "calories": "219.9",
+      "totalFat": "10.7",
+      "protein": "7.9",
+      "carbohydrate": "22.3",
+      "cholesterol": "0,0374"
+     },
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "ingredients": {
+      "main": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet",
+        "4": "Lorem ipsum dolor sit amet",
+        "5": "Lorem ipsum dolor sit amet"
+      },
+      "sauce": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet"
+      }
+     },
+     "directions": {
+        "1": {
+          "title": "1. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "image": "/imgs/woman-cooking.png"
+        },
+        "2": {
+          "title": "2. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+        "3": {
+          "title": "3. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        }
+     }
+  },
+  {
+     "id":"106",
+     "image":"/imgs/barbecue-spicy-sandwiches.png",
+     "title":"Barbeque Spicy Sandwiches with Chips",
+     "prepTime":"30 minutes",
+     "foodType":"Snack",
+     "author":"Albert Flores",
+     "authorImage":"/imgs/albert-flores.png",
+     "nutritionInfo": {
+      "calories": "219.9",
+      "totalFat": "10.7",
+      "protein": "7.9",
+      "carbohydrate": "22.3",
+      "cholesterol": "0,0374"
+     },
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "ingredients": {
+      "main": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet",
+        "4": "Lorem ipsum dolor sit amet",
+        "5": "Lorem ipsum dolor sit amet"
+      },
+      "sauce": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet"
+      }
+     },
+     "directions": {
+        "1": {
+          "title": "1. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "image": "/imgs/woman-cooking.png"
+        },
+        "2": {
+          "title": "2. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+        "3": {
+          "title": "3. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        }
+     }
+  },
+  {
+     "id":"107",
+     "image":"/imgs/firecracker-vegan-lettuce-wraps.png",
+     "title":"Firecracker Vegan Lettuce Wraps - Spicy!",
+     "prepTime":"30 minutes",
+     "foodType":"Seafood",
+     "author":"Albert Flores",
+     "authorImage":"/imgs/albert-flores.png",
+     "nutritionInfo": {
+      "calories": "219.9",
+      "totalFat": "10.7",
+      "protein": "7.9",
+      "carbohydrate": "22.3",
+      "cholesterol": "0,0374"
+     },
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "ingredients": {
+      "main": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet",
+        "4": "Lorem ipsum dolor sit amet",
+        "5": "Lorem ipsum dolor sit amet"
+      },
+      "sauce": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet"
+      }
+     },
+     "directions": {
+        "1": {
+          "title": "1. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "image": "/imgs/woman-cooking.png"
+        },
+        "2": {
+          "title": "2. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+        "3": {
+          "title": "3. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        }
+     }
+  },
+  {
+     "id":"108",
+     "image":"/imgs/chicken-ramen-soup.png",
+     "title":"Chicken Ramen Soup with Mushroom",
+     "prepTime":"30 minutes",
+     "foodType":"Japanese",
+     "author":"Wade Warren",
+     "authorImage":"/imgs/wade-warren.png",
+     "nutritionInfo": {
+      "calories": "219.9",
+      "totalFat": "10.7",
+      "protein": "7.9",
+      "carbohydrate": "22.3",
+      "cholesterol": "0,0374"
+     },
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "ingredients": {
+      "main": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet",
+        "4": "Lorem ipsum dolor sit amet",
+        "5": "Lorem ipsum dolor sit amet"
+      },
+      "sauce": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet"
+      }
+     },
+     "directions": {
+        "1": {
+          "title": "1. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "image": "/imgs/woman-cooking.png"
+        },
+        "2": {
+          "title": "2. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+        "3": {
+          "title": "3. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        }
+     }
+  },
+  {
+     "id":"151",
+     "image":"/imgs/image-tr1.png",
+     "title":"Chicken Meatballs with Cream Cheese",
+     "prepTime":"30 minutes",
+     "foodType":"Meat",
+     "author":"Leslie Alexander",
+     "authorImage":"/imgs/leslie-alexander.png",
+     "nutritionInfo": {
+      "calories": "219.9",
+      "totalFat": "10.7",
+      "protein": "7.9",
+      "carbohydrate": "22.3",
+      "cholesterol": "0,0374"
+     },
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "ingredients": {
+      "main": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet",
+        "4": "Lorem ipsum dolor sit amet",
+        "5": "Lorem ipsum dolor sit amet"
+      },
+      "sauce": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet"
+      }
+     },
+     "directions": {
+        "1": {
+          "title": "1. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "image": "/imgs/woman-cooking.png"
+        },
+        "2": {
+          "title": "2. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+        "3": {
+          "title": "3. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        }
+     }
+  },
+  {
+     "id":"152",
+     "image":"/imgs/image-tr2.png",
+     "title":"Traditional Bolognaise Ragu",
+     "prepTime":"30 minutes",
+     "foodType":"Meat",
+     "author":"Albert Flores",
+     "authorImage":"/imgs/albert-flores.png",
+     "nutritionInfo": {
+      "calories": "219.9",
+      "totalFat": "10.7",
+      "protein": "7.9",
+      "carbohydrate": "22.3",
+      "cholesterol": "0,0374"
+     },
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "ingredients": {
+      "main": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet",
+        "4": "Lorem ipsum dolor sit amet",
+        "5": "Lorem ipsum dolor sit amet"
+      },
+      "sauce": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet"
+      }
+     },
+     "directions": {
+        "1": {
+          "title": "1. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "image": "/imgs/woman-cooking.png"
+        },
+        "2": {
+          "title": "2. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+        "3": {
+          "title": "3. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        }
+     }
+  },
+  {
+     "id":"153",
+     "image":"/imgs/image-tr3.png",
+     "title":"Pork and Chive Chinese Dumplings",
+     "prepTime":"30 minutes",
+     "foodType":"Meat",
+     "author":"Wade Warren",
+     "authorImage":"/imgs/wade-warren.png",
+     "nutritionInfo": {
+      "calories": "219.9",
+      "totalFat": "10.7",
+      "protein": "7.9",
+      "carbohydrate": "22.3",
+      "cholesterol": "0,0374"
+     },
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "ingredients": {
+      "main": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet",
+        "4": "Lorem ipsum dolor sit amet",
+        "5": "Lorem ipsum dolor sit amet"
+      },
+      "sauce": {
+        "1": "Lorem ipsum dolor sit amet",
+        "2": "Lorem ipsum dolor sit amet",
+        "3": "Lorem ipsum dolor sit amet"
+      }
+     },
+     "directions": {
+        "1": {
+          "title": "1. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "image": "/imgs/woman-cooking.png"
+        },
+        "2": {
+          "title": "2. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+        "3": {
+          "title": "3. Lorem ipsum dolor sit amet",
+          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        }
+     }
+  }
+]

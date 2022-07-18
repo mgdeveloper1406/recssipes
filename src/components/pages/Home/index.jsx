@@ -5,9 +5,7 @@ import SimpleTastyRecipes from '@organisms/SimpleTastyRecipes'
 import TryOutRecipes from '@organisms/TryOutRecipes'
 import InstagramSection from '@organisms/InstagramSection'
 import Hero from '@organisms/HeroSection'
-
-import SimpleTastyRecipesData from '@api/SimpleTastyRecipes.js'
-import TryOutRecipesData from '@api/TryOutRecipes.js'
+import RecipesData from '@api/RecipesData.json'
 import instagramData from '@api/intagramData.js';
 
 import './styles.scss'
@@ -17,10 +15,10 @@ const Home = () => {
     <div className='homePage'>
       <Hero/>
       <RecipeCategories />
-      <SimpleTastyRecipes recipes={SimpleTastyRecipesData} />
+      <SimpleTastyRecipes recipes={RecipesData.slice(4, 12)} />
       <LearnMore />
       <InstagramSection posts={instagramData} />
-      <TryOutRecipes recipes={TryOutRecipesData} />
+      <TryOutRecipes recipes={RecipesData.slice(12, 20)} />
       <Newsletter />
     </div>
   )

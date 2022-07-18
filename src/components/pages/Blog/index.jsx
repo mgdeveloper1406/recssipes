@@ -5,7 +5,7 @@ import ArticlesList from '@organisms/ArticlesList'
 import Newsletter from '@organisms/Newsletter'
 import TitleAndSearch from '@organisms/TitleAndSearch'
 import TastyRecipes from '@organisms/TastyRecipes'
-
+import RecipesData from '@api/RecipesData.json'
 import AdvertisingData from '@api/AdvertisingData'
 import { articles } from '@api/articles'
 
@@ -37,7 +37,7 @@ const Blog = () => {
         <ArticlesList articlesData={articlesData} filtered={filtered} />
         <aside className='blogPage__aside'>
           <AdvertisingCard data={AdvertisingData} />
-          <TastyRecipes />
+          <TastyRecipes data={RecipesData.slice(20, 23)}/>
         </aside>
       </div>
       <Newsletter />

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './styles.scss'
 
 const NavigationMenu = () => {
-
+  
   return (
     <div className='navigationMenu__container'>
       <ul className='navigationMenu'>
