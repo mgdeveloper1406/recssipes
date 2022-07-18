@@ -1,10 +1,10 @@
 import { useContext } from 'react'
-import CheckoutRecipes from '@components/CheckoutRecipes'
-import Newsletter from '@components/Newsletter'
-import Footer from '@components/Footer'
-import Form from '@components/Form'
+import CheckoutRecipes from '@organisms/CheckoutRecipes'
+import Newsletter from '@organisms/Newsletter'
+import Footer from '@organisms/Footer'
+import Form from '@organisms/Form'
 import { ToastContext } from '../../../contexts/ToastContext'
-import Toast from '@components/Toast'
+import Toast from '@organisms/Toast'
 
 import './styles.scss'
 

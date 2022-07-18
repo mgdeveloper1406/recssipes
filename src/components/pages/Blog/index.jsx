@@ -1,12 +1,11 @@
 
 import { useState } from 'react'
-import AdvertisingCard from '@components/AdvertisingCard'
-import ArticlesList from '@components/ArticlesList'
-import Footer from '@components/Footer'
-import Hero from '@components/HeroCard'
-import Newsletter from '@components/Newsletter'
-import TitleAndSearch from '@components/TitleAndSearch'
-import TastyRecipes from '@components/TastyRecipes'
+import AdvertisingCard from '@molecules/Cards/Advertising'
+import ArticlesList from '@organisms/ArticlesList'
+import Footer from '@organisms/Footer'
+import Newsletter from '@organisms/Newsletter'
+import TitleAndSearch from '@organisms/TitleAndSearch'
+import TastyRecipes from '@organisms/TastyRecipes'
 
 import AdvertisingData from '@api/AdvertisingData'
 import { articles } from '@api/articles'
@@ -44,7 +43,6 @@ const Blog = () => {
       </div>
       <Newsletter />
       <Footer />
-      <Hero />
     </div>
   )
 }
