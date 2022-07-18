@@ -9,56 +9,56 @@ import img8 from '/imgs/chicken-ramen-soup.png'
 
 const TryOutRecipes = [
   {
-    id: '1',
+    id: '101',
     image: img1,
     title: 'Mixed Tropical Fruit Salad with Superfood Boosts',
     tag1: '30 minutes',
     tag2: 'Healthy'
   },
   {
-    id: '2',
+    id: '102',
     image: img2,
     title: 'Big and Juicy Wagyu Beef Cheeseburger',
     tag1: '30 minutes',
     tag2: 'Western'
   },
   {
-    id: '3',
+    id: '103',
     image: img3,
     title: 'Healthy Japanese Fried Rice with Asparagus',
     tag1: '30 minutes',
     tag2: 'Healthy'
   },
   {
-    id: '4',
+    id: '104',
     image: img4,
     title: 'Cauliflower Walnut Vegetarian Taco Meat',
     tag1: '30 minutes',
     tag2: 'Eastern'
   },
   {
-    id: '5',
+    id: '105',
     image: img5,
     title: 'Rainbow Chicken Salad with Almond Honey Mustard Dressing',
     tag1: '30 minutes',
     tag2: 'Healthy'
   },
   {
-    id: '6',
+    id: '106',
     image: img6,
     title: 'Barbeque Spicy Sandwiches with Chips',
     tag1: '30 minutes',
     tag2: 'Snack'
   },
   {
-    id: '7',
+    id: '107',
     image: img7,
     title: 'Firecracker Vegan Lettuce Wraps - Spicy!',
     tag1: '30 minutes',
     tag2: 'Seafood'
   },
   {
-    id: '8',
+    id: '108',
     image: img8,
     title: 'Chicken Ramen Soup with Mushroom',
     tag1: '30 minutes',

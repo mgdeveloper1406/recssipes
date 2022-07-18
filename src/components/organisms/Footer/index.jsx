@@ -7,8 +7,8 @@ import './styles.scss'
 function Footer() {
 
   return (
-    <div className='footer__container'>
-      <footer className='footer'>
+    <footer className='footer__container'>
+      <div className='footer'>
         <div className='footer__header'>
           <div className='footer__headerInfo'>
             <img className='footer__logo' src={logo} />
@@ -26,8 +26,8 @@ function Footer() {
           <p className='footer__copyright'> &copy;2020 Flowbase.Powered by <span className='footer__copyrightWebflow'>Webflow</span></p>
           <SocialsMenu />
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   )
 }
 

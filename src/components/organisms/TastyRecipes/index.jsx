@@ -1,23 +1,25 @@
-import './styles.scss'
+import { Link } from 'react-router-dom'
 import image1 from '/imgs/image-tr1.png'
 import image2 from '/imgs/image-tr2.png'
 import image3 from '/imgs/image-tr3.png'
 
+import './styles.scss'
+
 const tastyrecipeslist = [
   {
-    id: '1',
+    id: '151',
     src: image1,
     title: 'Chicken Meatballs with Cream Cheese',
     autor: 'By Andreas Paula'
   },
   {
-    id: '2',
+    id: '152',
     src: image2,
     title: 'Traditional Bolognaise Ragu',
     autor: 'By Andreas Paula'
   },
   {
-    id: '3',
+    id: '153',
     src: image3,
     title: 'Pork and Chive Chinese Dumplings',
     autor: 'By Andreas Paula'
@@ -35,6 +37,11 @@ const TastyRecipes = () => {
         {tastyrecipeslist.map((tastyrecipe) => {
           return (
             <li key={tastyrecipe.id} className='TastyRecipes__listItem'>
+              <Link
+                to={`/recipe/${tastyrecipe.id}`} 
+                className='TastyRecipes__link'
+                state={tastyrecipe.id}
+              >
               <img src={tastyrecipe.src} alt={tastyrecipe.title} className="TastyRecipes__image" />
               <div className='TastyRecipes__authorContainer'>
                 <h3 className='TastyRecipes__authorTitle'>
@@ -44,6 +51,7 @@ const TastyRecipes = () => {
                   {tastyrecipe.autor}
                 </p>
               </div>
+              </Link>
             </li>
           )
         })}

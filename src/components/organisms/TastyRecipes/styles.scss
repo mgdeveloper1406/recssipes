@@ -16,6 +16,19 @@
     margin-top: 15px;
 }
 
+.TastyRecipes__link {
+    text-decoration: none;
+    cursor: pointer;
+
+    &:link {
+      color: var(--black);
+    }
+
+    &:visited {
+      color: var(--black);
+    }
+}
+
 .TastyRecipes__image {
     border-radius: 20px;
     display: block;
@@ -62,7 +75,7 @@
         margin-right: 24px;
     }
 
-    .TastyRecipes__listItem {
+    .TastyRecipes__link  {
         display: flex;
         align-items: right;
         margin: 24px 0 0;

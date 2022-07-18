@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react'
 import './styles.scss'
 
 const Recipes = () => {
-  return <div className="recipesPage">Recipes</div>;
+  return <div className='recipesPage'>Under construction...</div>
 };
 
-export default Recipes;
+export default Recipes

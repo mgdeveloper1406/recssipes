@@ -1,7 +1,6 @@
 import { useContext } from 'react'
 import CheckoutRecipes from '@organisms/CheckoutRecipes'
 import Newsletter from '@organisms/Newsletter'
-import Footer from '@organisms/Footer'
 import Form from '@organisms/Form'
 import { ToastContext } from '../../../contexts/ToastContext'
 import Toast from '@organisms/Toast'
@@ -16,7 +15,6 @@ const Contact = () => {
       <Form />
       <Newsletter />
       <CheckoutRecipes />
-      <Footer />
       {isOpen && <Toast handleClose={closeToast} {...toastProps} />}
     </div>
   );

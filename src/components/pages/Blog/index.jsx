@@ -2,7 +2,6 @@
 import { useState } from 'react'
 import AdvertisingCard from '@molecules/Cards/Advertising'
 import ArticlesList from '@organisms/ArticlesList'
-import Footer from '@organisms/Footer'
 import Newsletter from '@organisms/Newsletter'
 import TitleAndSearch from '@organisms/TitleAndSearch'
 import TastyRecipes from '@organisms/TastyRecipes'
@@ -42,7 +41,6 @@ const Blog = () => {
         </aside>
       </div>
       <Newsletter />
-      <Footer />
     </div>
   )
 }

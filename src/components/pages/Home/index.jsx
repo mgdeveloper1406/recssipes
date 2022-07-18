@@ -1,4 +1,3 @@
-import Footer from '@organisms/Footer'
 import LearnMore from '@organisms/LearnMore'
 import Newsletter from '@organisms/Newsletter'
 import RecipeCategories from '@organisms/RecipeCategories'
@@ -23,7 +22,6 @@ const Home = () => {
       <InstagramSection posts={instagramData} />
       <TryOutRecipes recipes={TryOutRecipesData} />
       <Newsletter />
-      <Footer />
     </div>
   )
 }
