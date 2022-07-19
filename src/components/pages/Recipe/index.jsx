@@ -1,4 +1,4 @@
-import React from 'react'
+import { useState, useEffect } from 'react'
 import { useLocation, useParams } from 'react-router-dom'
 import RecipesData from '@api/RecipesData.json'
 import TastyRecipes from '@organisms/TastyRecipes'
@@ -6,20 +6,38 @@ import AdvertisingCard from '@molecules/Cards/Advertising'
 import AdvertisingData from '@api/AdvertisingData'
 import Newsletter from '@organisms/Newsletter'
 import CheckoutRecipes from '@organisms/CheckoutRecipes'
+import NotFound from '@molecules/NotFound'
 
 import './styles.scss'
 
 const Recipe = () => {
+  const [recipe, setRecipe] = useState({})
+  const [notFound, setNotFound] = useState(false)
 
   const { state } = useLocation()
+  const { recipeId } = useParams()
+
+  useEffect(() => {
+    if (!state) {
+      const recipe = RecipesData.filter((recipe) => {
+        return (recipe.id === recipeId)
+      })
   
-  // erro se não tiver id correspondente a uma receita
-  // "fetch" caso não tenha state
-  // lembrar de mudar state em recipe (cards) e TastyRecipes
+      if (recipe.length > 0) {
+        setRecipe(recipe[0])
+      } else {
+        setNotFound(true)
+      }
+    } else {
+      setRecipe(state)
+    }
+  }, [])
+  
 
   return (
     <div className="recipePage">
-      Recipe {state.title}
+      {notFound && <NotFound text='This recipe does not exist' />}
+      {Object.keys(recipe).length > 0 && <>Recipe {recipe.title}</>}
       <TastyRecipes data={RecipesData.slice(20, 23)}/>
       <AdvertisingCard data={AdvertisingData} />
       <Newsletter />

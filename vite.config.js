@@ -12,10 +12,11 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      "@organisms": path.resolve(__dirname, 'src', 'components', 'organisms'),
-      "@api": path.resolve(__dirname, 'src', 'api'),
       "@components": path.resolve(__dirname, 'src', 'components'),
+      "@atoms": path.resolve(__dirname, 'src', 'components', 'atoms'),
       "@molecules": path.resolve(__dirname, 'src', 'components', 'molecules'),
+      "@organisms": path.resolve(__dirname, 'src', 'components', 'organisms'),
+      "@api": path.resolve(__dirname, 'src', 'api')
     }
   }
 })
