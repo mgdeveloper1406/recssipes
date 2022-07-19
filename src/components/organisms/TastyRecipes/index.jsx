@@ -2,28 +2,27 @@ import { Link } from 'react-router-dom'
 import './styles.scss'
 
 const TastyRecipes = ({ data }) => {
-
   return (
     <section className='TastyRecipes'>
       <h1 className='TastyRecipes__titleHeader'>
         Tasty Recipes
       </h1>
       <ul className='TastyRecipes__list'>
-        {data.map((tastyrecipe) => {
+        {data.map((tastyRecipe) => {
           return (
-            <li key={tastyrecipe.id} className='TastyRecipes__listItem'>
+            <li key={tastyRecipe.id} className='TastyRecipes__listItem'>
               <Link
-                to={`/recipe/${tastyrecipe.id}`} 
+                to={`/recipe/${tastyRecipe.id}`} 
                 className='TastyRecipes__link'
-                state={tastyrecipe.id}
+                state={tastyRecipe}
               >
-              <img src={tastyrecipe.image} alt={tastyrecipe.title} className="TastyRecipes__image" />
+              <img src={tastyRecipe.image} alt={tastyRecipe.title} className="TastyRecipes__image" />
               <div className='TastyRecipes__authorContainer'>
                 <h3 className='TastyRecipes__authorTitle'>
-                  {tastyrecipe.title}
+                  {tastyRecipe.title}
                 </h3>
                 <p className='TastyRecipes__author'>
-                  By {tastyrecipe.author}
+                  By {tastyRecipe.author}
                 </p>
               </div>
               </Link>

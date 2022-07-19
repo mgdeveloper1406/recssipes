@@ -1,5 +1,6 @@
 import React from 'react'
 import { useLocation, useParams } from 'react-router-dom'
+import RecipesData from '@api/RecipesData.json'
 import TastyRecipes from '@organisms/TastyRecipes'
 import AdvertisingCard from '@molecules/Cards/Advertising'
 import AdvertisingData from '@api/AdvertisingData'
@@ -18,8 +19,8 @@ const Recipe = () => {
 
   return (
     <div className="recipePage">
-      Recipe {state}
-      <TastyRecipes />
+      Recipe {state.title}
+      <TastyRecipes data={RecipesData.slice(20, 23)}/>
       <AdvertisingCard data={AdvertisingData} />
       <Newsletter />
       <CheckoutRecipes />

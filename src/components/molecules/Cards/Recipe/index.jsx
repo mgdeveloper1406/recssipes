@@ -6,14 +6,23 @@ import ForkKnifeIcon from '/icons/forkKnife.svg'
 
 import './styles.scss'
 
-const RecipeCard = ({ id, image, title, prepTime, foodType, cardSize, background = 'default' }, ref) => {
+const RecipeCard = (props, ref) => {
+  const {
+    id,
+    image,
+    title,
+    prepTime,
+    foodType,
+    cardSize,
+    background = 'default'
+  } = props
 
   return (
       <li ref={ref} className={`recipeCard__container recipeCard__container--${cardSize} recipeCard__container--${background}`}>
         <Link 
           to={`/recipe/${id}`} 
           className='recipeCard__link'
-          state={id}
+          state={props}
         >
           <div className='recipeCard'>
             <img className='recipeCard__img' src={image} alt={title} />

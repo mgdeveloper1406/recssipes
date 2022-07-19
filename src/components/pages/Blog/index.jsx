@@ -37,7 +37,7 @@ const Blog = () => {
         <ArticlesList articlesData={articlesData} filtered={filtered} />
         <aside className='blogPage__aside'>
           <AdvertisingCard data={AdvertisingData} />
-          <TastyRecipes data={RecipesData.slice(20, 23)}/>
+          <TastyRecipes data={RecipesData.slice(20, 23)} />
         </aside>
       </div>
       <Newsletter />
