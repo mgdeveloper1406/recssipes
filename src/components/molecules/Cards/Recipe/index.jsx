@@ -1,8 +1,8 @@
 import { forwardRef } from 'react'
 import { Link } from 'react-router-dom'
 import LikeButton from '../../LikeButton'
-import TimerIcon from '/icons/timer.svg'
-import ForkKnifeIcon from '/icons/forkKnife.svg'
+import TimerIcon from '@atoms/Icons/Timer'
+import ForkKnifeIcon from '@atoms/Icons/ForkKnife'
 
 import './styles.scss'
 
@@ -30,20 +30,12 @@ const RecipeCard = (props, ref) => {
             <h3 className={`recipeCard__title recipeCard__title--${cardSize}`}>{title}</h3>
             <div className='recipeCard__tags'>
               <span className='recipeCard__tag1'>
-                <img
-                  src={TimerIcon}
-                  alt='Duration'
-                  className='recipeCard__tag1Icon'
-                />
-                {prepTime}
+                <TimerIcon />
+                <span className='recipeCard__tagText'>{prepTime}</span>
               </span>
               <span className='recipeCard__tag2'>
-                <img
-                  src={ForkKnifeIcon}
-                  alt='Type'
-                  className='recipeCard__tag2Icon'
-                />
-                {foodType}
+                <ForkKnifeIcon />
+                <span className='recipeCard__tagText'>{foodType}</span>
               </span>
             </div>
           </div>
