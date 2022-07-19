@@ -1,0 +1,48 @@
+.recipeNutritionInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 440px;
+  background-color: var(--blue-2);
+  border: none;
+  border-radius: 30px;
+  padding: 32px;
+  // align stretch pra ser do tamanho da imagem no desktop
+  
+  &__title {
+    font-size: clamp(var(--text-large), 2.8vw, var(--text-xlarge));
+    font-weight: var(--font-semibold);
+    padding-bottom: 8px;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color: var(--grey-2);
+    font-size: clamp(var(--text-small), 2vw, var(--text-medium));
+    font-weight: var(--font-medium);
+    border-bottom: 1px solid var(--grey-light);
+    padding: 16px 0;
+
+    &Name {
+      text-transform: capitalize;
+    }
+
+    &Value {
+      text-transform: lowercase;
+    }
+  }
+
+  &__footer {
+    color: var(--grey-2);
+    font-size: clamp(var(--text-xsmall), 1.8vw, var(--text-base));
+    padding-top: 40px;
+  }
+}
+
+@media (min-width: 700px) {
+  .recipeNutritionInfo {
+    min-height: 500px;
+  }
+}

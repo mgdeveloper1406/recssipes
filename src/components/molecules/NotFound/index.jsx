@@ -5,9 +5,9 @@ import './styles.scss'
 const NotFound = ({ text }) => {
 
   return (
-    <div className="notFound">
+    <div className='notFound'>
       <SadIcon />
-      <p className="notFound__text">{text}</p>
+      <p className='notFound__text'>{text}</p>
     </div>
   )
 }
