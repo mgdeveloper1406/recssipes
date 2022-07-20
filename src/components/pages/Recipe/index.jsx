@@ -2,13 +2,12 @@ import { useState, useEffect } from 'react'
 import { useLocation, useParams } from 'react-router-dom'
 import RecipesData from '@api/RecipesData.json'
 import TastyRecipes from '@organisms/TastyRecipes'
-import RecipeHeader from '@organisms/RecipeHeader'
+import RecipeMainContent from '@organisms/RecipeMainContent'
 import AdvertisingCard from '@molecules/Cards/Advertising'
 import AdvertisingData from '@api/AdvertisingData'
 import Newsletter from '@organisms/Newsletter'
 import CheckoutRecipes from '@organisms/CheckoutRecipes'
 import NotFound from '@molecules/NotFound'
-import RecipeNutritionInfo from '@molecules/RecipeNutritionInfo'
 
 import './styles.scss'
 
@@ -41,8 +40,7 @@ const Recipe = () => {
       {notFound && <NotFound text='This recipe does not exist' />}
       {Object.keys(recipe).length > 0 &&
       <> 
-        <RecipeHeader data={recipe} />
-        <RecipeNutritionInfo data={recipe.nutritionInfo}/>
+        <RecipeMainContent recipeData={recipe} />
       </>
       }
       <TastyRecipes data={RecipesData.slice(20, 23)}/>
