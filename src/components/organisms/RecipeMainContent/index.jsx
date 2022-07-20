@@ -8,7 +8,7 @@ const RecipeMainContent = ({ recipeData }) => {
     <section className='recipeMainContent'>
       <RecipeHeader data={recipeData} />
       <div className='recipeMainContent__foodInfo'>
-        <img className='recipeMainContent__image' src={recipeData.image} />
+        <img className='recipeMainContent__image' src={recipeData.image} alt={recipeData.title} />
         <div className='recipeMainContent__nutritionInfo'>
           <RecipeNutrition data={recipeData.nutritionInfo}/>
         </div>
