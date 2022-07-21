@@ -39,18 +39,30 @@ const Recipe = () => {
 
   return (
     <div className="recipePage">
-      {notFound && <NotFound text='This recipe does not exist' />}
-      {Object.keys(recipe).length > 0 &&
-      <>
-        <RecipeMainContent recipeData={recipe} />
-        <RecipeIngredients ingredientsData={recipe.ingredients}/>
-        <RecipeDirections directionsData={recipe.directions} />
-      </>
+      {notFound && 
+        <>
+          <NotFound text='This recipe does not exist' />
+          <Newsletter />
+          <CheckoutRecipes />
+        </>
       }
-      <TastyRecipes data={RecipesData.slice(20, 23)}/>
-      <AdvertisingCard data={AdvertisingData} />
-      <Newsletter />
-      <CheckoutRecipes />
+      {Object.keys(recipe).length > 0 &&
+        <>
+          <RecipeMainContent recipeData={recipe} />
+          <div className='recipePage__columns'>
+            <div className='recipePage__recipeContent'>
+              <RecipeIngredients ingredientsData={recipe.ingredients}/>
+              <RecipeDirections directionsData={recipe.directions} />
+            </div>
+            <aside className='recipePage__aside'>
+              <TastyRecipes data={RecipesData.slice(20, 23)}/>
+              <AdvertisingCard data={AdvertisingData} />
+            </aside>
+          </div>
+          <Newsletter />
+          <CheckoutRecipes />
+        </>
+      }
     </div>
   )
 }
