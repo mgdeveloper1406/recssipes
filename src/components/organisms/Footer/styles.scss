@@ -35,19 +35,16 @@ line-height: 28px;
 color:#00000099;
 }
 
-.footer__links{
-    display: inline-block;
-    box-sizing: border-box;
-    padding:20px;
+.footer__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.footer__link{
-    display:inline;
+.footer__link {
     text-decoration: none;
     color: var(--black);
-    margin:20px;
-    font-family: 'Inter';
-    font-style: normal;
+    padding-bottom: 4px;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
@@ -55,7 +52,7 @@ color:#00000099;
 
     &:active {
         color: var(--black);
-    } 
+    }
 }
 
 .footer__horizontalRule{
@@ -90,6 +87,11 @@ color: rgba(0, 0, 0, 0.6);
     .footer__header{
         display: flex;
         justify-content: space-between;
+        align-items: center;
+    }
+    
+    .footer__link:not(:last-child) {
+        margin-right: 60px;
     }
     
     .footer__socialsContainer{
