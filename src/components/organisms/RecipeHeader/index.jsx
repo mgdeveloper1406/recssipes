@@ -25,7 +25,7 @@ const RecipeHeader = ({ data }) => {
         </div>
         <div className='recipeHeader__foodTypeColumn'>
           <ForkKnifeIcon />
-          <span className='recipeHeader__foodType'>{data.foodType}</span>
+          <span className='recipeHeader__foodType'>{data.foodType[0]}</span>
         </div>
       </div>
     </div>

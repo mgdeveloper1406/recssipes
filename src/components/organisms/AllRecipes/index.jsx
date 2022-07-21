@@ -1,46 +1,55 @@
 import { useMemo, useState } from 'react'
 import Pagination from '@molecules/Pagination'
-import ArticleItem from '@molecules/Cards/Article'
+import Recipe from '@molecules/Cards/Recipe'
+import NotFound from '@molecules/NotFound'
 import usePageWidth from '@hooks/usePageWidth'
 
 import './styles.scss'
 
-const ArticlesList = ({ articlesData, filtered }) => {
+const AllRecipes = ({ recipesData, filtered }) => {
   const [currentPage, setCurrentPage] = useState(1)
   const [filterCurrentPage, setFilterCurrentPage] = useState(1)
 
   const windowWidth = usePageWidth()
-  const pageSize = windowWidth <= 600 ? 3 : 6
+
+  const getPageSize = () => {
+    if (windowWidth < 700) {
+      return 3
+    } else if (windowWidth < 1040) {
+      return 6
+    } else if (windowWidth < 1330) {
+      return 9
+    } else {
+      return 12
+    }
+  }
+  
+  const pageSize = getPageSize()
 
   const currentList = useMemo(() => {
     const firstPageIndex = filtered ? ((filterCurrentPage - 1) * pageSize) : ((currentPage - 1) * pageSize);
     const lastPageIndex = firstPageIndex + pageSize;
-    return articlesData.slice(firstPageIndex, lastPageIndex);
-  }, [currentPage, filterCurrentPage, pageSize, articlesData]);
+    return recipesData.slice(firstPageIndex, lastPageIndex);
+  }, [currentPage, filterCurrentPage, pageSize, recipesData]);
 
   return (
-    <div className='articleList__container'>
+    <div className='allRecipes__container'>
       {currentList.length > 0 ? ( 
         <>
-          <ul className='articleList'>
-            {currentList.map(article => {
+          <ul className='allRecipes'>
+            {currentList.map(recipe => {
               return (
-                <ArticleItem
-                  key={article.id}
-                  id={article.id}
-                  image={article.image}
-                  title={article.title}
-                  description={article.description} 
-                  userImage={article.userImage}
-                  userName={article.userName}
-                  plublishedAt={article.publishedAt}
+                <Recipe
+                  key={recipe.id}
+                  {...recipe}
+                  cardSize='small'
                 />
               )
             })}
           </ul>
           <Pagination
             currentPage={filtered ? filterCurrentPage : currentPage}
-            totalCount={articlesData.length}
+            totalCount={recipesData.length}
             pageSize={pageSize}
             onPageChange={filtered ? (page => {
               setFilterCurrentPage(page) 
@@ -51,9 +60,9 @@ const ArticlesList = ({ articlesData, filtered }) => {
             })}
           />
         </>)
-      : <p className='articlesList--empty'>No results found.</p>}
+      : <NotFound text='No recipes found' /> }
     </div>
-  );
-};
+  )
+}
 
-export default ArticlesList;
+export default AllRecipes

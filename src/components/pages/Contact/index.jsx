@@ -2,7 +2,7 @@ import { useContext } from 'react'
 import CheckoutRecipes from '@organisms/CheckoutRecipes'
 import Newsletter from '@organisms/Newsletter'
 import Form from '@organisms/Form'
-import { ToastContext } from '../../../contexts/ToastContext'
+import { ToastContext } from '@contexts/ToastContext'
 import Toast from '@organisms/Toast'
 
 import './styles.scss'

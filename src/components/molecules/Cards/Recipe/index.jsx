@@ -35,7 +35,7 @@ const RecipeCard = (props, ref) => {
               </span>
               <span className='recipeCard__tag2'>
                 <ForkKnifeIcon />
-                <span className='recipeCard__tagText'>{foodType}</span>
+                <span className='recipeCard__tagText'>{foodType[0]}</span>
               </span>
             </div>
           </div>

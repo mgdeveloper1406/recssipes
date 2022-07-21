@@ -7,9 +7,9 @@ const CategoriesData = [
   },
   {
     id: '2',
-    categoryName: 'Vegan',
+    categoryName: 'Healthy',
     cardColor: 'green',
-    icon: 'icons/vegan.svg'
+    icon: 'icons/healthy.svg'
   },
   {
     id: '3',
@@ -25,15 +25,15 @@ const CategoriesData = [
   },
   {
     id: '5',
-    categoryName: 'Lunch',
-    cardColor: 'grey',
-    icon: 'icons/lunch.svg'
+    categoryName: 'Vegetarian',
+    cardColor: 'green',
+    icon: 'icons/healthy.svg'
   },
   {
     id: '6',
-    categoryName: 'Chocolate',
-    cardColor: 'grey',
-    icon: 'icons/chocolate.svg'
+    categoryName: 'Snack',
+    cardColor: 'yellow',
+    icon: 'icons/snack.svg'
   }
 ]
 

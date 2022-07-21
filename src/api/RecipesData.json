@@ -5,7 +5,7 @@
      "title":"Mixed Tropical Fruit Salad with Superfood Boosts",
      "createdOn":"15 March 2022",
      "prepTime":"30 minutes",
-     "foodType":"Healthy",
+     "foodType":["healthy", "breakfast", "snack"],
      "author":"Robert Fox",
      "authorImage":"/imgs/robert-fox.png",
      "nutritionInfo": {
@@ -53,7 +53,7 @@
      "title":"Big and Juicy Wagyu Beef Cheeseburger",
      "createdOn":"15 March 2022",
      "prepTime":"30 minutes",
-     "foodType":"Western",
+     "foodType":["meat"],
      "author":"Dianne Russel",
      "authorImage":"/imgs/dianne-russel.png",
      "nutritionInfo": {
@@ -101,7 +101,7 @@
      "title":"Healthy Japanese Fried Rice with Asparagus",
      "createdOn":"15 March 2022",
      "prepTime":"30 minutes",
-     "foodType":"Healthy",
+     "foodType":["healthy", "vegetarian"],
      "author":"Dianne Russel",
      "authorImage":"/imgs/dianne-russel.png",
      "nutritionInfo": {
@@ -149,7 +149,7 @@
      "title":"Cauliflower Walnut Vegetarian Taco Meat",
      "createdOn":"15 March 2022",
      "prepTime":"30 minutes",
-     "foodType":"Eastern",
+     "foodType":["vegetarian", "snack"],
      "author":"Robert Fox",
      "authorImage":"/imgs/robert-fox.png",
      "nutritionInfo": {
@@ -197,7 +197,7 @@
      "title":"Big and Juicy Wagyu Beef Cheeseburger",
      "createdOn":"15 March 2022",
      "prepTime":"30 minutes",
-     "foodType":"Snack",
+     "foodType":["meat"],
      "author":"Dianne Russel",
      "authorImage":"/imgs/dianne-russel.png",
      "nutritionInfo": {
@@ -245,7 +245,7 @@
      "title":"Fresh Lime Roasted Salmon with Ginger Sauce",
      "createdOn":"15 March 2022",
      "prepTime":"30 minutes",
-     "foodType":"Fish",
+     "foodType":["meat", "healthy"],
      "author":"Courtney Henry",
      "authorImage":"/imgs/courtney-henry.png",
      "nutritionInfo": {
@@ -293,7 +293,7 @@
      "title":"Strawberry Oatmeal Pancake with Honey Syrup",
      "createdOn":"15 March 2022",
      "prepTime":"30 minutes",
-     "foodType":"Breakfast",
+     "foodType":["breakfast", "dessert", "vegetarian"],
      "author":"Courtney Henry",
      "authorImage":"/imgs/courtney-henry.png",
      "nutritionInfo": {
@@ -341,7 +341,7 @@
      "title":"Fresh and Healthy Mixed Mayonnaise Salad",
      "createdOn":"15 March 2022",
      "prepTime":"30 minutes",
-     "foodType":"Healthy",
+     "foodType":["healthy", "vegetarian", "snack"],
      "author":"Robert Fox",
      "authorImage":"/imgs/robert-fox.png",
      "nutritionInfo": {
@@ -389,7 +389,7 @@
      "title":"Chicken Meatballs with Cream Cheese",
      "createdOn":"15 March 2022",
      "prepTime":"30 minutes",
-     "foodType":"Meat",
+     "foodType":["meat", "snack"],
      "author":"Courtney Henry",
      "authorImage":"/imgs/courtney-henry.png",
      "nutritionInfo": {
@@ -437,7 +437,7 @@
      "title":"Fruity Pancake with Orange & Blueberry",
      "createdOn":"15 March 2022",
      "prepTime":"30 minutes",
-     "foodType":"Sweet",
+     "foodType":["breakfast", "dessert"],
      "author":"Leslie Alexander",
      "authorImage":"/imgs/leslie-alexander.png",
      "nutritionInfo": {
@@ -485,7 +485,7 @@
      "title":"The Best Easy One Pot Chicken and Rice",
      "createdOn":"15 March 2022",
      "prepTime":"30 minutes",
-     "foodType":"Snack",
+     "foodType":["meat", "healthy"],
      "author":"Wade Warren",
      "authorImage":"/imgs/wade-warren.png",
      "nutritionInfo": {
@@ -533,7 +533,7 @@
      "title":"The Creamiest Creamy Chicken and Bacon Pasta",
      "createdOn":"15 March 2022",
      "prepTime":"30 minutes",
-     "foodType":"Noodles",
+     "foodType":["meat"],
      "author":"Leslie Alexander",
      "authorImage":"/imgs/leslie-alexander.png",
      "nutritionInfo": {
@@ -581,7 +581,7 @@
      "title":"Mixed Tropical Fruit Salad with Superfood Boosts",
      "createdOn":"15 March 2022",
      "prepTime":"30 minutes",
-     "foodType":"Healthy",
+     "foodType":["healthy", "breakfast", "snack"],
      "author":"Leslie Alexander",
      "authorImage":"/imgs/leslie-alexander.png",
      "nutritionInfo": {
@@ -629,7 +629,7 @@
      "title":"Big and Juicy Wagyu Beef Cheeseburger",
      "createdOn":"15 March 2022",
      "prepTime":"30 minutes",
-     "foodType":"Western",
+     "foodType":["meat"],
      "author":"Albert Flores",
      "authorImage": "/imgs/albert-flores.png",
      "nutritionInfo": {
@@ -677,7 +677,7 @@
      "title":"Healthy Japanese Fried Rice with Asparagus",
      "createdOn":"15 March 2022",
      "prepTime":"30 minutes",
-     "foodType":"Healthy",
+     "foodType":["healthy", "vegetarian"],
      "author":"Wade Warren",
      "authorImage":"/imgs/wade-warren.png",
      "nutritionInfo": {
@@ -725,7 +725,7 @@
      "title":"Cauliflower Walnut Vegetarian Taco Meat",
      "createdOn":"15 March 2022",
      "prepTime":"30 minutes",
-     "foodType":"Eastern",
+     "foodType":["vegetarian", "snack"],
      "author":"Albert Flores",
      "authorImage": "/imgs/albert-flores.png",
      "nutritionInfo": {
@@ -773,7 +773,7 @@
      "title":"Rainbow Chicken Salad with Almond Honey Mustard Dressing",
      "createdOn":"15 March 2022",
      "prepTime":"30 minutes",
-     "foodType":"Healthy",
+     "foodType": ["healthy", "meat", "snack"],
      "author":"Wade Warren",
      "authorImage":"/imgs/wade-warren.png",
      "nutritionInfo": {
@@ -821,7 +821,7 @@
      "title":"Barbeque Spicy Sandwiches with Chips",
      "createdOn":"15 March 2022",
      "prepTime":"30 minutes",
-     "foodType":"Snack",
+     "foodType":["snack"],
      "author":"Albert Flores",
      "authorImage":"/imgs/albert-flores.png",
      "nutritionInfo": {
@@ -869,7 +869,7 @@
      "title":"Firecracker Vegan Lettuce Wraps - Spicy!",
      "createdOn":"15 March 2022",
      "prepTime":"30 minutes",
-     "foodType":"Seafood",
+     "foodType":["healthy", "vegetarian"],
      "author":"Albert Flores",
      "authorImage":"/imgs/albert-flores.png",
      "nutritionInfo": {
@@ -917,7 +917,7 @@
      "title":"Chicken Ramen Soup with Mushroom",
      "createdOn":"15 March 2022",
      "prepTime":"30 minutes",
-     "foodType":"Japanese",
+     "foodType":["meat"],
      "author":"Wade Warren",
      "authorImage":"/imgs/wade-warren.png",
      "nutritionInfo": {
@@ -965,7 +965,7 @@
      "title":"Chicken Meatballs with Cream Cheese",
      "createdOn":"15 March 2022",
      "prepTime":"30 minutes",
-     "foodType":"Meat",
+     "foodType":["meat", "snack"],
      "author":"Leslie Alexander",
      "authorImage":"/imgs/leslie-alexander.png",
      "nutritionInfo": {
@@ -1013,7 +1013,7 @@
      "title":"Traditional Bolognaise Ragu",
      "createdOn":"15 March 2022",
      "prepTime":"30 minutes",
-     "foodType":"Meat",
+     "foodType":["meat"],
      "author":"Albert Flores",
      "authorImage":"/imgs/albert-flores.png",
      "nutritionInfo": {
@@ -1061,7 +1061,7 @@
      "title":"Pork and Chive Chinese Dumplings",
      "createdOn":"15 March 2022",
      "prepTime":"30 minutes",
-     "foodType":"Meat",
+     "foodType":["meat", "snack"],
      "author":"Wade Warren",
      "authorImage":"/imgs/wade-warren.png",
      "nutritionInfo": {

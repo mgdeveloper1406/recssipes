@@ -1,13 +1,13 @@
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, Navigate } from 'react-router-dom'
 import Navbar from '@organisms/Navbar'
 import Footer from '@organisms/Footer'
-import Home from '@components/pages/Home'
-import Recipes from '@components/pages/Recipes'
-import Recipe from '@components/pages/Recipe'
-import Blog from '@components/pages//Blog'
-import About from '@components/pages/About'
-import Contact from '@components/pages/Contact'
-import { ToastProvider } from './contexts/ToastContext'
+import Home from '@pages/Home'
+import Recipes from '@pages/Recipes'
+import Recipe from '@pages/Recipe'
+import Blog from '@pages//Blog'
+import About from '@pages/About'
+import Contact from '@pages/Contact'
+import { ToastProvider } from '@contexts/ToastContext'
 
 import './App.scss'
 
@@ -17,6 +17,7 @@ const App = () => {
       <ToastProvider>
         <Navbar />
         <Routes>
+          <Route path='*' element={<Navigate to='/' />} />
           <Route path='/' element={<Home />} />
           <Route path='/recipes' element={<Recipes />} />
           <Route path='/recipe/:recipeId' element={<Recipe />} />

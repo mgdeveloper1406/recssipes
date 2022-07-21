@@ -3,7 +3,7 @@ import SearchIcon from '/icons/searchIcon.svg'
 
 import './styles.scss'
 
-const TitleAndSearch = ({ filterArticles }) => {
+const TitleAndSearch = ({ filterData, title, searchFor }) => {
 
   const inputRef = useRef()
 
@@ -12,18 +12,18 @@ const TitleAndSearch = ({ filterArticles }) => {
   }
 
   const handleOnClick = () => {
-    filterArticles(inputRef.current.value)
+    filterData(inputRef.current.value)
   }
 
   return (
     <div className='titleAndSearch'>
-      <h1 className='titleAndSearch__title'>Blog & Article</h1>
+      <h1 className='titleAndSearch__title'>{title}</h1>
       <p className='titleAndSearch__text'> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
       <div className='titleAndSearch__search'>
         <input
           className='titleAndSearch__input'
           type='search'
-          placeholder='Search article, news or recipe...'
+          placeholder={`Search for ${searchFor}`}
           onKeyPress={handleOnKeyPress}
           ref={inputRef}
         >

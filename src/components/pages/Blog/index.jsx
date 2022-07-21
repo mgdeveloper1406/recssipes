@@ -1,4 +1,3 @@
-
 import { useState } from 'react'
 import AdvertisingCard from '@molecules/Cards/Advertising'
 import ArticlesList from '@organisms/ArticlesList'
@@ -32,7 +31,11 @@ const Blog = () => {
 
   return (
     <div className='blogPage'>
-      <TitleAndSearch filterArticles={filterArticles} />
+      <TitleAndSearch 
+        filterData={filterArticles}
+        title='Blog & Article'
+        searchFor='articles'
+      />
       <div className='blogPage__mainContent'>
         <ArticlesList articlesData={articlesData} filtered={filtered} />
         <aside className='blogPage__aside'>

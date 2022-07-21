@@ -88,5 +88,9 @@
 
   &__tagText {
     margin-left: 8px;
+
+    &:first-letter {
+      text-transform: uppercase;
+    }
   }
 }

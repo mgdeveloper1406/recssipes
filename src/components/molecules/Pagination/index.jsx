@@ -1,4 +1,4 @@
-import { usePagination, DOTS } from '../../../hooks/usePagination';
+import { usePagination, DOTS } from '@hooks/usePagination'
 import ArrowIcon from '/icons/arrow.svg'
 
 import './styles.scss';

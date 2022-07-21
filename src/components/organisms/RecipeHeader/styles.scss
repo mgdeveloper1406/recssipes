@@ -63,6 +63,7 @@
     font-size: clamp(var(--text-xsmall), 1.6vw, var(--text-small));
     font-weight: var(--font-medium);
     padding-left: 8px;
+    text-transform: capitalize;
 
     &Column {
       display: flex;

@@ -17,7 +17,7 @@
     font-weight: var(--font-semibold);
   }
 
-  &__filterButton, &__filterButton--mobile {
+  &__filterButton {
     background-color: var(--blue-2);
     border: none;
     border-radius: 1rem;
@@ -29,30 +29,12 @@
   }
 
   &__filterButton {
-    display: none;
-    font-size: clamp(var(--text-small), 3vw, var(--text-base));
+    font-size: clamp(var(--text-xsmall), 3vw, var(--text-base));
     font-weight: var(--font-semibold);
     font-family: Inter;
     letter-spacing: -0.02em;
     max-width: 200px;
-    padding: 20px 27px;
-  }
-
-  &__filterButton--mobile {
-    padding: 10px;
-    padding-bottom: 8px;
-  }
-}
-
-@media (min-width: 420px) {
-  .recipeCategories {
-    &__filterButton {
-      display: flex;
-    }
-
-    &__filterButton--mobile {
-      display: none;
-    }
+    padding: 20px;
   }
 }
 

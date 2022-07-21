@@ -1,10 +1,10 @@
 import React, { useContext } from 'react'
 
-import useForm from '../../../hooks/useForm'
+import useForm from '@hooks/useForm'
 
-import { ToastContext } from '../../../contexts/ToastContext'
+import { ToastContext } from '@contexts/ToastContext'
 
-import { validateContact } from '../../../utils/validateContact'
+import { validateContact } from '@utils/validateContact'
 
 import toastStatus from '@organisms/Toast'
 

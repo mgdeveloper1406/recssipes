@@ -1,22 +1,24 @@
+import { useNavigate } from 'react-router-dom'
 import RecipeCategoryCard from '@molecules/Cards/RecipeCategory'
-import FilterIcon from '/icons/filter.svg'
-import ArrowIcon from '/icons/arrowSmall.svg';
+import ArrowIcon from '/icons/arrowSmall.svg'
 import CategoriesData from '@api/CategoriesData.js'
-import Carousel from '../Carousel';
+import Carousel from '../Carousel'
 
 import './styles.scss'
 
 const RecipeCategories = () => {
+  const navigate = useNavigate()
+
+  const goToRecipesPage = () => {
+    navigate('/recipes')
+  }
 
   return (
     <section className='recipeCategories'>
       <div className='recipeCategories__header'>
         <h2 className='recipeCategories__title'>Categories</h2>
-        <button className='recipeCategories__filterButton'>
-          View All Categories
-        </button>
-        <button className='recipeCategories__filterButton--mobile' aria-label='Filter categories'>
-          <img className='recipeCategories__filterButton__img' src={FilterIcon} />
+        <button className='recipeCategories__filterButton' onClick={goToRecipesPage}>
+          View All
         </button>
       </div>
       <Carousel
