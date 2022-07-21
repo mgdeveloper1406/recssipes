@@ -7,11 +7,9 @@ import Recipe from '@components/pages/Recipe'
 import Blog from '@components/pages//Blog'
 import About from '@components/pages/About'
 import Contact from '@components/pages/Contact'
-
 import { ToastProvider } from './contexts/ToastContext'
 
 import './App.scss'
-import React from 'react'
 
 const App = () => {
   return (
@@ -22,8 +20,8 @@ const App = () => {
           <Route path='/' element={<Home />} />
           <Route path='/recipes' element={<Recipes />} />
           <Route path='/recipe/:recipeId' element={<Recipe />} />
-          <Route path='/blog' element={<Blog />} exact />
-          <Route path='/about' element={<About />} exact />
+          <Route path='/blog' element={<Blog />} />
+          <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
         <Footer />

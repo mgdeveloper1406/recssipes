@@ -8,6 +8,8 @@ import AdvertisingData from '@api/AdvertisingData'
 import Newsletter from '@organisms/Newsletter'
 import CheckoutRecipes from '@organisms/CheckoutRecipes'
 import NotFound from '@molecules/NotFound'
+import RecipeIngredients from '@organisms/RecipeIngredients'
+import RecipeDirections from '@organisms/RecipeDirections'
 
 import './styles.scss'
 
@@ -39,8 +41,10 @@ const Recipe = () => {
     <div className="recipePage">
       {notFound && <NotFound text='This recipe does not exist' />}
       {Object.keys(recipe).length > 0 &&
-      <> 
+      <>
         <RecipeMainContent recipeData={recipe} />
+        <RecipeIngredients ingredientsData={recipe.ingredients}/>
+        <RecipeDirections directionsData={recipe.directions} />
       </>
       }
       <TastyRecipes data={RecipesData.slice(20, 23)}/>
