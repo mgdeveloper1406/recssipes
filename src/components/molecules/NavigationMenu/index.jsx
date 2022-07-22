@@ -10,7 +10,7 @@ const NavigationMenu = () => {
   const windowWidth = useWindowWidth()
 
   useEffect(() => {
-    if (windowWidth > 1024) {
+    if (windowWidth >= 1024) {
       setIsMobileMenuOpen(false)
     }
   }, [windowWidth])
