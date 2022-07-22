@@ -1,4 +1,4 @@
-.toast__container {
+.toast {
   position: fixed;
   bottom: 20px;
   left: 20px;
@@ -8,43 +8,43 @@
   padding: 26px 20px;
   padding-right: 40px;
   animation: toast-from-left .7s;
-}
 
-.toast__content {
-  display: flex;
-  align-items: center;
-  text-align: start;
-}
+  &__content {
+    display: flex;
+    align-items: center;
+    text-align: start;
+  }
 
-.toast__icon {
-  margin-right: 20px;
-}
+  &__icon {
+    margin-right: 20px;
+  }
 
-.toast__text {
-  font-size: var(--text-medium);
-}
+  &__text {
+    font-size: var(--text-medium);
+  }
 
-.toast__closeButton {
-  position: absolute;
-  top: 6px;
-  right: 6px;
-  width: 14px;
-  height: 12px;
-  border: 0;
-  background-color: transparent;
-  cursor: pointer;
-}
+  &__closeButton {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 14px;
+    height: 12px;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
 
-.toast__closeButton:hover {
-  opacity: .7;
-}
+    &:hover {
+      opacity: .7;
+    }
 
-.toast__closeButton__img {
-  width: 100%;
+    &Img {
+      width: 100%;
+    }
+  }
 }
 
 @media (min-width: 1024px) {
-  .toast__container {
+  .toast {
     max-width: 50%;
     left: 40px;
   }

@@ -15,13 +15,13 @@ const Toast = ({ handleClose, text, status }) => {
   const color = status === toastStatus.error ? '#FC2D2D' : '#4ECB71'
 
   return (
-    <div className='toast__container' style={{ border: `3px solid ${color}` }}>
+    <div className='toast' style={{ border: `3px solid ${color}` }}>
       <div className='toast__content'>
         <img className='toast__icon' alt={status} src={icon}></img>
         <p className='toast__text'>{text}</p>
       </div>
       <button onClick={handleClose} className='toast__closeButton' aria-label='close'>
-        <img className='toast__closeButton__img' src={CloseIcon}></img>
+        <img className='toast__closeButtonImg' src={CloseIcon}></img>
       </button>
     </div>
   )

@@ -3,25 +3,25 @@ import './styles.scss'
 
 const TastyRecipes = ({ data }) => {
   return (
-    <section className='TastyRecipes'>
-      <h1 className='TastyRecipes__titleHeader'>
+    <section className='tastyRecipes'>
+      <h1 className='tastyRecipes__title'>
         Tasty Recipes
       </h1>
-      <ul className='TastyRecipes__list'>
+      <ul className='tastyRecipes__list'>
         {data.map((tastyRecipe) => {
           return (
-            <li key={tastyRecipe.id} className='TastyRecipes__listItem'>
+            <li key={tastyRecipe.id} className='tastyRecipes__listItem'>
               <Link
                 to={`/recipe/${tastyRecipe.id}`} 
-                className='TastyRecipes__link'
+                className='tastyRecipes__link'
                 state={tastyRecipe}
               >
-              <img src={tastyRecipe.image} alt={tastyRecipe.title} className="TastyRecipes__image" />
-              <div className='TastyRecipes__authorContainer'>
-                <h3 className='TastyRecipes__authorTitle'>
+              <img src={tastyRecipe.image} alt={tastyRecipe.title} className="tastyRecipes__image" />
+              <div className='tastyRecipes__authorContainer'>
+                <h3 className='tastyRecipes__authorTitle'>
                   {tastyRecipe.title}
                 </h3>
-                <p className='TastyRecipes__author'>
+                <p className='tastyRecipes__author'>
                   By {tastyRecipe.author}
                 </p>
               </div>
@@ -34,4 +34,4 @@ const TastyRecipes = ({ data }) => {
   )
 }
 
-export default TastyRecipes;
+export default TastyRecipes

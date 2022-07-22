@@ -1,7 +1,5 @@
-import { useState } from 'react'
-import MobileMenu from '@molecules/MobileMenu';
-import SocialsMenu from '@molecules/SocialsMenu';
-import NavigationMenu from '@molecules/NavigationMenu';
+import SocialsMenu from '@molecules/SocialsMenu'
+import NavigationMenu from '@molecules/NavigationMenu'
 
 import logo from "/imgs/foodieland-logo-small.png"
 
@@ -19,9 +17,7 @@ const Navbar = () => {
             <img className='navbar__logoImg' src={logo} alt="foodieland logo" />
           </a>
         </div>
-
         <NavigationMenu />
-        <MobileMenu />
         <SocialsMenu className='navbar__socialsMenu' socialListDisabled />
       </div>
     </nav>
