@@ -50,6 +50,11 @@
     color: var(--black);
     text-decoration: none;
     text-align: left;
+
+    &--active {
+      font-weight: 600;
+      border-bottom: 2px solid var(--orange);
+    }
   }
 }
 

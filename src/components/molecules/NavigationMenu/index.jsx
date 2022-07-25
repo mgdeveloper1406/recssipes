@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import useWindowWidth from '@hooks/usePageWidth'
 
@@ -8,6 +8,14 @@ const NavigationMenu = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   const windowWidth = useWindowWidth()
+  
+  const menuItems = [
+    { name: 'Home', linkTo: '/' },
+    { name: 'Recipes', linkTo: '/recipes' },
+    { name: 'Blog', linkTo: '/blog' },
+    { name: 'About Us', linkTo: '/about' },
+    { name: 'Contact', linkTo: '/contact' }
+  ]
 
   useEffect(() => {
     if (windowWidth >= 1024) {
@@ -34,21 +42,19 @@ const NavigationMenu = () => {
       </button>
       <div className={`navigationMenu__container ${isMobileMenuOpen ? 'mobileMenu--open' : 'mobileMenu--closed'}`}>
         <ul className='navigationMenu'>
-          <li className='navigationMenu__item' onClick={handleMobileNavigationClick}>
-            <Link to='/' className='navigationMenu__link'>Home</Link>
-          </li>
-          <li className='navigationMenu__item' onClick={handleMobileNavigationClick}>
-            <Link to='/recipes' className='navigationMenu__link'>Recipes</Link>
-          </li>
-          <li className='navigationMenu__item' onClick={handleMobileNavigationClick}>
-            <Link to='/blog' className='navigationMenu__link'>Blog</Link>
-          </li>
-          <li className='navigationMenu__item' onClick={handleMobileNavigationClick}>
-            <Link to='/about' className='navigationMenu__link'>About us</Link>
-          </li>
-          <li className='navigationMenu__item' onClick={handleMobileNavigationClick}>
-            <Link to='/contact' className='navigationMenu__link'>Contact</Link>
-          </li>
+          {menuItems.map((item) => {
+            return (
+              <li key={item.linkTo} className='navigationMenu__item' onClick={handleMobileNavigationClick}>
+                <NavLink
+                  to={item.linkTo} 
+                  className={({ isActive }) =>
+                    (isActive ? 'navigationMenu__link navigationMenu__link--active' : 'navigationMenu__link')
+                  }>
+                  {item.name}
+                </NavLink>
+              </li>
+            )
+          })}
         </ul>
       </div>
     </>
