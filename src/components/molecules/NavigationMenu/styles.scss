@@ -55,6 +55,10 @@
       font-weight: 600;
       border-bottom: 2px solid var(--orange);
     }
+
+    &:visited, &:link {
+      color: var(--black);
+    }
   }
 }
 
