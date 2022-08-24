@@ -1,13 +1,9 @@
 import React, { useContext } from 'react'
-
 import useForm from '@hooks/useForm'
-
 import { ToastContext } from '@contexts/ToastContext'
-
+import Toast from '@organisms/Toast'
 import { validateContact } from '@utils/validateContact'
-
 import toastStatus from '@organisms/Toast'
-
 import Input from '@molecules/Input'
 import Select from '@molecules/Select'
 import Textarea from '@molecules/Textarea'
@@ -15,7 +11,7 @@ import Chef from '/imgs/chef.png'
 import './styles.scss'
 
 const Form = () => {
-  const { openToast } = useContext(ToastContext)
+  const { isOpen, closeToast, toastProps, openToast } = useContext(ToastContext)
 
   const submit = () => {
     openToast({
@@ -119,6 +115,7 @@ const Form = () => {
           <button className='contactUs__formButton' type='submit'>Submit</button>
         </form>
       </div>
+      {isOpen && <Toast handleClose={closeToast} {...toastProps} />}
     </section>
   )
 }
