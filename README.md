@@ -1,4 +1,4 @@
-# v_food 🥗
+# Foodieland 🥗
 
 This app was developed during v_camp — [Valtech](https://www.valtech.com/pt-br/) Front End training. It is a responsive web app in which you can check out recipes.
 
