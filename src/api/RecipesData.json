@@ -2,11 +2,11 @@
   {
      "id":"1",
      "image":"/imgs/mixed-tropical-fruit-salad.png",
-     "title":"ejemplo de prueba",
+     "title":"Sweet Potato Breakfast Bowl",
      "createdOn":"15 March 2024",
      "prepTime":"40 minutes",
      "foodType":["healthy", "breakfast", "snack"],
-     "author":"Heyleen Fox",
+     "author":"MG Developer",
      "authorImage":"/imgs/robert-fox.png",
      "nutritionInfo": {
       "calories": "219.9 kcal",
@@ -18,11 +18,14 @@
      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
      "ingredients": {
       "main": {
-        "1": "Lorem ipsum dolor sit amet",
-        "2": "Lorem ipsum dolor sit amet",
-        "3": "Lorem ipsum dolor sit amet",
-        "4": "Lorem ipsum dolor sit amet",
-        "5": "Lorem ipsum dolor sit amet"
+        "1": "1 small sweet potato",
+        "2": "peeled and diced",
+        "3": "1 and a half cup of black beans, drained and rinsed",
+        "4": "1 4 cup of diced red onion ",
+        "5": "1 4 cup of diced red bell pepper"
+        "6": "1 2 teaspoon of ground cumin"
+        "7": "1 2 teaspoon of smoked paprika Salt-free seasoning blend (to taste)"
+        "8": "1 tablespoon of olive oil "
       },
       "sauce": {
         "1": "Lorem ipsum dolor sit amet",
