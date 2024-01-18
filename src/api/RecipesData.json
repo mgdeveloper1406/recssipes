@@ -3,10 +3,10 @@
      "id":"1",
      "image":"/imgs/mixed-tropical-fruit-salad.png",
      "title":"ejemplo de prueba",
-     "createdOn":"15 March 2022",
-     "prepTime":"30 minutes",
+     "createdOn":"15 March 2024",
+     "prepTime":"40 minutes",
      "foodType":["healthy", "breakfast", "snack"],
-     "author":"Robert Fox",
+     "author":"Heyleen Fox",
      "authorImage":"/imgs/robert-fox.png",
      "nutritionInfo": {
       "calories": "219.9 kcal",
