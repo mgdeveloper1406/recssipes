@@ -2,53 +2,38 @@
   {
      "id":"1",
      "image":"https://i.pinimg.com/originals/7d/26/cb/7d26cbe7f881e221aef2d9fcb07fa96f.jpg",
-     "title":"Sweet Potato Breakfast Bowl",
+     "title":"Berry Chia Seed Pudding",
      "createdOn":"15 March 2024",
-     "prepTime":"40 minutes",
+     "prepTime":"15 minutes",
      "foodType":["healthy", "breakfast", "snack"],
      "author":"MG Developer",
      "authorImage":"/imgs/robert-fox.png",
      "nutritionInfo": {
-      "calories": "219.9 kcal",
-      "totalFat": "10.7 g",
-      "protein": "7.9 g",
-      "carbohydrate": "22.3 g",
-      "cholesterol": "0,0374 g"
+      "calories": "300 kcal",
+      "totalFat": "18g",
+      "protein": "8g",
+      "carbohydrate": "30g",
+      "cholesterol": "0mg"
      },
-     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+     "description": "Berry Chia Seed Pudding",
      "ingredients": {
       "main": {
-        "1": "1 small sweet potato",
-        "2": "peeled and diced",
-        "3": "1 and a half cup of black beans, drained and rinsed",
-        "4": "1 4 cup of diced red onion",
-        "5": "1 4 cup of diced red bell pepper",
-        "6": "1 2 teaspoon of ground cumin",
-        "7": "1 2 teaspoon of smoked paprika Salt-free seasoning blend (to taste)",
-        "8": "1 tablespoon of olive oil"
-      },
-      "sauce": {
-        "1": "Lorem ipsum dolor sit amet",
-        "2": "Lorem ipsum dolor sit amet",
-        "3": "Lorem ipsum dolor sit amet"
-      }
-     },
+        "1": "1 small sweet potato, peeled and diced",
+        "2": "1/2 cup of black beans, drained and rinsed",
+        "3": "1/4 cup of diced red onion",
+        "4": "1/4 cup of diced red bell pepper",
+        "5": "1/2 teaspoon of ground cumin",
+        "6": "1/2 teaspoon of smoked paprika Salt-free seasoning blend (to taste)",
+        "7": "1 tablespoon of olive oil"      
+      },      
      "directions": {
         "1": {
-          "title": "1. Lorem ipsum dolor sit amet",
-          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+          "title": "Easy to prepare",
+          "description": "In a bowl, mix chia seeds and almond milk. Let it sit in the refrigerator for at least 2 hours or overnight.
+          Layer chia pudding with mixed berries in a glass.
+          Drizzle honey or maple syrup on top and sprinkle with sliced almonds.",
           "image": "/imgs/woman-cooking.png",
-          "imageAlt": "Woman cooking"
-        },
-        "2": {
-          "title": "2. Lorem ipsum dolor sit amet",
-          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
-        },
-        "3": {
-          "title": "3. Lorem ipsum dolor sit amet",
-          "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
-        }
-     }
+          "imageAlt": "Woman cooking"        
   },
   {
      "id":"2",
