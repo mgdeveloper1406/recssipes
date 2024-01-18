@@ -12,9 +12,7 @@ const NavigationMenu = () => {
   const menuItems = [
     { name: 'Home', linkTo: '/' },
     { name: 'Recipes', linkTo: '/recipes' },
-    { name: 'Blog', linkTo: '/blog' },
-    { name: 'About Us', linkTo: '/about' },
-    { name: 'Contact', linkTo: '/contact' }
+
   ]
 
   useEffect(() => {
