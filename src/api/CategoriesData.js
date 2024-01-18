@@ -7,7 +7,7 @@ const CategoriesData = [
   },
   {
     id: '2',
-    categoryName: 'Dinner',
+    categoryName: 'Healthy',
     cardColor: 'green',
     icon: 'icons/healthy.svg'
   },
