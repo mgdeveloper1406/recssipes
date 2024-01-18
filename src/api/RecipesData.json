@@ -1,7 +1,7 @@
 [
   {
      "id":"1",
-     "image":"/imgs/mixed-tropical-fruit-salad.png",
+     "image":"https://i.pinimg.com/736x/41/64/db/4164db9a9ef5769d00a8c414b93fd086.jpg",
      "title":"Sweet Potato Breakfast Bowl",
      "createdOn":"15 March 2024",
      "prepTime":"40 minutes",
@@ -21,11 +21,11 @@
         "1": "1 small sweet potato",
         "2": "peeled and diced",
         "3": "1 and a half cup of black beans, drained and rinsed",
-        "4": "1 4 cup of diced red onion ",
-        "5": "1 4 cup of diced red bell pepper"
-        "6": "1 2 teaspoon of ground cumin"
-        "7": "1 2 teaspoon of smoked paprika Salt-free seasoning blend (to taste)"
-        "8": "1 tablespoon of olive oil "
+        "4": "1 4 cup of diced red onion",
+        "5": "1 4 cup of diced red bell pepper",
+        "6": "1 2 teaspoon of ground cumin",
+        "7": "1 2 teaspoon of smoked paprika Salt-free seasoning blend (to taste)",
+        "8": "1 tablespoon of olive oil",
       },
       "sauce": {
         "1": "Lorem ipsum dolor sit amet",
